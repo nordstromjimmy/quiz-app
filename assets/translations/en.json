@@ -7,7 +7,8 @@
   "quizzes_completed": "Quizzes Completed: {count}",
   "select_username": "Choose a username",
   "select_country": "Select your country",
-  "continue": "Continue",
+  "continue": "Save",
+  "create": "Create",
   "question": "Question {number}/{total}",
   "you_got_correct": "You got {correct} out of {total} correct!",
   "correct": "Correct",
@@ -20,5 +21,12 @@
   "stats": "Stats",
   "correct_answers": "Correct Answers {answers}",
   "accuracy": "Accuracy: {percent}%",
-  "perfect_quizzes": "Perfect Quizzes: {count}"
+  "perfect_quizzes": "Perfect Quizzes: {count}",
+  "xp_earned": "+{xp} XP earned this quiz",
+  "perfect_bonus": "+25 XP PERFECT BONUS!",
+  "reset_account": "Reset Account",
+  "confirm_reset_title": "Reset Account",
+  "confirm_reset_message": "Are you sure you want to reset your account? All progress will be lost.",
+  "cancel": "Cancel",
+  "confirm": "Confirm"
 }

@@ -2,25 +2,23 @@ import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:hive/hive.dart';
+import 'package:quiz/data/models/quiz_attempt.dart';
+import 'package:quiz/data/models/user_progress.dart';
 import '../../data/models/user_profile.dart';
 import '../home/home_screen.dart';
 import '../../data/local/json_loader.dart';
 
-class OnboardingScreen extends ConsumerStatefulWidget {
+class EditScreen extends ConsumerStatefulWidget {
   final String? initialUsername;
   final String? initialCountry;
 
-  const OnboardingScreen({
-    super.key,
-    this.initialUsername,
-    this.initialCountry,
-  });
+  const EditScreen({super.key, this.initialUsername, this.initialCountry});
 
   @override
-  ConsumerState<OnboardingScreen> createState() => _OnboardingScreenState();
+  ConsumerState<EditScreen> createState() => _OnboardingScreenState();
 }
 
-class _OnboardingScreenState extends ConsumerState<OnboardingScreen> {
+class _OnboardingScreenState extends ConsumerState<EditScreen> {
   @override
   void initState() {
     super.initState();
@@ -108,8 +106,91 @@ class _OnboardingScreenState extends ConsumerState<OnboardingScreen> {
                 style: TextStyle(color: Colors.white),
                 decoration: InputDecoration(border: InputBorder.none),
               ),
-
               Spacer(),
+
+              Center(
+                child: ElevatedButton(
+                  style: ElevatedButton.styleFrom(
+                    padding: EdgeInsets.symmetric(horizontal: 50, vertical: 16),
+                    backgroundColor: Colors.redAccent,
+                    foregroundColor: Colors.white,
+                    shape: RoundedRectangleBorder(
+                      borderRadius: BorderRadius.circular(14),
+                    ),
+                    elevation: 8,
+                  ),
+                  onPressed: () async {
+                    final confirmed = await showDialog<bool>(
+                      context: context,
+                      builder: (context) {
+                        return AlertDialog(
+                          backgroundColor: Color(0xFF1A2A52),
+                          shape: RoundedRectangleBorder(
+                            borderRadius: BorderRadius.circular(16),
+                          ),
+                          title: Text(
+                            tr("confirm_reset_title"),
+                            style: TextStyle(
+                              color: Colors.white,
+                              fontWeight: FontWeight.bold,
+                            ),
+                          ),
+                          content: Text(
+                            tr("confirm_reset_message"),
+                            style: TextStyle(color: Colors.white70),
+                          ),
+                          actions: [
+                            Row(
+                              children: [
+                                TextButton(
+                                  onPressed: () =>
+                                      Navigator.pop(context, false),
+                                  child: Text(
+                                    tr("cancel"),
+                                    style: TextStyle(color: Colors.white),
+                                  ),
+                                ),
+                                Spacer(),
+                                ElevatedButton(
+                                  style: ElevatedButton.styleFrom(
+                                    backgroundColor: Colors.redAccent,
+                                    foregroundColor: Colors.white,
+                                  ),
+                                  onPressed: () => Navigator.pop(context, true),
+                                  child: Text(tr("confirm")),
+                                ),
+                              ],
+                            ),
+                          ],
+                        );
+                      },
+                    );
+
+                    if (confirmed == true) {
+                      final profileBox = Hive.box<UserProfile>('profileBox');
+                      final progressBox = Hive.box<UserProgress>('progressBox');
+                      final attemptsBox = Hive.box<QuizAttempt>('attemptsBox');
+
+                      await profileBox.clear();
+                      await progressBox.clear();
+                      await attemptsBox.clear();
+
+                      context.setLocale(Locale('en'));
+                      await QuestionLoader.loadQuestionsFromJson('en');
+
+                      Navigator.pushReplacement(
+                        context,
+                        MaterialPageRoute(builder: (_) => EditScreen()),
+                      );
+                    }
+                  },
+                  child: Text(
+                    tr("reset_account"),
+                    style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
+                  ),
+                ),
+              ),
+              SizedBox(height: 54),
               Center(
                 child: ElevatedButton(
                   style: ElevatedButton.styleFrom(
@@ -150,7 +231,7 @@ class _OnboardingScreenState extends ConsumerState<OnboardingScreen> {
                     }
                   },
                   child: Text(
-                    "create".tr(),
+                    "continue".tr(),
                     style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
                   ),
                 ),

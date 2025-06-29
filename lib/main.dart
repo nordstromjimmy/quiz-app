@@ -99,6 +99,7 @@ class MyApp extends StatelessWidget {
       supportedLocales: context.supportedLocales,
       locale: context.locale,
       home: hasProfile ? HomeScreen() : OnboardingScreen(),
+      //home: OnboardingScreen(),
     );
   }
 }

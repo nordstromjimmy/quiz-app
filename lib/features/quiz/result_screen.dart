@@ -24,6 +24,7 @@ class QuizResultScreen extends StatelessWidget {
     final allCorrect = totalCorrect == quizState.questions.length;
 
     final earnedXp = (totalCorrect * 5) + 10 + (allCorrect ? 25 : 0);
+    final showEarnedXp = (totalCorrect * 5) + 10;
 
     // Update user progress
     final progressBox = Hive.box<UserProgress>('progressBox');
@@ -165,7 +166,7 @@ class QuizResultScreen extends StatelessWidget {
                 child: Column(
                   children: [
                     Text(
-                      "+$earnedXp XP earned this quiz",
+                      tr("xp_earned", namedArgs: {"xp": "$showEarnedXp"}),
                       style: TextStyle(
                         fontSize: 18,
                         fontWeight: FontWeight.bold,
@@ -176,7 +177,7 @@ class QuizResultScreen extends StatelessWidget {
                       Padding(
                         padding: const EdgeInsets.only(top: 8),
                         child: Text(
-                          "+25 XP PERFECT BONUS!",
+                          tr("perfect_bonus"),
                           style: TextStyle(
                             fontSize: 16,
                             color: Colors.amberAccent,

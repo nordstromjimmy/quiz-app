@@ -2,9 +2,10 @@ import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:hive/hive.dart';
+import 'package:lucide_icons_flutter/lucide_icons.dart';
 import 'package:quiz/data/local/json_loader.dart';
 import 'package:quiz/data/models/user_profile.dart';
-import 'package:quiz/features/onboarding/onboarding_screen.dart';
+import 'package:quiz/features/home/edit_screen.dart';
 import '../../data/models/user_progress.dart';
 import '../../data/models/question.dart';
 import '../quiz/quiz_controller.dart';
@@ -62,12 +63,12 @@ class HomeScreen extends ConsumerWidget {
                       ),
                       Spacer(),
                       IconButton(
-                        icon: Icon(Icons.settings, color: Colors.white),
+                        icon: Icon(LucideIcons.settings, color: Colors.white),
                         onPressed: () {
                           Navigator.push(
                             context,
                             MaterialPageRoute(
-                              builder: (_) => OnboardingScreen(
+                              builder: (_) => EditScreen(
                                 initialUsername: userProfile.username,
                                 initialCountry: userProfile.country,
                               ),
@@ -86,9 +87,21 @@ class HomeScreen extends ConsumerWidget {
                 padding: const EdgeInsets.all(20),
                 child: Column(
                   children: [
-                    Text(
-                      tr("level", namedArgs: {"level": "${progress.level}"}),
-                      style: Theme.of(context).textTheme.titleLarge,
+                    Row(
+                      children: [
+                        Text(
+                          tr(
+                            "level",
+                            namedArgs: {"level": "${progress.level}"},
+                          ),
+                          style: Theme.of(context).textTheme.titleLarge,
+                        ),
+                        Spacer(),
+                        Icon(
+                          LucideIcons.gem,
+                          color: Color.fromARGB(255, 230, 155, 42),
+                        ),
+                      ],
                     ),
                     SizedBox(height: 12),
                     LinearProgressIndicator(
@@ -116,9 +129,18 @@ class HomeScreen extends ConsumerWidget {
                   child: Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
-                      Text(
-                        tr("stats"),
-                        style: Theme.of(context).textTheme.titleLarge,
+                      Row(
+                        children: [
+                          Text(
+                            tr("stats"),
+                            style: Theme.of(context).textTheme.titleLarge,
+                          ),
+                          Spacer(),
+                          Icon(
+                            LucideIcons.chartNoAxesColumn,
+                            color: Colors.white,
+                          ),
+                        ],
                       ),
                       SizedBox(height: 12),
                       Text(
@@ -184,7 +206,7 @@ class HomeScreen extends ConsumerWidget {
                   final questions = qBox.values.toList()..shuffle();
                   ref
                       .read(quizControllerProvider.notifier)
-                      .startQuiz(questions.take(5).toList());
+                      .startQuiz(questions.take(5).toList(), context);
 
                   Navigator.push(
                     context,

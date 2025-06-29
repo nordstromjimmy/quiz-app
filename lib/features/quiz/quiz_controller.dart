@@ -1,3 +1,4 @@
+import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:hive/hive.dart';
@@ -14,29 +15,64 @@ final quizControllerProvider =
 
 class QuizSessionState {
   final List<Question> questions;
-  final List<int?> userAnswers; // null means unanswered
+  final List<int?> userAnswers;
   final int currentIndex;
+  final int timeRemaining;
 
   QuizSessionState({
     required this.questions,
     required this.userAnswers,
     required this.currentIndex,
+    this.timeRemaining = 7,
   });
 
   bool get isCompleted => !userAnswers.contains(null);
-
   double get progress => currentIndex / questions.length;
+
+  QuizSessionState copyWith({
+    List<Question>? questions,
+    List<int?>? userAnswers,
+    int? currentIndex,
+    int? timeRemaining,
+  }) {
+    return QuizSessionState(
+      questions: questions ?? this.questions,
+      userAnswers: userAnswers ?? this.userAnswers,
+      currentIndex: currentIndex ?? this.currentIndex,
+      timeRemaining: timeRemaining ?? this.timeRemaining,
+    );
+  }
 }
 
 class QuizController extends StateNotifier<QuizSessionState> {
   QuizController()
     : super(QuizSessionState(questions: [], userAnswers: [], currentIndex: 0));
 
-  void startQuiz(List<Question> originalQuestions) {
+  Timer? questionTimer;
+
+  void startTimer(BuildContext context) {
+    questionTimer?.cancel();
+    state = state.copyWith(timeRemaining: 7);
+
+    questionTimer = Timer.periodic(Duration(seconds: 1), (timer) {
+      final newTime = state.timeRemaining - 1;
+      state = state.copyWith(timeRemaining: newTime);
+
+      if (newTime <= 0) {
+        timer.cancel();
+        _handleTimeout(context);
+      }
+    });
+  }
+
+  void _handleTimeout(BuildContext context) {
+    answerCurrent(-1, context);
+  }
+
+  void startQuiz(List<Question> originalQuestions, BuildContext context) {
     final shuffledQuestions = originalQuestions.map((question) {
       final options = List<String>.from(question.options);
       final correctAnswer = question.options[question.correctIndex];
-
       options.shuffle();
 
       return Question(
@@ -54,39 +90,31 @@ class QuizController extends StateNotifier<QuizSessionState> {
       userAnswers: List.filled(shuffledQuestions.length, -1),
       currentIndex: 0,
     );
+
+    startTimer(context);
   }
 
-  void answerCurrent(int selectedIndex, BuildContext context) async {
-    final updatedAnswers = [...state.userAnswers];
-    updatedAnswers[state.currentIndex] = selectedIndex;
+  void answerCurrent(int selected, BuildContext context) {
+    questionTimer?.cancel();
 
-    final isLastQuestion = state.currentIndex + 1 >= state.questions.length;
+    final updatedAnswers = List<int>.from(state.userAnswers);
+    updatedAnswers[state.currentIndex] = selected;
 
-    if (isLastQuestion) {
-      // Update state one last time to include the final answer
-      final completedState = QuizSessionState(
-        questions: state.questions,
-        userAnswers: updatedAnswers,
-        currentIndex: state.currentIndex,
-      );
-      state = completedState;
+    final newIndex = state.currentIndex + 1;
 
-      await completeQuiz();
-
-      // Now navigate with the correct final state
+    if (newIndex >= state.questions.length) {
+      state = state.copyWith(userAnswers: updatedAnswers); // ensure saved
+      completeQuiz();
       Navigator.pushReplacement(
         context,
-        MaterialPageRoute(
-          builder: (_) => QuizResultScreen(quizState: completedState),
-        ),
+        MaterialPageRoute(builder: (_) => QuizResultScreen(quizState: state)),
       );
     } else {
-      // Continue to next question
-      state = QuizSessionState(
-        questions: state.questions,
+      state = state.copyWith(
+        currentIndex: newIndex,
         userAnswers: updatedAnswers,
-        currentIndex: state.currentIndex + 1,
       );
+      startTimer(context); // start for next question
     }
   }
 
@@ -110,7 +138,6 @@ class QuizController extends StateNotifier<QuizSessionState> {
     final box = await Hive.openBox<QuizAttempt>('attemptsBox');
     await box.add(attempt);
 
-    // Update XP / level
     final progressBox = await Hive.openBox<UserProgress>('progressBox');
     var progress = progressBox.get('user');
     if (progress == null) {
@@ -120,9 +147,9 @@ class QuizController extends StateNotifier<QuizSessionState> {
     progress.quizzesTaken += 1;
     if (attempt.isCompleted) {
       progress.quizzesCompleted += 1;
-      progress.addXp(50); // simple XP reward
+      progress.addXp(50);
     } else {
-      progress.addXp(20); // smaller reward for partial
+      progress.addXp(20);
     }
     await progress.save();
   }

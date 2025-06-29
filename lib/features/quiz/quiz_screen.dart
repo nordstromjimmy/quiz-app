@@ -19,6 +19,8 @@ class QuizScreen extends ConsumerWidget {
     final currentQ = quizState.questions[quizState.currentIndex];
     final selected = quizState.userAnswers[quizState.currentIndex];
 
+    final timeRemaining = quizState.timeRemaining;
+
     return Scaffold(
       body: Padding(
         padding: const EdgeInsets.all(16.0),
@@ -37,6 +39,35 @@ class QuizScreen extends ConsumerWidget {
             Text(
               currentQ.text,
               style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
+            ),
+            SizedBox(height: 40),
+            Center(
+              child: SizedBox(
+                height: 250,
+                width: 250,
+                child: Stack(
+                  alignment: Alignment.center,
+                  children: [
+                    Transform.scale(
+                      scale: 4.0,
+                      child: CircularProgressIndicator(
+                        value: timeRemaining / 7,
+                        strokeWidth: 1,
+                        color: Colors.greenAccent,
+                        backgroundColor: Colors.white24,
+                      ),
+                    ),
+                    Text(
+                      "$timeRemaining",
+                      style: TextStyle(
+                        fontSize: 32,
+                        color: Colors.white,
+                        fontWeight: FontWeight.bold,
+                      ),
+                    ),
+                  ],
+                ),
+              ),
             ),
             Spacer(),
             ...List.generate(currentQ.options.length, (index) {
