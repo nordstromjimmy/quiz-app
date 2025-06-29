@@ -36,7 +36,7 @@ Future<void> initHive() async {
   await Hive.openBox<UserProfile>('profileBox');
 
   // Ensure there's at least a progress record
-  var progressBox = Hive.box<UserProgress>('progressBox');
+  final progressBox = await Hive.openBox<UserProgress>('progressBox');
   if (progressBox.get('user') == null) {
     await progressBox.put('user', UserProgress());
   }

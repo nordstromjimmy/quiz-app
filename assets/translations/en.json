@@ -16,5 +16,9 @@
   "quiz_completed": "Quiz Completed",
   "see_stats": "Check your stats to see XP & progress.",
   "no_answer": "No Answer",
-  "back_home": "Back to home"
+  "back_home": "Back to home",
+  "stats": "Stats",
+  "correct_answers": "Correct Answers {answers}",
+  "accuracy": "Accuracy: {percent}%",
+  "perfect_quizzes": "Perfect Quizzes: {count}"
 }

@@ -43,12 +43,10 @@ class HomeScreen extends ConsumerWidget {
             SizedBox(height: 30),
             if (userProfile != null)
               Card(
-                color: Colors.lime,
+                color: Colors.white12,
                 child: Padding(
-                  padding: const EdgeInsets.all(8.0),
+                  padding: const EdgeInsets.all(12),
                   child: Row(
-                    mainAxisAlignment: MainAxisAlignment.center,
-                    crossAxisAlignment: CrossAxisAlignment.center,
                     children: [
                       Text(
                         countryFlag(userProfile.country),
@@ -60,15 +58,11 @@ class HomeScreen extends ConsumerWidget {
                           "welcome",
                           namedArgs: {"name": userProfile.username},
                         ),
-                        style: TextStyle(
-                          color: Colors.black,
-                          fontSize: 22,
-                          fontWeight: FontWeight.w500,
-                        ),
+                        style: Theme.of(context).textTheme.titleLarge,
                       ),
                       Spacer(),
                       IconButton(
-                        icon: Icon(Icons.settings, color: Colors.black),
+                        icon: Icon(Icons.settings, color: Colors.white),
                         onPressed: () {
                           Navigator.push(
                             context,
@@ -87,51 +81,96 @@ class HomeScreen extends ConsumerWidget {
               ),
             SizedBox(height: 30),
             Card(
-              color: Color(0xFFFFC107),
+              color: Colors.white12,
               child: Padding(
                 padding: const EdgeInsets.all(20),
                 child: Column(
                   children: [
                     Text(
                       tr("level", namedArgs: {"level": "${progress.level}"}),
-                      style: TextStyle(
-                        color: Colors.black,
-                        fontSize: 18,
-                        fontWeight: FontWeight.bold,
-                      ),
+                      style: Theme.of(context).textTheme.titleLarge,
                     ),
                     SizedBox(height: 12),
                     LinearProgressIndicator(
                       value: progress.xp / progress.nextLevelXp,
-                      color: Colors.green,
-                      backgroundColor: Colors.white,
+                      color: Color(0xFFFFC107),
+                      backgroundColor: Colors.white24,
                       minHeight: 8,
                     ),
                     SizedBox(height: 12),
                     Text(
                       "${progress.xp} XP / ${progress.nextLevelXp} XP",
-                      style: TextStyle(color: Colors.black87),
+                      style: Theme.of(context).textTheme.bodyLarge,
                     ),
                   ],
                 ),
               ),
             ),
             SizedBox(height: 30),
-            Text(
-              tr(
-                "quizzes_taken",
-                namedArgs: {"count": "${progress.quizzesTaken}"},
+            SizedBox(
+              width: double.infinity,
+              child: Card(
+                color: Colors.white12,
+                child: Padding(
+                  padding: const EdgeInsets.all(16),
+                  child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      Text(
+                        tr("stats"),
+                        style: Theme.of(context).textTheme.titleLarge,
+                      ),
+                      SizedBox(height: 12),
+                      Text(
+                        tr(
+                          "quizzes_taken",
+                          namedArgs: {"count": "${progress.quizzesTaken}"},
+                        ),
+                        style: Theme.of(context).textTheme.bodyLarge,
+                      ),
+                      Text(
+                        tr(
+                          "quizzes_completed",
+                          namedArgs: {"count": "${progress.quizzesCompleted}"},
+                        ),
+                        style: Theme.of(context).textTheme.bodyLarge,
+                      ),
+                      Text(
+                        tr(
+                          "correct_answers",
+                          namedArgs: {
+                            "answers": "${progress.totalCorrectAnswers}",
+                          },
+                        ),
+                        style: Theme.of(context).textTheme.bodyLarge,
+                      ),
+                      Text(
+                        tr(
+                          "accuracy",
+                          namedArgs: {
+                            "percent": progress.totalQuestionsAnswered > 0
+                                ? ((progress.totalCorrectAnswers /
+                                              progress.totalQuestionsAnswered) *
+                                          100)
+                                      .toStringAsFixed(0)
+                                : "0",
+                          },
+                        ),
+                        style: Theme.of(context).textTheme.bodyLarge,
+                      ),
+                      Text(
+                        tr(
+                          "perfect_quizzes",
+                          namedArgs: {"count": "${progress.perfectQuizzes}"},
+                        ),
+                        style: Theme.of(context).textTheme.bodyLarge,
+                      ),
+                    ],
+                  ),
+                ),
               ),
-              style: Theme.of(context).textTheme.bodyLarge,
             ),
             SizedBox(height: 8),
-            /*             Text(
-              tr(
-                "quizzes_completed",
-                namedArgs: {"count": "${progress.quizzesCompleted}"},
-              ),
-              style: Theme.of(context).textTheme.bodyLarge,
-            ), */
             Spacer(),
             Center(
               child: ElevatedButton(

@@ -40,6 +40,12 @@ class QuizResultScreen extends StatelessWidget {
     final afterFraction = xpNow / nextLevelXp;
     final earnedFraction = (afterFraction - beforeFraction).clamp(0.0, 1.0);
 
+    progress.totalCorrectAnswers += totalCorrect;
+    progress.totalQuestionsAnswered += quizState.questions.length;
+    if (allCorrect) {
+      progress.perfectQuizzes += 1;
+    }
+
     return Scaffold(
       body: SingleChildScrollView(
         padding: EdgeInsets.all(16),
@@ -216,10 +222,6 @@ class QuizResultScreen extends StatelessWidget {
                       ],
                     ),
                     SizedBox(height: 8),
-                    Text(
-                      "${progress.xp}/${progress.nextLevelXp} XP to next level",
-                      style: TextStyle(color: Colors.white),
-                    ),
                   ],
                 ),
               ),

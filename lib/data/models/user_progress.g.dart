@@ -21,13 +21,16 @@ class UserProgressAdapter extends TypeAdapter<UserProgress> {
       level: fields[1] as int,
       quizzesTaken: fields[2] as int,
       quizzesCompleted: fields[3] as int,
+      totalCorrectAnswers: fields[4] as int,
+      totalQuestionsAnswered: fields[5] as int,
+      perfectQuizzes: fields[6] as int,
     );
   }
 
   @override
   void write(BinaryWriter writer, UserProgress obj) {
     writer
-      ..writeByte(4)
+      ..writeByte(7)
       ..writeByte(0)
       ..write(obj.xp)
       ..writeByte(1)
@@ -35,7 +38,13 @@ class UserProgressAdapter extends TypeAdapter<UserProgress> {
       ..writeByte(2)
       ..write(obj.quizzesTaken)
       ..writeByte(3)
-      ..write(obj.quizzesCompleted);
+      ..write(obj.quizzesCompleted)
+      ..writeByte(4)
+      ..write(obj.totalCorrectAnswers)
+      ..writeByte(5)
+      ..write(obj.totalQuestionsAnswered)
+      ..writeByte(6)
+      ..write(obj.perfectQuizzes);
   }
 
   @override
