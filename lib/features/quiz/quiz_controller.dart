@@ -32,10 +32,26 @@ class QuizController extends StateNotifier<QuizSessionState> {
   QuizController()
     : super(QuizSessionState(questions: [], userAnswers: [], currentIndex: 0));
 
-  Future<void> startQuiz(List<Question> newQuestions) async {
+  void startQuiz(List<Question> originalQuestions) {
+    final shuffledQuestions = originalQuestions.map((question) {
+      final options = List<String>.from(question.options);
+      final correctAnswer = question.options[question.correctIndex];
+
+      options.shuffle();
+
+      return Question(
+        id: question.id,
+        text: question.text,
+        options: options,
+        correctIndex: options.indexOf(correctAnswer),
+        explanation: question.explanation,
+        category: question.category,
+      );
+    }).toList();
+
     state = QuizSessionState(
-      questions: newQuestions,
-      userAnswers: List.filled(newQuestions.length, null),
+      questions: shuffledQuestions,
+      userAnswers: List.filled(shuffledQuestions.length, -1),
       currentIndex: 0,
     );
   }

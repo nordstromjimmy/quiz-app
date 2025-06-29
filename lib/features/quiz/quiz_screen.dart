@@ -30,7 +30,7 @@ class QuizScreen extends ConsumerWidget {
               "Question ${quizState.currentIndex + 1}/${quizState.questions.length}",
             ),
             LinearProgressIndicator(
-              color: Colors.blue,
+              color: Color(0xFFFFC107),
               value: (quizState.currentIndex + 1) / quizState.questions.length,
             ),
             SizedBox(height: 40),
@@ -48,10 +48,6 @@ class QuizScreen extends ConsumerWidget {
                   style: ElevatedButton.styleFrom(
                     minimumSize: Size(double.infinity, 50),
                     backgroundColor: isSelected ? Colors.blue.shade700 : null,
-                    side: BorderSide(
-                      color: isSelected ? Colors.blue : Colors.grey,
-                      width: 2,
-                    ),
                   ),
                   onPressed: () {
                     ref

@@ -50,14 +50,55 @@ class MyApp extends StatelessWidget {
     final profileBox = Hive.box<UserProfile>('profileBox');
     final hasProfile = profileBox.get('user') != null;
     return MaterialApp(
-      debugShowCheckedModeBanner: false,
       title: 'Quiz App',
+      debugShowCheckedModeBanner: false,
+      theme: ThemeData(
+        scaffoldBackgroundColor: Color(0xFF0B1E3D), // dark blue
+        appBarTheme: AppBarTheme(
+          backgroundColor: Colors.transparent,
+          elevation: 0,
+          iconTheme: IconThemeData(color: Colors.white),
+          titleTextStyle: TextStyle(
+            color: Colors.white,
+            fontSize: 22,
+            fontWeight: FontWeight.bold,
+          ),
+        ),
+        elevatedButtonTheme: ElevatedButtonThemeData(
+          style: ElevatedButton.styleFrom(
+            backgroundColor: Color(0xFFFFC107), // gold
+            foregroundColor: Colors.black,
+            padding: EdgeInsets.symmetric(horizontal: 32, vertical: 16),
+            shape: RoundedRectangleBorder(
+              borderRadius: BorderRadius.circular(14),
+            ),
+            elevation: 6,
+          ),
+        ),
+        textTheme: TextTheme(
+          bodyLarge: TextStyle(color: Colors.white),
+          bodyMedium: TextStyle(color: Colors.white70),
+          titleLarge: TextStyle(
+            color: Colors.white,
+            fontSize: 22,
+            fontWeight: FontWeight.bold,
+          ),
+        ),
+        inputDecorationTheme: InputDecorationTheme(
+          filled: true,
+          fillColor: Colors.white12,
+          border: OutlineInputBorder(
+            borderRadius: BorderRadius.circular(12),
+            borderSide: BorderSide.none,
+          ),
+          hintStyle: TextStyle(color: Colors.white54),
+          contentPadding: EdgeInsets.symmetric(horizontal: 12, vertical: 14),
+        ),
+      ),
       localizationsDelegates: context.localizationDelegates,
       supportedLocales: context.supportedLocales,
       locale: context.locale,
-      theme: ThemeData(primarySwatch: Colors.blue),
-      //home: hasProfile ? HomeScreen() : OnboardingScreen(),
-      home: OnboardingScreen(),
+      home: hasProfile ? HomeScreen() : OnboardingScreen(),
     );
   }
 }

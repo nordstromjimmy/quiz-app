@@ -4,16 +4,30 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:hive/hive.dart';
 import '../../data/models/user_profile.dart';
 import '../home/home_screen.dart';
-import '../../data/local/json_loader.dart'; // make sure you have this
+import '../../data/local/json_loader.dart';
 
 class OnboardingScreen extends ConsumerStatefulWidget {
-  const OnboardingScreen({super.key});
+  final String? initialUsername;
+  final String? initialCountry;
+
+  const OnboardingScreen({
+    super.key,
+    this.initialUsername,
+    this.initialCountry,
+  });
 
   @override
   ConsumerState<OnboardingScreen> createState() => _OnboardingScreenState();
 }
 
 class _OnboardingScreenState extends ConsumerState<OnboardingScreen> {
+  @override
+  void initState() {
+    super.initState();
+    _username = widget.initialUsername ?? "";
+    _selectedCountry = widget.initialCountry ?? "USA";
+  }
+
   final _formKey = GlobalKey<FormState>();
   String _username = "";
   String _selectedCountry = "USA";
@@ -21,48 +35,102 @@ class _OnboardingScreenState extends ConsumerState<OnboardingScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text("app_title".tr())),
+      backgroundColor: Color(0xFF0B1E3D), // deep blue
+      appBar: AppBar(backgroundColor: Colors.transparent, elevation: 0),
       body: Padding(
-        padding: const EdgeInsets.all(16),
+        padding: const EdgeInsets.all(20),
         child: Form(
           key: _formKey,
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              Text("select_username".tr(), style: TextStyle(fontSize: 18)),
-              TextFormField(
-                decoration: InputDecoration(hintText: tr("select_username")),
-                validator: (value) => (value == null || value.isEmpty)
-                    ? tr("select_username")
-                    : null,
-                onSaved: (value) => _username = value ?? "",
+              Text(
+                "select_username".tr(),
+                style: TextStyle(
+                  fontSize: 22,
+                  color: Colors.white,
+                  fontWeight: FontWeight.bold,
+                ),
               ),
-              SizedBox(height: 20),
-              Text("select_country".tr(), style: TextStyle(fontSize: 18)),
-              DropdownButtonFormField<String>(
-                value: _selectedCountry,
-                items:
-                    [
-                          {"name": "USA", "flag": "🇺🇸"},
-                          {"name": "England", "flag": "🇬🇧"},
-                          {"name": "Sweden", "flag": "🇸🇪"},
-                        ]
-                        .map(
-                          (country) => DropdownMenuItem<String>(
-                            value: country["name"],
-                            child: Text(
-                              "${country["flag"]} ${country["name"]}",
+              SizedBox(height: 10),
+              Container(
+                decoration: BoxDecoration(
+                  color: Colors.white12,
+                  borderRadius: BorderRadius.circular(12),
+                ),
+                child: TextFormField(
+                  style: TextStyle(color: Colors.white),
+                  initialValue: _username,
+                  decoration: InputDecoration(
+                    hintText: tr("select_username"),
+                    hintStyle: TextStyle(color: Colors.white54),
+                    border: InputBorder.none,
+                    contentPadding: EdgeInsets.symmetric(
+                      horizontal: 12,
+                      vertical: 14,
+                    ),
+                  ),
+                  validator: (value) => (value == null || value.isEmpty)
+                      ? tr("select_username")
+                      : null,
+                  onSaved: (value) => _username = value ?? "",
+                ),
+              ),
+              SizedBox(height: 30),
+              Text(
+                "select_country".tr(),
+                style: TextStyle(
+                  fontSize: 22,
+                  color: Colors.white,
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
+              SizedBox(height: 10),
+              Container(
+                padding: EdgeInsets.symmetric(horizontal: 12),
+                decoration: BoxDecoration(
+                  color: Colors.white12,
+                  borderRadius: BorderRadius.circular(12),
+                ),
+                child: DropdownButtonFormField<String>(
+                  dropdownColor: Color(0xFF1A2A52), // dark dropdown
+                  iconEnabledColor: Colors.white,
+                  value: _selectedCountry,
+                  items:
+                      [
+                            {"name": "USA", "flag": "🇺🇸"},
+                            {"name": "England", "flag": "🇬🇧"},
+                            {"name": "Sweden", "flag": "🇸🇪"},
+                          ]
+                          .map(
+                            (country) => DropdownMenuItem<String>(
+                              value: country["name"],
+                              child: Text(
+                                "${country["flag"]} ${country["name"]}",
+                                style: TextStyle(color: Colors.white),
+                              ),
                             ),
-                          ),
-                        )
-                        .toList(),
-                onChanged: (value) {
-                  setState(() => _selectedCountry = value ?? "USA");
-                },
+                          )
+                          .toList(),
+                  onChanged: (value) {
+                    setState(() => _selectedCountry = value ?? "USA");
+                  },
+                  style: TextStyle(color: Colors.white),
+                  decoration: InputDecoration(border: InputBorder.none),
+                ),
               ),
               Spacer(),
               Center(
                 child: ElevatedButton(
+                  style: ElevatedButton.styleFrom(
+                    padding: EdgeInsets.symmetric(horizontal: 50, vertical: 16),
+                    backgroundColor: Color(0xFFFFC107), // gold
+                    foregroundColor: Colors.black,
+                    shape: RoundedRectangleBorder(
+                      borderRadius: BorderRadius.circular(14),
+                    ),
+                    elevation: 8,
+                  ),
                   onPressed: () async {
                     if (_formKey.currentState!.validate()) {
                       _formKey.currentState!.save();
@@ -81,7 +149,6 @@ class _OnboardingScreenState extends ConsumerState<OnboardingScreen> {
                           : Locale('en');
                       context.setLocale(locale);
 
-                      // Load your questions in the chosen language
                       await QuestionLoader.loadQuestionsFromJson(
                         locale.languageCode,
                       );
@@ -92,7 +159,10 @@ class _OnboardingScreenState extends ConsumerState<OnboardingScreen> {
                       );
                     }
                   },
-                  child: Text("continue".tr()),
+                  child: Text(
+                    "continue".tr(),
+                    style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
+                  ),
                 ),
               ),
             ],

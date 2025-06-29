@@ -4,6 +4,7 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:hive/hive.dart';
 import 'package:quiz/data/local/json_loader.dart';
 import 'package:quiz/data/models/user_profile.dart';
+import 'package:quiz/features/onboarding/onboarding_screen.dart';
 import '../../data/models/user_progress.dart';
 import '../../data/models/question.dart';
 import '../quiz/quiz_controller.dart';
@@ -35,77 +36,109 @@ class HomeScreen extends ConsumerWidget {
 
     return Scaffold(
       body: Padding(
-        padding: const EdgeInsets.all(16.0),
+        padding: const EdgeInsets.all(20),
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            SizedBox(height: 40),
+            SizedBox(height: 30),
             if (userProfile != null)
-              Row(
-                children: [
-                  Text(
-                    tr("welcome", namedArgs: {"name": userProfile.username}),
-                    style: TextStyle(fontSize: 26, fontWeight: FontWeight.bold),
+              Card(
+                color: Colors.lime,
+                child: Padding(
+                  padding: const EdgeInsets.all(8.0),
+                  child: Row(
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    crossAxisAlignment: CrossAxisAlignment.center,
+                    children: [
+                      Text(
+                        countryFlag(userProfile.country),
+                        style: TextStyle(fontSize: 26),
+                      ),
+                      Spacer(),
+                      Text(
+                        tr(
+                          "welcome",
+                          namedArgs: {"name": userProfile.username},
+                        ),
+                        style: TextStyle(
+                          color: Colors.black,
+                          fontSize: 22,
+                          fontWeight: FontWeight.w500,
+                        ),
+                      ),
+                      Spacer(),
+                      IconButton(
+                        icon: Icon(Icons.settings, color: Colors.black),
+                        onPressed: () {
+                          Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                              builder: (_) => OnboardingScreen(
+                                initialUsername: userProfile.username,
+                                initialCountry: userProfile.country,
+                              ),
+                            ),
+                          );
+                        },
+                      ),
+                    ],
                   ),
-                  Spacer(),
-                  Text(
-                    countryFlag(userProfile.country),
-                    style: TextStyle(fontSize: 22),
-                  ),
-                ],
+                ),
               ),
-
-            SizedBox(height: 20),
+            SizedBox(height: 30),
             Card(
-              shape: RoundedRectangleBorder(
-                borderRadius: BorderRadius.circular(16),
-              ),
-              elevation: 4,
+              color: Color(0xFFFFC107),
               child: Padding(
-                padding: const EdgeInsets.all(16),
+                padding: const EdgeInsets.all(20),
                 child: Column(
                   children: [
                     Text(
                       tr("level", namedArgs: {"level": "${progress.level}"}),
-                      style: TextStyle(fontSize: 22),
+                      style: TextStyle(
+                        color: Colors.black,
+                        fontSize: 18,
+                        fontWeight: FontWeight.bold,
+                      ),
                     ),
-                    SizedBox(height: 8),
+                    SizedBox(height: 12),
                     LinearProgressIndicator(
                       value: progress.xp / progress.nextLevelXp,
+                      color: Colors.green,
+                      backgroundColor: Colors.white,
+                      minHeight: 8,
                     ),
-                    SizedBox(height: 8),
-                    Text("${progress.xp} XP / ${progress.nextLevelXp} XP"),
+                    SizedBox(height: 12),
+                    Text(
+                      "${progress.xp} XP / ${progress.nextLevelXp} XP",
+                      style: TextStyle(color: Colors.black87),
+                    ),
                   ],
                 ),
               ),
             ),
-            SizedBox(height: 20),
+            SizedBox(height: 30),
             Text(
               tr(
                 "quizzes_taken",
                 namedArgs: {"count": "${progress.quizzesTaken}"},
               ),
+              style: Theme.of(context).textTheme.bodyLarge,
             ),
-            Text(
+            SizedBox(height: 8),
+            /*             Text(
               tr(
                 "quizzes_completed",
                 namedArgs: {"count": "${progress.quizzesCompleted}"},
               ),
-            ),
+              style: Theme.of(context).textTheme.bodyLarge,
+            ), */
             Spacer(),
             Center(
               child: ElevatedButton(
-                style: ElevatedButton.styleFrom(
-                  minimumSize: Size(double.infinity, 50),
-                  backgroundColor: Colors.white,
-                  side: BorderSide(color: Colors.black, width: 1),
-                ),
                 onPressed: () async {
                   final qBox = Hive.box<Question>('questionsBox');
 
-                  await qBox
-                      .clear(); // clear for now, remove later if you want to keep history
-
+                  await qBox.clear(); // clear for now for fresh load
                   final locale = context.locale.languageCode;
                   await QuestionLoader.loadQuestionsFromJson(locale);
 
@@ -121,7 +154,7 @@ class HomeScreen extends ConsumerWidget {
                 },
                 child: Text(
                   tr("start_quiz"),
-                  style: TextStyle(color: Colors.black),
+                  style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
                 ),
               ),
             ),
