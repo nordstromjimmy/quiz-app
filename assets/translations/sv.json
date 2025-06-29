@@ -1,0 +1,20 @@
+{
+  "app_title": "Quiz App",
+  "welcome": "Välkommen, {name}",
+  "start_quiz": "Starta Quiz",
+  "level": "Nivå {level}",
+  "quizzes_taken": "Quiz tagna: {count}",
+  "quizzes_completed": "Quiz färdiga: {count}",
+  "select_username": "Välj ett användarnamn",
+  "select_country": "Välj ditt land",
+  "continue": "Fortsätt",
+  "question": "Fråga {number}/{total}",
+  "you_got_correct": "Du fick {correct} av {total} rätt!",
+  "correct": "Rätt",
+  "your_answer": "Ditt svar",
+  "correct_answer": "Rätt svar",
+  "quiz_completed": "Quiz klart",
+  "see_stats": "Kolla din statistik för XP & framsteg.",
+  "no_answer": "Inget svar",
+  "back_home": "Till startsidan"
+}

@@ -1,0 +1,20 @@
+{
+  "app_title": "Quiz App",
+  "welcome": "Welcome, {name}",
+  "start_quiz": "Start Quiz",
+  "level": "Level {level}",
+  "quizzes_taken": "Quizzes Taken: {count}",
+  "quizzes_completed": "Quizzes Completed: {count}",
+  "select_username": "Choose a username",
+  "select_country": "Select your country",
+  "continue": "Continue",
+  "question": "Question {number}/{total}",
+  "you_got_correct": "You got {correct} out of {total} correct!",
+  "correct": "Correct",
+  "your_answer": "Your Answer",
+  "correct_answer": "Correct Answer",
+  "quiz_completed": "Quiz Completed",
+  "see_stats": "Check your stats to see XP & progress.",
+  "no_answer": "No Answer",
+  "back_home": "Back to home"
+}
