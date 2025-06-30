@@ -1,3 +1,4 @@
+import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'quiz_controller.dart';
@@ -29,7 +30,13 @@ class QuizScreen extends ConsumerWidget {
           children: [
             SizedBox(height: 40),
             Text(
-              "Question ${quizState.currentIndex + 1}/${quizState.questions.length}",
+              tr(
+                "question_progress",
+                namedArgs: {
+                  "current": "${quizState.currentIndex + 1}",
+                  "total": "${quizState.questions.length}",
+                },
+              ),
             ),
             LinearProgressIndicator(
               color: Color(0xFFFFC107),
@@ -51,7 +58,7 @@ class QuizScreen extends ConsumerWidget {
                     Transform.scale(
                       scale: 4.0,
                       child: CircularProgressIndicator(
-                        value: timeRemaining / 7,
+                        value: timeRemaining / 10,
                         strokeWidth: 1,
                         color: Colors.greenAccent,
                         backgroundColor: Colors.white24,

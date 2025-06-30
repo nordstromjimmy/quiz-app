@@ -23,7 +23,7 @@ class QuizSessionState {
     required this.questions,
     required this.userAnswers,
     required this.currentIndex,
-    this.timeRemaining = 7,
+    this.timeRemaining = 10,
   });
 
   bool get isCompleted => !userAnswers.contains(null);
@@ -52,7 +52,7 @@ class QuizController extends StateNotifier<QuizSessionState> {
 
   void startTimer(BuildContext context) {
     questionTimer?.cancel();
-    state = state.copyWith(timeRemaining: 7);
+    state = state.copyWith(timeRemaining: 10);
 
     questionTimer = Timer.periodic(Duration(seconds: 1), (timer) {
       final newTime = state.timeRemaining - 1;
@@ -144,13 +144,12 @@ class QuizController extends StateNotifier<QuizSessionState> {
       progress = UserProgress();
       await progressBox.put('user', progress);
     }
+
     progress.quizzesTaken += 1;
     if (attempt.isCompleted) {
       progress.quizzesCompleted += 1;
-      progress.addXp(50);
-    } else {
-      progress.addXp(20);
     }
+
     await progress.save();
   }
 }

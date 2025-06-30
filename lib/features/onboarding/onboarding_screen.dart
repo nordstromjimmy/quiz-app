@@ -89,7 +89,7 @@ class _OnboardingScreenState extends ConsumerState<OnboardingScreen> {
                 items:
                     [
                           {"name": "USA", "flag": "🇺🇸"},
-                          {"name": "England", "flag": "🇬🇧"},
+                          {"name": "United Kingdom", "flag": "🇬🇧"},
                           {"name": "Sweden", "flag": "🇸🇪"},
                         ]
                         .map(

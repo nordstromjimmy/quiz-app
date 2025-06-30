@@ -28,5 +28,7 @@
   "confirm_reset_title": "Reset Account",
   "confirm_reset_message": "Are you sure you want to reset your account? All progress will be lost.",
   "cancel": "Cancel",
-  "confirm": "Confirm"
+  "confirm": "Confirm",
+  "xp_progress": "{percent}% XP to next level",
+  "question_progress": "Question {current}/{total}"
 }

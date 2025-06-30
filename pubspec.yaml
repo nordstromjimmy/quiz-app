@@ -41,6 +41,7 @@ dependencies:
   http: ^1.4.0
   easy_localization: ^3.0.7+1
   lucide_icons_flutter: ^3.0.6
+  confetti: ^0.8.0
 
 dev_dependencies:
   flutter_test:

@@ -28,5 +28,7 @@
   "confirm_reset_title": "Återställ konto",
   "confirm_reset_message": "Är du säker på att du vill återställa ditt konto? Alla framsteg kommer att gå förlorade.",
   "cancel": "Avbryt",
-  "confirm": "Bekräfta"
+  "confirm": "Bekräfta",
+  "xp_progress": "{percent}% XP till nästa nivå",
+  "question_progress": "Fråga {current}/{total}"
 }

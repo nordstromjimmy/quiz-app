@@ -18,7 +18,7 @@ class HomeScreen extends ConsumerWidget {
     switch (country) {
       case "USA":
         return "🇺🇸";
-      case "England":
+      case "United Kingdom":
         return "🇬🇧";
       case "Sweden":
         return "🇸🇪";
@@ -97,10 +97,7 @@ class HomeScreen extends ConsumerWidget {
                           style: Theme.of(context).textTheme.titleLarge,
                         ),
                         Spacer(),
-                        Icon(
-                          LucideIcons.gem,
-                          color: Color.fromARGB(255, 230, 155, 42),
-                        ),
+                        Icon(LucideIcons.gem, color: Colors.white),
                       ],
                     ),
                     SizedBox(height: 12),
