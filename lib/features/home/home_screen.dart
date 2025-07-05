@@ -6,6 +6,7 @@ import 'package:lucide_icons_flutter/lucide_icons.dart';
 import 'package:quiz/data/local/json_loader.dart';
 import 'package:quiz/data/models/user_profile.dart';
 import 'package:quiz/features/home/edit_screen.dart';
+import 'package:quiz/features/quiz/start_quiz_screen.dart';
 import '../../data/models/user_progress.dart';
 import '../../data/models/question.dart';
 import '../quiz/quiz_controller.dart';
@@ -198,16 +199,10 @@ class HomeScreen extends ConsumerWidget {
 
                   await qBox.clear(); // clear for now for fresh load
                   final locale = context.locale.languageCode;
-                  await QuestionLoader.loadQuestionsFromJson(locale);
-
-                  final questions = qBox.values.toList()..shuffle();
-                  ref
-                      .read(quizControllerProvider.notifier)
-                      .startQuiz(questions.take(5).toList(), context);
 
                   Navigator.push(
                     context,
-                    MaterialPageRoute(builder: (_) => const QuizScreen()),
+                    MaterialPageRoute(builder: (_) => StartQuizScreen()),
                   );
                 },
                 child: Text(

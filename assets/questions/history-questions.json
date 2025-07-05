@@ -1,0 +1,442 @@
+[
+  {
+    "id": "q101",
+    "category": "History",
+    "text": {
+      "en": "Who was the first President of the United States?",
+      "sv": "Vem var USA:s första president?"
+    },
+    "options": {
+      "en": [
+        "George Washington",
+        "Thomas Jefferson",
+        "John Adams",
+        "James Madison"
+      ],
+      "sv": [
+        "George Washington",
+        "Thomas Jefferson",
+        "John Adams",
+        "James Madison"
+      ]
+    },
+    "correctIndex": 0,
+    "explanation": {
+      "en": "George Washington became the first U.S. president in 1789.",
+      "sv": "George Washington blev USA:s första president 1789."
+    }
+  },
+  {
+    "id": "q102",
+    "category": "History",
+    "text": {
+      "en": "In which year did World War II end?",
+      "sv": "Vilket år slutade andra världskriget?"
+    },
+    "options": {
+      "en": ["1943", "1944", "1945", "1946"],
+      "sv": ["1943", "1944", "1945", "1946"]
+    },
+    "correctIndex": 2,
+    "explanation": {
+      "en": "World War II ended in 1945.",
+      "sv": "Andra världskriget slutade 1945."
+    }
+  },
+  {
+    "id": "q103",
+    "category": "History",
+    "text": {
+      "en": "Who was the British Prime Minister during most of World War II?",
+      "sv": "Vem var Storbritanniens premiärminister under större delen av andra världskriget?"
+    },
+    "options": {
+      "en": [
+        "Winston Churchill",
+        "Neville Chamberlain",
+        "Clement Attlee",
+        "Anthony Eden"
+      ],
+      "sv": [
+        "Winston Churchill",
+        "Neville Chamberlain",
+        "Clement Attlee",
+        "Anthony Eden"
+      ]
+    },
+    "correctIndex": 0,
+    "explanation": {
+      "en": "Winston Churchill led Britain through most of WWII.",
+      "sv": "Winston Churchill ledde Storbritannien genom större delen av andra världskriget."
+    }
+  },
+  {
+    "id": "q104",
+    "category": "History",
+    "text": {
+      "en": "Which empire built the Colosseum?",
+      "sv": "Vilket imperium byggde Colosseum?"
+    },
+    "options": {
+      "en": [
+        "Greek Empire",
+        "Roman Empire",
+        "Ottoman Empire",
+        "Persian Empire"
+      ],
+      "sv": [
+        "Grekiska riket",
+        "Romerska riket",
+        "Osmanska riket",
+        "Persiska riket"
+      ]
+    },
+    "correctIndex": 1,
+    "explanation": {
+      "en": "The Romans built the Colosseum in Rome.",
+      "sv": "Romarna byggde Colosseum i Rom."
+    }
+  },
+  {
+    "id": "q105",
+    "category": "History",
+    "text": {
+      "en": "Who discovered America in 1492?",
+      "sv": "Vem upptäckte Amerika 1492?"
+    },
+    "options": {
+      "en": [
+        "Vasco da Gama",
+        "Christopher Columbus",
+        "Ferdinand Magellan",
+        "Marco Polo"
+      ],
+      "sv": [
+        "Vasco da Gama",
+        "Kristoffer Kolumbus",
+        "Ferdinand Magellan",
+        "Marco Polo"
+      ]
+    },
+    "correctIndex": 1,
+    "explanation": {
+      "en": "Christopher Columbus reached the Americas in 1492.",
+      "sv": "Kristoffer Kolumbus nådde Amerika 1492."
+    }
+  },
+  {
+    "id": "q106",
+    "category": "History",
+    "text": {
+      "en": "Who was the first Emperor of Rome?",
+      "sv": "Vem var den första kejsaren av Rom?"
+    },
+    "options": {
+      "en": ["Julius Caesar", "Augustus", "Nero", "Caligula"],
+      "sv": ["Julius Caesar", "Augustus", "Nero", "Caligula"]
+    },
+    "correctIndex": 1,
+    "explanation": {
+      "en": "Augustus became the first Roman emperor in 27 BC.",
+      "sv": "Augustus blev den första romerska kejsaren år 27 f.Kr."
+    }
+  },
+  {
+    "id": "q107",
+    "category": "History",
+    "text": {
+      "en": "Where was the ancient city of Troy located?",
+      "sv": "Var låg den antika staden Troja?"
+    },
+    "options": {
+      "en": ["Greece", "Italy", "Turkey", "Egypt"],
+      "sv": ["Grekland", "Italien", "Turkiet", "Egypten"]
+    },
+    "correctIndex": 2,
+    "explanation": {
+      "en": "The ruins of Troy are found in modern-day Turkey.",
+      "sv": "Ruinerna av Troja finns i dagens Turkiet."
+    }
+  },
+  {
+    "id": "q108",
+    "category": "History",
+    "text": {
+      "en": "Who was the first woman Prime Minister of the UK?",
+      "sv": "Vem var Storbritanniens första kvinnliga premiärminister?"
+    },
+    "options": {
+      "en": [
+        "Margaret Thatcher",
+        "Theresa May",
+        "Angela Merkel",
+        "Indira Gandhi"
+      ],
+      "sv": [
+        "Margaret Thatcher",
+        "Theresa May",
+        "Angela Merkel",
+        "Indira Gandhi"
+      ]
+    },
+    "correctIndex": 0,
+    "explanation": {
+      "en": "Margaret Thatcher became Prime Minister in 1979.",
+      "sv": "Margaret Thatcher blev premiärminister 1979."
+    }
+  },
+  {
+    "id": "q109",
+    "category": "History",
+    "text": {
+      "en": "What wall divided Berlin from 1961 to 1989?",
+      "sv": "Vilken mur delade Berlin mellan 1961 och 1989?"
+    },
+    "options": {
+      "en": ["Great Wall", "Berlin Wall", "Hadrian's Wall", "Maginot Line"],
+      "sv": ["Kinesiska muren", "Berlinmuren", "Hadrianus mur", "Maginotlinjen"]
+    },
+    "correctIndex": 1,
+    "explanation": {
+      "en": "The Berlin Wall divided East and West Berlin.",
+      "sv": "Berlinmuren delade Öst- och Västberlin."
+    }
+  },
+  {
+    "id": "q110",
+    "category": "History",
+    "text": {
+      "en": "Who was known as the 'Maid of Orléans'?",
+      "sv": "Vem kallades för 'Jungfrun av Orléans'?"
+    },
+    "options": {
+      "en": [
+        "Marie Antoinette",
+        "Joan of Arc",
+        "Catherine de Medici",
+        "Eleanor of Aquitaine"
+      ],
+      "sv": [
+        "Marie Antoinette",
+        "Jeanne d'Arc",
+        "Catherine de Medici",
+        "Eleonora av Akvitanien"
+      ]
+    },
+    "correctIndex": 1,
+    "explanation": {
+      "en": "Joan of Arc is known as the Maid of Orléans.",
+      "sv": "Jeanne d'Arc är känd som Jungfrun av Orléans."
+    }
+  },
+  {
+    "id": "q111",
+    "category": "History",
+    "text": {
+      "en": "Who invented the printing press?",
+      "sv": "Vem uppfann boktryckarkonsten?"
+    },
+    "options": {
+      "en": [
+        "Leonardo da Vinci",
+        "Johannes Gutenberg",
+        "Isaac Newton",
+        "Galileo Galilei"
+      ],
+      "sv": [
+        "Leonardo da Vinci",
+        "Johannes Gutenberg",
+        "Isaac Newton",
+        "Galileo Galilei"
+      ]
+    },
+    "correctIndex": 1,
+    "explanation": {
+      "en": "Johannes Gutenberg invented the movable type printing press around 1440.",
+      "sv": "Johannes Gutenberg uppfann boktryckarkonsten med rörliga typer runt 1440."
+    }
+  },
+  {
+    "id": "q112",
+    "category": "History",
+    "text": {
+      "en": "In which country did the Industrial Revolution start?",
+      "sv": "I vilket land startade industriella revolutionen?"
+    },
+    "options": {
+      "en": ["France", "Germany", "England", "USA"],
+      "sv": ["Frankrike", "Tyskland", "England", "USA"]
+    },
+    "correctIndex": 2,
+    "explanation": {
+      "en": "The Industrial Revolution began in England in the 18th century.",
+      "sv": "Industriella revolutionen började i England på 1700-talet."
+    }
+  },
+  {
+    "id": "q113",
+    "category": "History",
+    "text": {
+      "en": "Who was assassinated on June 28, 1914, triggering WWI?",
+      "sv": "Vem mördades den 28 juni 1914 och utlöste första världskriget?"
+    },
+    "options": {
+      "en": [
+        "Franz Ferdinand",
+        "Nicholas II",
+        "Kaiser Wilhelm II",
+        "Woodrow Wilson"
+      ],
+      "sv": [
+        "Franz Ferdinand",
+        "Nikolaj II",
+        "Kejsar Wilhelm II",
+        "Woodrow Wilson"
+      ]
+    },
+    "correctIndex": 0,
+    "explanation": {
+      "en": "Archduke Franz Ferdinand's assassination sparked WWI.",
+      "sv": "Mordet på ärkehertig Franz Ferdinand utlöste första världskriget."
+    }
+  },
+  {
+    "id": "q114",
+    "category": "History",
+    "text": {
+      "en": "Who was the Egyptian queen known for her relationships with Julius Caesar and Mark Antony?",
+      "sv": "Vilken egyptisk drottning är känd för sina relationer med Julius Caesar och Marcus Antonius?"
+    },
+    "options": {
+      "en": ["Cleopatra", "Nefertiti", "Hatshepsut", "Sobekneferu"],
+      "sv": ["Kleopatra", "Nefertiti", "Hatshepsut", "Sobekneferu"]
+    },
+    "correctIndex": 0,
+    "explanation": {
+      "en": "Cleopatra VII was involved with both Caesar and Mark Antony.",
+      "sv": "Kleopatra VII hade relationer med både Caesar och Marcus Antonius."
+    }
+  },
+  {
+    "id": "q115",
+    "category": "History",
+    "text": {
+      "en": "Which ship sank on its maiden voyage in 1912?",
+      "sv": "Vilket skepp sjönk på sin jungfruresa 1912?"
+    },
+    "options": {
+      "en": ["Lusitania", "Titanic", "Britannic", "Carpathia"],
+      "sv": ["Lusitania", "Titanic", "Britannic", "Carpathia"]
+    },
+    "correctIndex": 1,
+    "explanation": {
+      "en": "The RMS Titanic hit an iceberg and sank.",
+      "sv": "RMS Titanic gick på ett isberg och sjönk."
+    }
+  },
+  {
+    "id": "q116",
+    "category": "History",
+    "text": {
+      "en": "Who led India's non-violent independence movement?",
+      "sv": "Vem ledde Indiens icke-våldsamma självständighetsrörelse?"
+    },
+    "options": {
+      "en": [
+        "Jawaharlal Nehru",
+        "Subhas Chandra Bose",
+        "Mahatma Gandhi",
+        "Indira Gandhi"
+      ],
+      "sv": [
+        "Jawaharlal Nehru",
+        "Subhas Chandra Bose",
+        "Mahatma Gandhi",
+        "Indira Gandhi"
+      ]
+    },
+    "correctIndex": 2,
+    "explanation": {
+      "en": "Mahatma Gandhi championed peaceful resistance.",
+      "sv": "Mahatma Gandhi förespråkade fredligt motstånd."
+    }
+  },
+  {
+    "id": "q117",
+    "category": "History",
+    "text": {
+      "en": "Who was the Soviet leader during WWII?",
+      "sv": "Vem var Sovjetunionens ledare under andra världskriget?"
+    },
+    "options": {
+      "en": ["Lenin", "Stalin", "Khrushchev", "Gorbachev"],
+      "sv": ["Lenin", "Stalin", "Chrusjtjov", "Gorbatjov"]
+    },
+    "correctIndex": 1,
+    "explanation": {
+      "en": "Joseph Stalin was the Soviet leader during WWII.",
+      "sv": "Josef Stalin var Sovjetunionens ledare under andra världskriget."
+    }
+  },
+  {
+    "id": "q118",
+    "category": "History",
+    "text": {
+      "en": "Where did the Renaissance begin?",
+      "sv": "Var började renässansen?"
+    },
+    "options": {
+      "en": ["France", "Italy", "Germany", "Spain"],
+      "sv": ["Frankrike", "Italien", "Tyskland", "Spanien"]
+    },
+    "correctIndex": 1,
+    "explanation": {
+      "en": "The Renaissance started in Italy in the 14th century.",
+      "sv": "Renässansen började i Italien på 1300-talet."
+    }
+  },
+  {
+    "id": "q119",
+    "category": "History",
+    "text": {
+      "en": "Who was the first man to walk on the Moon?",
+      "sv": "Vem var den första mannen på månen?"
+    },
+    "options": {
+      "en": [
+        "Buzz Aldrin",
+        "Yuri Gagarin",
+        "Neil Armstrong",
+        "Michael Collins"
+      ],
+      "sv": [
+        "Buzz Aldrin",
+        "Jurij Gagarin",
+        "Neil Armstrong",
+        "Michael Collins"
+      ]
+    },
+    "correctIndex": 2,
+    "explanation": {
+      "en": "Neil Armstrong walked on the Moon in 1969.",
+      "sv": "Neil Armstrong gick på månen 1969."
+    }
+  },
+  {
+    "id": "q120",
+    "category": "History",
+    "text": {
+      "en": "Who was the founder of the Mongol Empire?",
+      "sv": "Vem grundade Mongolriket?"
+    },
+    "options": {
+      "en": ["Kublai Khan", "Attila the Hun", "Genghis Khan", "Timur"],
+      "sv": ["Kublai Khan", "Attila hunnen", "Djingis Khan", "Timur Lenk"]
+    },
+    "correctIndex": 2,
+    "explanation": {
+      "en": "Genghis Khan united Mongol tribes and established the empire.",
+      "sv": "Djingis Khan enade mongolstammarna och grundade riket."
+    }
+  }
+]

@@ -4,10 +4,24 @@ import 'package:hive/hive.dart';
 import '../models/question.dart';
 
 class QuestionLoader {
-  static Future<void> loadQuestionsFromJson(String locale) async {
-    final jsonString = await rootBundle.loadString(
-      'assets/questions/questions.json',
-    );
+  static Future<void> loadQuestionsFromJson(
+    String locale, [
+    String category = "General Knowledge",
+  ]) async {
+    // Decide which JSON file to load based on category
+    String assetPath;
+    switch (category) {
+      case "Science":
+        assetPath = 'assets/questions/science-questions.json';
+        break;
+      case "History":
+        assetPath = 'assets/questions/history-questions.json';
+        break;
+      default:
+        assetPath = 'assets/questions/general-questions.json';
+    }
+
+    final jsonString = await rootBundle.loadString(assetPath);
     final data = jsonDecode(jsonString) as List;
 
     final questions = data.map((item) {
@@ -25,9 +39,9 @@ class QuestionLoader {
 
     final box = await Hive.openBox<Question>('questionsBox');
 
-    await box.clear(); // optional if you want fresh load
+    await box.clear(); // always clean slate on load
     await box.addAll(questions);
 
-    print('✅ Loaded ${questions.length} questions into Hive.');
+    print('✅ Loaded ${questions.length} questions into Hive for $category.');
   }
 }

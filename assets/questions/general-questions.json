@@ -1,0 +1,1795 @@
+[
+  {
+    "id": "q1",
+    "category": "General Knowledge",
+    "text": {
+      "en": "What is the capital of Sweden?",
+      "sv": "Vad är Sveriges huvudstad?"
+    },
+    "options": {
+      "en": ["Stockholm", "Oslo", "Copenhagen", "Helsinki"],
+      "sv": ["Stockholm", "Oslo", "Köpenhamn", "Helsingfors"]
+    },
+    "correctIndex": 0,
+    "explanation": {
+      "en": "Stockholm has been Sweden's capital since the 16th century.",
+      "sv": "Stockholm har varit Sveriges huvudstad sedan 1500-talet."
+    }
+  },
+  {
+    "id": "q2",
+    "category": "General Knowledge",
+    "text": {
+      "en": "What is the largest ocean on Earth?",
+      "sv": "Vilken är den största oceanen på jorden?"
+    },
+    "options": {
+      "en": ["Pacific Ocean", "Atlantic Ocean", "Indian Ocean", "Arctic Ocean"],
+      "sv": ["Stilla havet", "Atlanten", "Indiska oceanen", "Norra ishavet"]
+    },
+    "correctIndex": 0,
+    "explanation": {
+      "en": "The Pacific Ocean covers more area than all land masses combined.",
+      "sv": "Stilla havet täcker större yta än alla landmassor tillsammans."
+    }
+  },
+  {
+    "id": "q3",
+    "category": "General Knowledge",
+    "text": {
+      "en": "Who painted the Mona Lisa?",
+      "sv": "Vem målade Mona Lisa?"
+    },
+    "options": {
+      "en": ["Leonardo da Vinci", "Michelangelo", "Raphael", "Donatello"],
+      "sv": ["Leonardo da Vinci", "Michelangelo", "Raphael", "Donatello"]
+    },
+    "correctIndex": 0,
+    "explanation": {
+      "en": "Leonardo da Vinci painted the Mona Lisa in the early 1500s.",
+      "sv": "Leonardo da Vinci målade Mona Lisa i början av 1500-talet."
+    }
+  },
+  {
+    "id": "q4",
+    "category": "General Knowledge",
+    "text": {
+      "en": "What currency is used in Japan?",
+      "sv": "Vilken valuta används i Japan?"
+    },
+    "options": {
+      "en": ["Yen", "Won", "Dollar", "Euro"],
+      "sv": ["Yen", "Won", "Dollar", "Euro"]
+    },
+    "correctIndex": 0,
+    "explanation": {
+      "en": "The Japanese Yen is Japan’s official currency.",
+      "sv": "Den japanska Yenen är Japans officiella valuta."
+    }
+  },
+  {
+    "id": "q5",
+    "category": "General Knowledge",
+    "text": {
+      "en": "What is the tallest mountain in the world?",
+      "sv": "Vilket är världens högsta berg?"
+    },
+    "options": {
+      "en": ["Mount Everest", "K2", "Kangchenjunga", "Lhotse"],
+      "sv": ["Mount Everest", "K2", "Kangchenjunga", "Lhotse"]
+    },
+    "correctIndex": 0,
+    "explanation": {
+      "en": "Mount Everest stands at 8,848 meters above sea level.",
+      "sv": "Mount Everest är 8 848 meter över havet."
+    }
+  },
+  {
+    "id": "q6",
+    "category": "General Knowledge",
+    "text": {
+      "en": "In what year did the Titanic sink?",
+      "sv": "Vilket år sjönk Titanic?"
+    },
+    "options": {
+      "en": ["1912", "1905", "1898", "1920"],
+      "sv": ["1912", "1905", "1898", "1920"]
+    },
+    "correctIndex": 0,
+    "explanation": {
+      "en": "The Titanic sank on April 15, 1912.",
+      "sv": "Titanic sjönk den 15 april 1912."
+    }
+  },
+  {
+    "id": "q7",
+    "category": "General Knowledge",
+    "text": {
+      "en": "What is the smallest prime number?",
+      "sv": "Vilket är det minsta primtalet?"
+    },
+    "options": {
+      "en": ["2", "1", "3", "5"],
+      "sv": ["2", "1", "3", "5"]
+    },
+    "correctIndex": 0,
+    "explanation": {
+      "en": "2 is the smallest and the only even prime number.",
+      "sv": "2 är det minsta och det enda jämna primtalet."
+    }
+  },
+  {
+    "id": "q8",
+    "category": "General Knowledge",
+    "text": {
+      "en": "How many continents are there on Earth?",
+      "sv": "Hur många kontinenter finns det på jorden?"
+    },
+    "options": {
+      "en": ["7", "5", "6", "8"],
+      "sv": ["7", "5", "6", "8"]
+    },
+    "correctIndex": 0,
+    "explanation": {
+      "en": "There are 7 continents: Asia, Africa, North America, South America, Antarctica, Europe, and Australia.",
+      "sv": "Det finns 7 kontinenter: Asien, Afrika, Nordamerika, Sydamerika, Antarktis, Europa och Australien."
+    }
+  },
+  {
+    "id": "q9",
+    "category": "General Knowledge",
+    "text": {
+      "en": "Which gas do plants absorb from the atmosphere?",
+      "sv": "Vilken gas absorberar växter från atmosfären?"
+    },
+    "options": {
+      "en": ["Carbon Dioxide", "Oxygen", "Nitrogen", "Hydrogen"],
+      "sv": ["Koldioxid", "Syre", "Kväve", "Väte"]
+    },
+    "correctIndex": 0,
+    "explanation": {
+      "en": "Plants absorb carbon dioxide and release oxygen through photosynthesis.",
+      "sv": "Växter absorberar koldioxid och släpper ut syre genom fotosyntesen."
+    }
+  },
+  {
+    "id": "q10",
+    "category": "General Knowledge",
+    "text": {
+      "en": "Which animal is known as the King of the Jungle?",
+      "sv": "Vilket djur kallas djungelns konung?"
+    },
+    "options": {
+      "en": ["Lion", "Tiger", "Elephant", "Leopard"],
+      "sv": ["Lejon", "Tiger", "Elefant", "Leopard"]
+    },
+    "correctIndex": 0,
+    "explanation": {
+      "en": "The lion is often called the King of the Jungle.",
+      "sv": "Lejonet kallas ofta djungelns konung."
+    }
+  },
+  {
+    "id": "q11",
+    "category": "General Knowledge",
+    "text": {
+      "en": "Which element has the chemical symbol 'O'?",
+      "sv": "Vilket grundämne har den kemiska beteckningen 'O'?"
+    },
+    "options": {
+      "en": ["Gold", "Oxygen", "Osmium", "Silver"],
+      "sv": ["Guld", "Syre", "Osmium", "Silver"]
+    },
+    "correctIndex": 1,
+    "explanation": {
+      "en": "Oxygen has the symbol 'O' on the periodic table.",
+      "sv": "Syre har beteckningen 'O' i periodiska systemet."
+    }
+  },
+  {
+    "id": "q12",
+    "category": "General Knowledge",
+    "text": {
+      "en": "Who is the author of 'Harry Potter'?",
+      "sv": "Vem är författaren till 'Harry Potter'?"
+    },
+    "options": {
+      "en": ["J.K. Rowling", "J.R.R. Tolkien", "Stephen King", "Roald Dahl"],
+      "sv": ["J.K. Rowling", "J.R.R. Tolkien", "Stephen King", "Roald Dahl"]
+    },
+    "correctIndex": 0,
+    "explanation": {
+      "en": "J.K. Rowling wrote the Harry Potter series.",
+      "sv": "J.K. Rowling skrev Harry Potter-serien."
+    }
+  },
+  {
+    "id": "q13",
+    "category": "General Knowledge",
+    "text": {
+      "en": "How many players are there in a soccer team on the field?",
+      "sv": "Hur många spelare finns på planen i ett fotbollslag?"
+    },
+    "options": {
+      "en": ["9", "10", "11", "12"],
+      "sv": ["9", "10", "11", "12"]
+    },
+    "correctIndex": 2,
+    "explanation": {
+      "en": "A soccer team has 11 players on the field.",
+      "sv": "Ett fotbollslag har 11 spelare på planen."
+    }
+  },
+  {
+    "id": "q14",
+    "category": "General Knowledge",
+    "text": {
+      "en": "What is H2O commonly known as?",
+      "sv": "Vad är H2O vanligtvis känt som?"
+    },
+    "options": {
+      "en": ["Oxygen", "Salt", "Water", "Hydrogen"],
+      "sv": ["Syre", "Salt", "Vatten", "Väte"]
+    },
+    "correctIndex": 2,
+    "explanation": {
+      "en": "H2O is the chemical formula for water.",
+      "sv": "H2O är den kemiska formeln för vatten."
+    }
+  },
+  {
+    "id": "q15",
+    "category": "General Knowledge",
+    "text": {
+      "en": "In which continent is the Sahara Desert located?",
+      "sv": "På vilken kontinent ligger Saharaöknen?"
+    },
+    "options": {
+      "en": ["Asia", "Africa", "Australia", "South America"],
+      "sv": ["Asien", "Afrika", "Australien", "Sydamerika"]
+    },
+    "correctIndex": 1,
+    "explanation": {
+      "en": "The Sahara Desert is in Africa.",
+      "sv": "Saharaöknen ligger i Afrika."
+    }
+  },
+  {
+    "id": "q16",
+    "category": "General Knowledge",
+    "text": {
+      "en": "Who was the first person to walk on the Moon?",
+      "sv": "Vem var den första personen som gick på månen?"
+    },
+    "options": {
+      "en": [
+        "Neil Armstrong",
+        "Buzz Aldrin",
+        "Yuri Gagarin",
+        "Michael Collins"
+      ],
+      "sv": [
+        "Neil Armstrong",
+        "Buzz Aldrin",
+        "Jurij Gagarin",
+        "Michael Collins"
+      ]
+    },
+    "correctIndex": 0,
+    "explanation": {
+      "en": "Neil Armstrong was the first person to step on the Moon in 1969.",
+      "sv": "Neil Armstrong var den första människan som gick på månen 1969."
+    }
+  },
+  {
+    "id": "q17",
+    "category": "General Knowledge",
+    "text": {
+      "en": "Which country gifted the Statue of Liberty to the USA?",
+      "sv": "Vilket land skänkte Frihetsgudinnan till USA?"
+    },
+    "options": {
+      "en": ["Germany", "France", "Spain", "Italy"],
+      "sv": ["Tyskland", "Frankrike", "Spanien", "Italien"]
+    },
+    "correctIndex": 1,
+    "explanation": {
+      "en": "France gifted the Statue of Liberty to the United States in 1886.",
+      "sv": "Frankrike skänkte Frihetsgudinnan till USA 1886."
+    }
+  },
+  {
+    "id": "q18",
+    "category": "General Knowledge",
+    "text": {
+      "en": "What is the hardest natural substance on Earth?",
+      "sv": "Vad är det hårdaste naturliga ämnet på jorden?"
+    },
+    "options": {
+      "en": ["Gold", "Iron", "Diamond", "Quartz"],
+      "sv": ["Guld", "Järn", "Diamant", "Kvarts"]
+    },
+    "correctIndex": 2,
+    "explanation": {
+      "en": "Diamond is the hardest known natural material.",
+      "sv": "Diamant är det hårdaste kända naturliga materialet."
+    }
+  },
+  {
+    "id": "q19",
+    "category": "General Knowledge",
+    "text": {
+      "en": "Who painted the ceiling of the Sistine Chapel?",
+      "sv": "Vem målade taket i Sixtinska kapellet?"
+    },
+    "options": {
+      "en": ["Michelangelo", "Leonardo da Vinci", "Raphael", "Caravaggio"],
+      "sv": ["Michelangelo", "Leonardo da Vinci", "Rafael", "Caravaggio"]
+    },
+    "correctIndex": 0,
+    "explanation": {
+      "en": "Michelangelo painted the Sistine Chapel ceiling.",
+      "sv": "Michelangelo målade taket i Sixtinska kapellet."
+    }
+  },
+  {
+    "id": "q20",
+    "category": "General Knowledge",
+    "text": {
+      "en": "Which instrument has keys, pedals, and strings?",
+      "sv": "Vilket instrument har tangenter, pedaler och strängar?"
+    },
+    "options": {
+      "en": ["Guitar", "Harp", "Piano", "Violin"],
+      "sv": ["Gitarr", "Harpa", "Piano", "Fiol"]
+    },
+    "correctIndex": 2,
+    "explanation": {
+      "en": "The piano has keys, pedals, and strings inside.",
+      "sv": "Piano har tangenter, pedaler och strängar inuti."
+    }
+  },
+  {
+    "id": "q21",
+    "category": "General Knowledge",
+    "text": {
+      "en": "What is the largest mammal?",
+      "sv": "Vad är det största däggdjuret?"
+    },
+    "options": {
+      "en": ["Elephant", "Blue Whale", "Giraffe", "Hippopotamus"],
+      "sv": ["Elefant", "Blåval", "Giraff", "Flodhäst"]
+    },
+    "correctIndex": 1,
+    "explanation": {
+      "en": "The blue whale is the largest mammal on Earth.",
+      "sv": "Blåvalen är det största däggdjuret på jorden."
+    }
+  },
+  {
+    "id": "q22",
+    "category": "General Knowledge",
+    "text": {
+      "en": "In which country is the Great Barrier Reef located?",
+      "sv": "I vilket land ligger Stora barriärrevet?"
+    },
+    "options": {
+      "en": ["Australia", "USA", "South Africa", "Brazil"],
+      "sv": ["Australien", "USA", "Sydafrika", "Brasilien"]
+    },
+    "correctIndex": 0,
+    "explanation": {
+      "en": "The Great Barrier Reef is off the coast of Australia.",
+      "sv": "Stora barriärrevet ligger utanför Australiens kust."
+    }
+  },
+  {
+    "id": "q23",
+    "category": "General Knowledge",
+    "text": {
+      "en": "Which planet is known as the Red Planet?",
+      "sv": "Vilken planet kallas för den röda planeten?"
+    },
+    "options": {
+      "en": ["Venus", "Mars", "Jupiter", "Saturn"],
+      "sv": ["Venus", "Mars", "Jupiter", "Saturnus"]
+    },
+    "correctIndex": 1,
+    "explanation": {
+      "en": "Mars is called the Red Planet because of its color.",
+      "sv": "Mars kallas för den röda planeten på grund av sin färg."
+    }
+  },
+  {
+    "id": "q24",
+    "category": "General Knowledge",
+    "text": {
+      "en": "Which vitamin do we get from sunlight?",
+      "sv": "Vilket vitamin får vi från solljus?"
+    },
+    "options": {
+      "en": ["Vitamin A", "Vitamin B12", "Vitamin C", "Vitamin D"],
+      "sv": ["Vitamin A", "Vitamin B12", "Vitamin C", "Vitamin D"]
+    },
+    "correctIndex": 3,
+    "explanation": {
+      "en": "Sunlight helps our bodies produce Vitamin D.",
+      "sv": "Solljus hjälper kroppen att producera vitamin D."
+    }
+  },
+  {
+    "id": "q25",
+    "category": "General Knowledge",
+    "text": {
+      "en": "Which famous scientist developed the theory of relativity?",
+      "sv": "Vilken känd vetenskapsman utvecklade relativitetsteorin?"
+    },
+    "options": {
+      "en": [
+        "Isaac Newton",
+        "Galileo Galilei",
+        "Albert Einstein",
+        "Niels Bohr"
+      ],
+      "sv": ["Isaac Newton", "Galileo Galilei", "Albert Einstein", "Niels Bohr"]
+    },
+    "correctIndex": 2,
+    "explanation": {
+      "en": "Albert Einstein developed the theory of relativity.",
+      "sv": "Albert Einstein utvecklade relativitetsteorin."
+    }
+  },
+  {
+    "id": "q26",
+    "category": "General Knowledge",
+    "text": {
+      "en": "Which country is known for inventing pizza?",
+      "sv": "Vilket land är känt för att ha uppfunnit pizzan?"
+    },
+    "options": {
+      "en": ["France", "Greece", "Italy", "Spain"],
+      "sv": ["Frankrike", "Grekland", "Italien", "Spanien"]
+    },
+    "correctIndex": 2,
+    "explanation": {
+      "en": "Pizza originates from Italy.",
+      "sv": "Pizza kommer ursprungligen från Italien."
+    }
+  },
+  {
+    "id": "q27",
+    "category": "General Knowledge",
+    "text": {
+      "en": "Which city is known as the 'Big Apple'?",
+      "sv": "Vilken stad kallas för 'Big Apple'?"
+    },
+    "options": {
+      "en": ["Los Angeles", "Chicago", "New York", "San Francisco"],
+      "sv": ["Los Angeles", "Chicago", "New York", "San Francisco"]
+    },
+    "correctIndex": 2,
+    "explanation": {
+      "en": "New York City is nicknamed the 'Big Apple'.",
+      "sv": "New York City kallas för 'Big Apple'."
+    }
+  },
+  {
+    "id": "q28",
+    "category": "General Knowledge",
+    "text": {
+      "en": "How many degrees are in a right angle?",
+      "sv": "Hur många grader är en rät vinkel?"
+    },
+    "options": {
+      "en": ["45", "60", "90", "180"],
+      "sv": ["45", "60", "90", "180"]
+    },
+    "correctIndex": 2,
+    "explanation": {
+      "en": "A right angle measures 90 degrees.",
+      "sv": "En rät vinkel är 90 grader."
+    }
+  },
+  {
+    "id": "q29",
+    "category": "General Knowledge",
+    "text": {
+      "en": "What is the capital of Canada?",
+      "sv": "Vad är Kanadas huvudstad?"
+    },
+    "options": {
+      "en": ["Toronto", "Vancouver", "Montreal", "Ottawa"],
+      "sv": ["Toronto", "Vancouver", "Montreal", "Ottawa"]
+    },
+    "correctIndex": 3,
+    "explanation": {
+      "en": "Ottawa is the capital city of Canada.",
+      "sv": "Ottawa är Kanadas huvudstad."
+    }
+  },
+  {
+    "id": "q30",
+    "category": "General Knowledge",
+    "text": {
+      "en": "Which is the smallest continent by land area?",
+      "sv": "Vilken är den minsta kontinenten till ytan?"
+    },
+    "options": {
+      "en": ["Europe", "Australia", "Antarctica", "South America"],
+      "sv": ["Europa", "Australien", "Antarktis", "Sydamerika"]
+    },
+    "correctIndex": 1,
+    "explanation": {
+      "en": "Australia is the smallest continent by land area.",
+      "sv": "Australien är den minsta kontinenten till ytan."
+    }
+  },
+  {
+    "id": "q31",
+    "category": "General Knowledge",
+    "text": {
+      "en": "What is the freezing point of water in Celsius?",
+      "sv": "Vad är vattnets fryspunkt i Celsius?"
+    },
+    "options": {
+      "en": ["0", "32", "100", "-10"],
+      "sv": ["0", "32", "100", "-10"]
+    },
+    "correctIndex": 0,
+    "explanation": {
+      "en": "Water freezes at 0 degrees Celsius.",
+      "sv": "Vatten fryser vid 0 grader Celsius."
+    }
+  },
+  {
+    "id": "q32",
+    "category": "General Knowledge",
+    "text": {
+      "en": "What is the largest internal organ in the human body?",
+      "sv": "Vilket är det största inre organet i människokroppen?"
+    },
+    "options": {
+      "en": ["Heart", "Liver", "Lungs", "Kidney"],
+      "sv": ["Hjärta", "Lever", "Lungor", "Njure"]
+    },
+    "correctIndex": 1,
+    "explanation": {
+      "en": "The liver is the largest internal organ.",
+      "sv": "Levern är det största inre organet."
+    }
+  },
+  {
+    "id": "q33",
+    "category": "General Knowledge",
+    "text": {
+      "en": "What is the name of the fairy in Peter Pan?",
+      "sv": "Vad heter fen i Peter Pan?"
+    },
+    "options": {
+      "en": ["Wendy", "Tinker Bell", "Alice", "Daisy"],
+      "sv": ["Wendy", "Tingeling", "Alice", "Daisy"]
+    },
+    "correctIndex": 1,
+    "explanation": {
+      "en": "Tinker Bell is the fairy companion of Peter Pan.",
+      "sv": "Tingeling är fe-kompisen till Peter Pan."
+    }
+  },
+  {
+    "id": "q34",
+    "category": "General Knowledge",
+    "text": {
+      "en": "What is the capital of Egypt?",
+      "sv": "Vad är Egyptens huvudstad?"
+    },
+    "options": {
+      "en": ["Cairo", "Alexandria", "Giza", "Luxor"],
+      "sv": ["Kairo", "Alexandria", "Giza", "Luxor"]
+    },
+    "correctIndex": 0,
+    "explanation": {
+      "en": "Cairo is the capital city of Egypt.",
+      "sv": "Kairo är Egyptens huvudstad."
+    }
+  },
+  {
+    "id": "q35",
+    "category": "General Knowledge",
+    "text": {
+      "en": "Who discovered penicillin?",
+      "sv": "Vem upptäckte penicillinet?"
+    },
+    "options": {
+      "en": [
+        "Alexander Fleming",
+        "Louis Pasteur",
+        "Marie Curie",
+        "Isaac Newton"
+      ],
+      "sv": [
+        "Alexander Fleming",
+        "Louis Pasteur",
+        "Marie Curie",
+        "Isaac Newton"
+      ]
+    },
+    "correctIndex": 0,
+    "explanation": {
+      "en": "Alexander Fleming discovered penicillin in 1928.",
+      "sv": "Alexander Fleming upptäckte penicillinet 1928."
+    }
+  },
+  {
+    "id": "q36",
+    "category": "General Knowledge",
+    "text": {
+      "en": "What is the largest ocean animal?",
+      "sv": "Vad är det största havsdjuret?"
+    },
+    "options": {
+      "en": ["Great White Shark", "Orca", "Blue Whale", "Giant Squid"],
+      "sv": ["Vithaj", "Späckhuggare", "Blåval", "Jättebläckfisk"]
+    },
+    "correctIndex": 2,
+    "explanation": {
+      "en": "The blue whale is the largest animal ever known to have lived.",
+      "sv": "Blåvalen är det största djur som någonsin levt."
+    }
+  },
+  {
+    "id": "q37",
+    "category": "General Knowledge",
+    "text": {
+      "en": "Which planet is closest to Earth?",
+      "sv": "Vilken planet ligger närmast jorden?"
+    },
+    "options": {
+      "en": ["Mars", "Venus", "Mercury", "Jupiter"],
+      "sv": ["Mars", "Venus", "Merkurius", "Jupiter"]
+    },
+    "correctIndex": 1,
+    "explanation": {
+      "en": "Venus is often the closest planet to Earth.",
+      "sv": "Venus är ofta den planet som ligger närmast jorden."
+    }
+  },
+  {
+    "id": "q38",
+    "category": "General Knowledge",
+    "text": {
+      "en": "Which country is famous for tulips and windmills?",
+      "sv": "Vilket land är känt för tulpaner och väderkvarnar?"
+    },
+    "options": {
+      "en": ["Belgium", "Germany", "Netherlands", "Denmark"],
+      "sv": ["Belgien", "Tyskland", "Nederländerna", "Danmark"]
+    },
+    "correctIndex": 2,
+    "explanation": {
+      "en": "The Netherlands is famous for tulips and windmills.",
+      "sv": "Nederländerna är känt för tulpaner och väderkvarnar."
+    }
+  },
+  {
+    "id": "q39",
+    "category": "General Knowledge",
+    "text": {
+      "en": "What does a thermometer measure?",
+      "sv": "Vad mäter en termometer?"
+    },
+    "options": {
+      "en": ["Pressure", "Speed", "Temperature", "Time"],
+      "sv": ["Tryck", "Hastighet", "Temperatur", "Tid"]
+    },
+    "correctIndex": 2,
+    "explanation": {
+      "en": "A thermometer measures temperature.",
+      "sv": "En termometer mäter temperatur."
+    }
+  },
+  {
+    "id": "q40",
+    "category": "General Knowledge",
+    "text": {
+      "en": "What is the main ingredient in guacamole?",
+      "sv": "Vad är huvudingrediensen i guacamole?"
+    },
+    "options": {
+      "en": ["Tomato", "Avocado", "Lettuce", "Cucumber"],
+      "sv": ["Tomat", "Avokado", "Sallad", "Gurka"]
+    },
+    "correctIndex": 1,
+    "explanation": {
+      "en": "Guacamole is primarily made from avocados.",
+      "sv": "Guacamole görs främst på avokado."
+    }
+  },
+  {
+    "id": "q41",
+    "category": "General Knowledge",
+    "text": {
+      "en": "Which month has an extra day in a leap year?",
+      "sv": "Vilken månad har en extra dag under ett skottår?"
+    },
+    "options": {
+      "en": ["January", "February", "March", "April"],
+      "sv": ["Januari", "Februari", "Mars", "April"]
+    },
+    "correctIndex": 1,
+    "explanation": {
+      "en": "February has 29 days in a leap year.",
+      "sv": "Februari har 29 dagar under ett skottår."
+    }
+  },
+  {
+    "id": "q42",
+    "category": "General Knowledge",
+    "text": {
+      "en": "Which animal is known for having a long neck?",
+      "sv": "Vilket djur är känt för sin långa hals?"
+    },
+    "options": {
+      "en": ["Elephant", "Kangaroo", "Giraffe", "Camel"],
+      "sv": ["Elefant", "Känguru", "Giraff", "Kamel"]
+    },
+    "correctIndex": 2,
+    "explanation": {
+      "en": "The giraffe is famous for its long neck.",
+      "sv": "Giraffen är känd för sin långa hals."
+    }
+  },
+  {
+    "id": "q43",
+    "category": "General Knowledge",
+    "text": {
+      "en": "What type of animal is a Komodo dragon?",
+      "sv": "Vilken typ av djur är en komodovaran?"
+    },
+    "options": {
+      "en": ["Bird", "Reptile", "Mammal", "Fish"],
+      "sv": ["Fågel", "Reptil", "Däggdjur", "Fisk"]
+    },
+    "correctIndex": 1,
+    "explanation": {
+      "en": "A Komodo dragon is the largest living species of lizard.",
+      "sv": "En komodovaran är den största nu levande ödlan."
+    }
+  },
+  {
+    "id": "q44",
+    "category": "General Knowledge",
+    "text": {
+      "en": "Who painted 'Starry Night'?",
+      "sv": "Vem målade 'Stjärnenatt'?"
+    },
+    "options": {
+      "en": [
+        "Claude Monet",
+        "Vincent van Gogh",
+        "Pablo Picasso",
+        "Edvard Munch"
+      ],
+      "sv": [
+        "Claude Monet",
+        "Vincent van Gogh",
+        "Pablo Picasso",
+        "Edvard Munch"
+      ]
+    },
+    "correctIndex": 1,
+    "explanation": {
+      "en": "'Starry Night' is one of Vincent van Gogh's most famous paintings.",
+      "sv": "'Stjärnenatt' är en av Vincent van Goghs mest kända målningar."
+    }
+  },
+  {
+    "id": "q45",
+    "category": "General Knowledge",
+    "text": {
+      "en": "What is the fastest land animal?",
+      "sv": "Vilket är det snabbaste landdjuret?"
+    },
+    "options": {
+      "en": ["Lion", "Horse", "Cheetah", "Greyhound"],
+      "sv": ["Lejon", "Häst", "Gepard", "Greyhound"]
+    },
+    "correctIndex": 2,
+    "explanation": {
+      "en": "The cheetah can run up to 100 km/h.",
+      "sv": "Geparden kan springa upp till 100 km/h."
+    }
+  },
+  {
+    "id": "q46",
+    "category": "General Knowledge",
+    "text": {
+      "en": "Which is the longest river in the world?",
+      "sv": "Vilken är världens längsta flod?"
+    },
+    "options": {
+      "en": ["Amazon", "Yangtze", "Mississippi", "Nile"],
+      "sv": ["Amazonas", "Yangtze", "Mississippi", "Nilen"]
+    },
+    "correctIndex": 3,
+    "explanation": {
+      "en": "The Nile is generally regarded as the longest river.",
+      "sv": "Nilen anses oftast vara världens längsta flod."
+    }
+  },
+  {
+    "id": "q47",
+    "category": "General Knowledge",
+    "text": {
+      "en": "What instrument measures atmospheric pressure?",
+      "sv": "Vilket instrument mäter lufttryck?"
+    },
+    "options": {
+      "en": ["Thermometer", "Barometer", "Altimeter", "Hygrometer"],
+      "sv": ["Termometer", "Barometer", "Höjdmätare", "Hygrometer"]
+    },
+    "correctIndex": 1,
+    "explanation": {
+      "en": "A barometer measures air pressure.",
+      "sv": "En barometer mäter lufttryck."
+    }
+  },
+  {
+    "id": "q48",
+    "category": "General Knowledge",
+    "text": {
+      "en": "Which planet is known for its rings?",
+      "sv": "Vilken planet är känd för sina ringar?"
+    },
+    "options": {
+      "en": ["Mars", "Venus", "Saturn", "Neptune"],
+      "sv": ["Mars", "Venus", "Saturnus", "Neptunus"]
+    },
+    "correctIndex": 2,
+    "explanation": {
+      "en": "Saturn is famous for its large ring system.",
+      "sv": "Saturnus är känd för sitt stora ringsystem."
+    }
+  },
+  {
+    "id": "q49",
+    "category": "General Knowledge",
+    "text": {
+      "en": "Who was the first President of the United States?",
+      "sv": "Vem var USA:s första president?"
+    },
+    "options": {
+      "en": [
+        "Abraham Lincoln",
+        "Thomas Jefferson",
+        "John Adams",
+        "George Washington"
+      ],
+      "sv": [
+        "Abraham Lincoln",
+        "Thomas Jefferson",
+        "John Adams",
+        "George Washington"
+      ]
+    },
+    "correctIndex": 3,
+    "explanation": {
+      "en": "George Washington became the first U.S. president in 1789.",
+      "sv": "George Washington blev USA:s första president 1789."
+    }
+  },
+  {
+    "id": "q50",
+    "category": "General Knowledge",
+    "text": {
+      "en": "Which country is home to the kangaroo?",
+      "sv": "Vilket land är hemvist för kängurun?"
+    },
+    "options": {
+      "en": ["India", "Australia", "South Africa", "Canada"],
+      "sv": ["Indien", "Australien", "Sydafrika", "Kanada"]
+    },
+    "correctIndex": 1,
+    "explanation": {
+      "en": "Kangaroos are native to Australia.",
+      "sv": "Kängurur kommer ursprungligen från Australien."
+    }
+  },
+  {
+    "id": "q51",
+    "category": "General Knowledge",
+    "text": {
+      "en": "What is the capital of Spain?",
+      "sv": "Vad är Spaniens huvudstad?"
+    },
+    "options": {
+      "en": ["Barcelona", "Madrid", "Valencia", "Seville"],
+      "sv": ["Barcelona", "Madrid", "Valencia", "Sevilla"]
+    },
+    "correctIndex": 1,
+    "explanation": {
+      "en": "Madrid is the capital of Spain.",
+      "sv": "Madrid är Spaniens huvudstad."
+    }
+  },
+  {
+    "id": "q52",
+    "category": "General Knowledge",
+    "text": {
+      "en": "What is sushi traditionally wrapped in?",
+      "sv": "Vad är sushi traditionellt inlindad i?"
+    },
+    "options": {
+      "en": ["Rice paper", "Seaweed", "Lettuce", "Bread"],
+      "sv": ["Rispapper", "Nori (sjögräs)", "Sallad", "Bröd"]
+    },
+    "correctIndex": 1,
+    "explanation": {
+      "en": "Sushi is commonly wrapped in seaweed called nori.",
+      "sv": "Sushi är vanligtvis inlindad i sjögräs som kallas nori."
+    }
+  },
+  {
+    "id": "q53",
+    "category": "General Knowledge",
+    "text": {
+      "en": "What does 'www' stand for in a web address?",
+      "sv": "Vad står 'www' för i en webbadress?"
+    },
+    "options": {
+      "en": [
+        "World Wide Web",
+        "Web World Wide",
+        "Wide Web World",
+        "Web Wide World"
+      ],
+      "sv": [
+        "World Wide Web",
+        "Web World Wide",
+        "Wide Web World",
+        "Web Wide World"
+      ]
+    },
+    "correctIndex": 0,
+    "explanation": {
+      "en": "'www' stands for World Wide Web.",
+      "sv": "'www' står för World Wide Web."
+    }
+  },
+  {
+    "id": "q54",
+    "category": "General Knowledge",
+    "text": {
+      "en": "Which Italian city is famous for its canals?",
+      "sv": "Vilken italiensk stad är känd för sina kanaler?"
+    },
+    "options": {
+      "en": ["Rome", "Venice", "Florence", "Milan"],
+      "sv": ["Rom", "Venedig", "Florens", "Milano"]
+    },
+    "correctIndex": 1,
+    "explanation": {
+      "en": "Venice is famous worldwide for its canals.",
+      "sv": "Venedig är världsberömd för sina kanaler."
+    }
+  },
+  {
+    "id": "q55",
+    "category": "General Knowledge",
+    "text": {
+      "en": "How many colors are there in a rainbow?",
+      "sv": "Hur många färger finns det i en regnbåge?"
+    },
+    "options": {
+      "en": ["5", "6", "7", "8"],
+      "sv": ["5", "6", "7", "8"]
+    },
+    "correctIndex": 2,
+    "explanation": {
+      "en": "A rainbow traditionally has seven colors.",
+      "sv": "En regnbåge har traditionellt sju färger."
+    }
+  },
+  {
+    "id": "q56",
+    "category": "General Knowledge",
+    "text": {
+      "en": "Who is known for the theory of evolution by natural selection?",
+      "sv": "Vem är känd för teorin om evolution genom naturligt urval?"
+    },
+    "options": {
+      "en": [
+        "Albert Einstein",
+        "Charles Darwin",
+        "Isaac Newton",
+        "Gregor Mendel"
+      ],
+      "sv": [
+        "Albert Einstein",
+        "Charles Darwin",
+        "Isaac Newton",
+        "Gregor Mendel"
+      ]
+    },
+    "correctIndex": 1,
+    "explanation": {
+      "en": "Charles Darwin proposed the theory of evolution by natural selection.",
+      "sv": "Charles Darwin lade fram teorin om evolution genom naturligt urval."
+    }
+  },
+  {
+    "id": "q57",
+    "category": "General Knowledge",
+    "text": {
+      "en": "What does 'CPU' stand for in computers?",
+      "sv": "Vad står 'CPU' för i datorer?"
+    },
+    "options": {
+      "en": [
+        "Central Process Unit",
+        "Central Processing Unit",
+        "Computer Power Unit",
+        "Central Performance Unit"
+      ],
+      "sv": [
+        "Central Process Unit",
+        "Central Processing Unit",
+        "Computer Power Unit",
+        "Central Performance Unit"
+      ]
+    },
+    "correctIndex": 1,
+    "explanation": {
+      "en": "CPU stands for Central Processing Unit.",
+      "sv": "CPU står för Central Processing Unit."
+    }
+  },
+  {
+    "id": "q58",
+    "category": "General Knowledge",
+    "text": {
+      "en": "Which fruit is known as the 'king of fruits'?",
+      "sv": "Vilken frukt kallas för 'frukternas kung'?"
+    },
+    "options": {
+      "en": ["Apple", "Mango", "Banana", "Pineapple"],
+      "sv": ["Äpple", "Mango", "Banan", "Ananas"]
+    },
+    "correctIndex": 1,
+    "explanation": {
+      "en": "The mango is often referred to as the king of fruits.",
+      "sv": "Mango kallas ofta för frukternas kung."
+    }
+  },
+  {
+    "id": "q59",
+    "category": "General Knowledge",
+    "text": {
+      "en": "Which country has the maple leaf on its flag?",
+      "sv": "Vilket land har ett lönnblad på sin flagga?"
+    },
+    "options": {
+      "en": ["USA", "Canada", "Sweden", "Norway"],
+      "sv": ["USA", "Kanada", "Sverige", "Norge"]
+    },
+    "correctIndex": 1,
+    "explanation": {
+      "en": "Canada's flag features a red maple leaf.",
+      "sv": "Kanadas flagga har ett rött lönnblad."
+    }
+  },
+  {
+    "id": "q60",
+    "category": "General Knowledge",
+    "text": {
+      "en": "Who is known as the 'Father of Computers'?",
+      "sv": "Vem kallas för 'datorernas fader'?"
+    },
+    "options": {
+      "en": ["Alan Turing", "Bill Gates", "Charles Babbage", "Steve Jobs"],
+      "sv": ["Alan Turing", "Bill Gates", "Charles Babbage", "Steve Jobs"]
+    },
+    "correctIndex": 2,
+    "explanation": {
+      "en": "Charles Babbage is often regarded as the Father of Computers.",
+      "sv": "Charles Babbage betraktas ofta som datorernas fader."
+    }
+  },
+  {
+    "id": "q61",
+    "category": "General Knowledge",
+    "text": {
+      "en": "Which country hosted the 2016 Summer Olympics?",
+      "sv": "Vilket land var värd för sommar-OS 2016?"
+    },
+    "options": {
+      "en": ["China", "Brazil", "Russia", "UK"],
+      "sv": ["Kina", "Brasilien", "Ryssland", "Storbritannien"]
+    },
+    "correctIndex": 1,
+    "explanation": {
+      "en": "Brazil hosted the 2016 Summer Olympics in Rio de Janeiro.",
+      "sv": "Brasilien stod värd för sommar-OS 2016 i Rio de Janeiro."
+    }
+  },
+  {
+    "id": "q62",
+    "category": "General Knowledge",
+    "text": {
+      "en": "What is the smallest country in the world by area?",
+      "sv": "Vilket är världens minsta land till ytan?"
+    },
+    "options": {
+      "en": ["Monaco", "San Marino", "Vatican City", "Liechtenstein"],
+      "sv": ["Monaco", "San Marino", "Vatikanstaten", "Liechtenstein"]
+    },
+    "correctIndex": 2,
+    "explanation": {
+      "en": "Vatican City is the smallest country by both area and population.",
+      "sv": "Vatikanstaten är världens minsta land både till yta och befolkning."
+    }
+  },
+  {
+    "id": "q63",
+    "category": "General Knowledge",
+    "text": {
+      "en": "Who invented the light bulb?",
+      "sv": "Vem uppfann glödlampan?"
+    },
+    "options": {
+      "en": [
+        "Thomas Edison",
+        "Nikola Tesla",
+        "James Watt",
+        "Alexander Graham Bell"
+      ],
+      "sv": [
+        "Thomas Edison",
+        "Nikola Tesla",
+        "James Watt",
+        "Alexander Graham Bell"
+      ]
+    },
+    "correctIndex": 0,
+    "explanation": {
+      "en": "Thomas Edison is credited with inventing the practical light bulb.",
+      "sv": "Thomas Edison är känd för att ha uppfunnit den praktiska glödlampan."
+    }
+  },
+  {
+    "id": "q64",
+    "category": "General Knowledge",
+    "text": {
+      "en": "Which sea creature has three hearts?",
+      "sv": "Vilket havsdjur har tre hjärtan?"
+    },
+    "options": {
+      "en": ["Dolphin", "Octopus", "Shark", "Whale"],
+      "sv": ["Delfin", "Bläckfisk", "Haj", "Val"]
+    },
+    "correctIndex": 1,
+    "explanation": {
+      "en": "An octopus has three hearts and blue blood.",
+      "sv": "En bläckfisk har tre hjärtan och blått blod."
+    }
+  },
+  {
+    "id": "q65",
+    "category": "General Knowledge",
+    "text": {
+      "en": "What is the national flower of Japan?",
+      "sv": "Vad är Japans nationalblomma?"
+    },
+    "options": {
+      "en": ["Lotus", "Rose", "Cherry Blossom", "Lily"],
+      "sv": ["Lotus", "Ros", "Körsbärsblomma", "Lilja"]
+    },
+    "correctIndex": 2,
+    "explanation": {
+      "en": "The cherry blossom, or sakura, is Japan’s national flower.",
+      "sv": "Körsbärsblomman, eller sakura, är Japans nationalblomma."
+    }
+  },
+  {
+    "id": "q66",
+    "category": "General Knowledge",
+    "text": {
+      "en": "What does the 'E' stand for in 'E-mail'?",
+      "sv": "Vad står 'E' för i 'E-mail'?"
+    },
+    "options": {
+      "en": ["Electronic", "Express", "Easy", "External"],
+      "sv": ["Electronic", "Express", "Easy", "External"]
+    },
+    "correctIndex": 0,
+    "explanation": {
+      "en": "The 'E' stands for 'Electronic'.",
+      "sv": "'E' står för 'Electronic' (elektronisk)."
+    }
+  },
+  {
+    "id": "q67",
+    "category": "General Knowledge",
+    "text": {
+      "en": "Which city hosted the 2008 Summer Olympics?",
+      "sv": "Vilken stad var värd för sommar-OS 2008?"
+    },
+    "options": {
+      "en": ["Athens", "London", "Beijing", "Sydney"],
+      "sv": ["Aten", "London", "Peking", "Sydney"]
+    },
+    "correctIndex": 2,
+    "explanation": {
+      "en": "Beijing, China hosted the 2008 Summer Olympics.",
+      "sv": "Peking, Kina stod värd för sommar-OS 2008."
+    }
+  },
+  {
+    "id": "q68",
+    "category": "General Knowledge",
+    "text": {
+      "en": "What is the main language spoken in Brazil?",
+      "sv": "Vilket är det huvudsakliga språket i Brasilien?"
+    },
+    "options": {
+      "en": ["Spanish", "Portuguese", "English", "French"],
+      "sv": ["Spanska", "Portugisiska", "Engelska", "Franska"]
+    },
+    "correctIndex": 1,
+    "explanation": {
+      "en": "Portuguese is the official language of Brazil.",
+      "sv": "Portugisiska är Brasiliens officiella språk."
+    }
+  },
+  {
+    "id": "q69",
+    "category": "General Knowledge",
+    "text": {
+      "en": "Which planet has the most moons?",
+      "sv": "Vilken planet har flest månar?"
+    },
+    "options": {
+      "en": ["Earth", "Mars", "Jupiter", "Saturn"],
+      "sv": ["Jorden", "Mars", "Jupiter", "Saturnus"]
+    },
+    "correctIndex": 3,
+    "explanation": {
+      "en": "As of recent counts, Saturn has more confirmed moons than Jupiter.",
+      "sv": "Saturnus har enligt senaste räkning fler bekräftade månar än Jupiter."
+    }
+  },
+  {
+    "id": "q70",
+    "category": "General Knowledge",
+    "text": {
+      "en": "Who was the first woman to fly solo across the Atlantic?",
+      "sv": "Vem var den första kvinnan som flög ensam över Atlanten?"
+    },
+    "options": {
+      "en": [
+        "Amelia Earhart",
+        "Valentina Tereshkova",
+        "Bessie Coleman",
+        "Sally Ride"
+      ],
+      "sv": [
+        "Amelia Earhart",
+        "Valentina Tereshkova",
+        "Bessie Coleman",
+        "Sally Ride"
+      ]
+    },
+    "correctIndex": 0,
+    "explanation": {
+      "en": "Amelia Earhart made the solo transatlantic flight in 1932.",
+      "sv": "Amelia Earhart flög ensam över Atlanten 1932."
+    }
+  },
+  {
+    "id": "q71",
+    "category": "General Knowledge",
+    "text": {
+      "en": "What is the capital of Thailand?",
+      "sv": "Vad är Thailands huvudstad?"
+    },
+    "options": {
+      "en": ["Bangkok", "Phuket", "Chiang Mai", "Pattaya"],
+      "sv": ["Bangkok", "Phuket", "Chiang Mai", "Pattaya"]
+    },
+    "correctIndex": 0,
+    "explanation": {
+      "en": "Bangkok is the capital and largest city of Thailand.",
+      "sv": "Bangkok är Thailands huvudstad och största stad."
+    }
+  },
+  {
+    "id": "q72",
+    "category": "General Knowledge",
+    "text": {
+      "en": "What color are emeralds?",
+      "sv": "Vilken färg har smaragder?"
+    },
+    "options": {
+      "en": ["Red", "Blue", "Green", "Yellow"],
+      "sv": ["Röd", "Blå", "Grön", "Gul"]
+    },
+    "correctIndex": 2,
+    "explanation": {
+      "en": "Emeralds are known for their green color.",
+      "sv": "Smaragder är kända för sin gröna färg."
+    }
+  },
+  {
+    "id": "q73",
+    "category": "General Knowledge",
+    "text": {
+      "en": "What is the largest bone in the human body?",
+      "sv": "Vilket är det största benet i människokroppen?"
+    },
+    "options": {
+      "en": ["Femur", "Tibia", "Humerus", "Skull"],
+      "sv": [
+        "Lårben (Femur)",
+        "Skenben (Tibia)",
+        "Överarmsben (Humerus)",
+        "Skalle"
+      ]
+    },
+    "correctIndex": 0,
+    "explanation": {
+      "en": "The femur, or thigh bone, is the longest and strongest bone.",
+      "sv": "Lårbenet (femur) är kroppens längsta och starkaste ben."
+    }
+  },
+  {
+    "id": "q74",
+    "category": "General Knowledge",
+    "text": {
+      "en": "What is the chemical formula for table salt?",
+      "sv": "Vad är den kemiska formeln för bordssalt?"
+    },
+    "options": {
+      "en": ["NaCl", "H2O", "CO2", "KCl"],
+      "sv": ["NaCl", "H2O", "CO2", "KCl"]
+    },
+    "correctIndex": 0,
+    "explanation": {
+      "en": "Table salt is sodium chloride, NaCl.",
+      "sv": "Bordssalt är natriumklorid, NaCl."
+    }
+  },
+  {
+    "id": "q75",
+    "category": "General Knowledge",
+    "text": {
+      "en": "In which sport would you perform a slam dunk?",
+      "sv": "I vilken sport gör man en slam dunk?"
+    },
+    "options": {
+      "en": ["Football", "Basketball", "Tennis", "Rugby"],
+      "sv": ["Fotboll", "Basket", "Tennis", "Rugby"]
+    },
+    "correctIndex": 1,
+    "explanation": {
+      "en": "A slam dunk is a powerful move in basketball.",
+      "sv": "En slam dunk är ett kraftfullt rörelse i basket."
+    }
+  },
+  {
+    "id": "q76",
+    "category": "General Knowledge",
+    "text": {
+      "en": "Which European city has the Eiffel Tower?",
+      "sv": "Vilken europeisk stad har Eiffeltornet?"
+    },
+    "options": {
+      "en": ["Berlin", "London", "Paris", "Rome"],
+      "sv": ["Berlin", "London", "Paris", "Rom"]
+    },
+    "correctIndex": 2,
+    "explanation": {
+      "en": "The Eiffel Tower is located in Paris, France.",
+      "sv": "Eiffeltornet ligger i Paris, Frankrike."
+    }
+  },
+  {
+    "id": "q77",
+    "category": "General Knowledge",
+    "text": {
+      "en": "Who was the ancient Greek god of the sea?",
+      "sv": "Vem var havets gud i antikens Grekland?"
+    },
+    "options": {
+      "en": ["Zeus", "Poseidon", "Apollo", "Hermes"],
+      "sv": ["Zeus", "Poseidon", "Apollon", "Hermes"]
+    },
+    "correctIndex": 1,
+    "explanation": {
+      "en": "Poseidon was the god of the sea in Greek mythology.",
+      "sv": "Poseidon var havets gud i grekisk mytologi."
+    }
+  },
+  {
+    "id": "q78",
+    "category": "General Knowledge",
+    "text": {
+      "en": "What is the hottest planet in our solar system?",
+      "sv": "Vilken är den hetaste planeten i vårt solsystem?"
+    },
+    "options": {
+      "en": ["Mercury", "Venus", "Mars", "Jupiter"],
+      "sv": ["Merkurius", "Venus", "Mars", "Jupiter"]
+    },
+    "correctIndex": 1,
+    "explanation": {
+      "en": "Venus is hotter than Mercury due to its thick atmosphere.",
+      "sv": "Venus är hetare än Merkurius tack vare sin tjocka atmosfär."
+    }
+  },
+  {
+    "id": "q79",
+    "category": "General Knowledge",
+    "text": {
+      "en": "What is the square root of 64?",
+      "sv": "Vad är kvadratroten av 64?"
+    },
+    "options": {
+      "en": ["6", "7", "8", "9"],
+      "sv": ["6", "7", "8", "9"]
+    },
+    "correctIndex": 2,
+    "explanation": {
+      "en": "The square root of 64 is 8.",
+      "sv": "Kvadratroten av 64 är 8."
+    }
+  },
+  {
+    "id": "q80",
+    "category": "General Knowledge",
+    "text": {
+      "en": "What is the main ingredient in traditional hummus?",
+      "sv": "Vad är huvudingrediensen i traditionell hummus?"
+    },
+    "options": {
+      "en": ["Lentils", "Chickpeas", "Beans", "Potatoes"],
+      "sv": ["Linser", "Kikärtor", "Bönor", "Potatis"]
+    },
+    "correctIndex": 1,
+    "explanation": {
+      "en": "Hummus is made primarily from chickpeas.",
+      "sv": "Hummus görs främst av kikärtor."
+    }
+  },
+  {
+    "id": "q81",
+    "category": "General Knowledge",
+    "text": {
+      "en": "Which famous scientist formulated the laws of motion and gravity?",
+      "sv": "Vilken känd vetenskapsman formulerade rörelselagarna och gravitationen?"
+    },
+    "options": {
+      "en": [
+        "Albert Einstein",
+        "Isaac Newton",
+        "Galileo Galilei",
+        "Stephen Hawking"
+      ],
+      "sv": [
+        "Albert Einstein",
+        "Isaac Newton",
+        "Galileo Galilei",
+        "Stephen Hawking"
+      ]
+    },
+    "correctIndex": 1,
+    "explanation": {
+      "en": "Isaac Newton formulated the laws of motion and universal gravitation.",
+      "sv": "Isaac Newton formulerade rörelselagarna och gravitationen."
+    }
+  },
+  {
+    "id": "q82",
+    "category": "General Knowledge",
+    "text": {
+      "en": "What is the largest desert in the world?",
+      "sv": "Vilken är världens största öken?"
+    },
+    "options": {
+      "en": ["Sahara", "Gobi", "Kalahari", "Antarctic Desert"],
+      "sv": ["Sahara", "Gobi", "Kalahari", "Antarktiska öknen"]
+    },
+    "correctIndex": 3,
+    "explanation": {
+      "en": "The Antarctic Desert is the largest by area.",
+      "sv": "Antarktiska öknen är störst till ytan."
+    }
+  },
+  {
+    "id": "q83",
+    "category": "General Knowledge",
+    "text": {
+      "en": "How many teeth does a normal adult human have?",
+      "sv": "Hur många tänder har en normal vuxen människa?"
+    },
+    "options": {
+      "en": ["28", "30", "32", "34"],
+      "sv": ["28", "30", "32", "34"]
+    },
+    "correctIndex": 2,
+    "explanation": {
+      "en": "An adult typically has 32 teeth, including wisdom teeth.",
+      "sv": "En vuxen har vanligtvis 32 tänder inklusive visdomständer."
+    }
+  },
+  {
+    "id": "q84",
+    "category": "General Knowledge",
+    "text": {
+      "en": "What is the hardest substance in the human body?",
+      "sv": "Vad är det hårdaste ämnet i människokroppen?"
+    },
+    "options": {
+      "en": ["Bone", "Enamel", "Cartilage", "Nail"],
+      "sv": ["Ben", "Emalj", "Brosk", "Nagel"]
+    },
+    "correctIndex": 1,
+    "explanation": {
+      "en": "Tooth enamel is the hardest substance in the human body.",
+      "sv": "Tandemalj är det hårdaste ämnet i kroppen."
+    }
+  },
+  {
+    "id": "q85",
+    "category": "General Knowledge",
+    "text": {
+      "en": "Which continent has the most countries?",
+      "sv": "Vilken kontinent har flest länder?"
+    },
+    "options": {
+      "en": ["Asia", "Africa", "Europe", "South America"],
+      "sv": ["Asien", "Afrika", "Europa", "Sydamerika"]
+    },
+    "correctIndex": 1,
+    "explanation": {
+      "en": "Africa has 54 recognized countries.",
+      "sv": "Afrika har 54 erkända länder."
+    }
+  },
+  {
+    "id": "q86",
+    "category": "General Knowledge",
+    "text": {
+      "en": "Which instrument did Ludwig van Beethoven play?",
+      "sv": "Vilket instrument spelade Ludwig van Beethoven?"
+    },
+    "options": {
+      "en": ["Violin", "Piano", "Flute", "Trumpet"],
+      "sv": ["Violin", "Piano", "Flöjt", "Trumpet"]
+    },
+    "correctIndex": 1,
+    "explanation": {
+      "en": "Beethoven was most famous as a pianist and composer.",
+      "sv": "Beethoven var mest känd som pianist och kompositör."
+    }
+  },
+  {
+    "id": "q87",
+    "category": "General Knowledge",
+    "text": {
+      "en": "Which country is famous for the Taj Mahal?",
+      "sv": "Vilket land är känt för Taj Mahal?"
+    },
+    "options": {
+      "en": ["Pakistan", "India", "Bangladesh", "Nepal"],
+      "sv": ["Pakistan", "Indien", "Bangladesh", "Nepal"]
+    },
+    "correctIndex": 1,
+    "explanation": {
+      "en": "The Taj Mahal is located in Agra, India.",
+      "sv": "Taj Mahal ligger i Agra, Indien."
+    }
+  },
+  {
+    "id": "q88",
+    "category": "General Knowledge",
+    "text": {
+      "en": "What is the longest bone in the human body?",
+      "sv": "Vilket är det längsta benet i människokroppen?"
+    },
+    "options": {
+      "en": ["Femur", "Tibia", "Humerus", "Fibula"],
+      "sv": ["Lårben", "Skenben", "Överarmsben", "Vadben"]
+    },
+    "correctIndex": 0,
+    "explanation": {
+      "en": "The femur (thigh bone) is the longest bone.",
+      "sv": "Lårbenet (femur) är det längsta benet."
+    }
+  },
+  {
+    "id": "q89",
+    "category": "General Knowledge",
+    "text": {
+      "en": "Which country is known as the Land of the Rising Sun?",
+      "sv": "Vilket land kallas Soluppgångens land?"
+    },
+    "options": {
+      "en": ["China", "Japan", "South Korea", "Thailand"],
+      "sv": ["Kina", "Japan", "Sydkorea", "Thailand"]
+    },
+    "correctIndex": 1,
+    "explanation": {
+      "en": "Japan is called the Land of the Rising Sun.",
+      "sv": "Japan kallas Soluppgångens land."
+    }
+  },
+  {
+    "id": "q90",
+    "category": "General Knowledge",
+    "text": {
+      "en": "What is the main ingredient in traditional miso soup?",
+      "sv": "Vad är huvudingrediensen i traditionell misosoppa?"
+    },
+    "options": {
+      "en": ["Seaweed", "Soybean paste", "Fish stock", "Rice"],
+      "sv": ["Sjögräs", "Sojabönspasta", "Fiskfond", "Ris"]
+    },
+    "correctIndex": 1,
+    "explanation": {
+      "en": "Miso soup is made with fermented soybean paste.",
+      "sv": "Misosoppa görs med fermenterad sojabönspasta."
+    }
+  },
+  {
+    "id": "q91",
+    "category": "General Knowledge",
+    "text": {
+      "en": "What is the main gas found in the air we breathe?",
+      "sv": "Vilken är den vanligaste gasen i luften vi andas?"
+    },
+    "options": {
+      "en": ["Oxygen", "Carbon dioxide", "Nitrogen", "Hydrogen"],
+      "sv": ["Syre", "Koldioxid", "Kväve", "Väte"]
+    },
+    "correctIndex": 2,
+    "explanation": {
+      "en": "About 78% of Earth's atmosphere is nitrogen.",
+      "sv": "Cirka 78% av jordens atmosfär består av kväve."
+    }
+  },
+  {
+    "id": "q92",
+    "category": "General Knowledge",
+    "text": {
+      "en": "What is the capital of Norway?",
+      "sv": "Vad är Norges huvudstad?"
+    },
+    "options": {
+      "en": ["Oslo", "Bergen", "Trondheim", "Stavanger"],
+      "sv": ["Oslo", "Bergen", "Trondheim", "Stavanger"]
+    },
+    "correctIndex": 0,
+    "explanation": {
+      "en": "Oslo is the capital city of Norway.",
+      "sv": "Oslo är Norges huvudstad."
+    }
+  },
+  {
+    "id": "q93",
+    "category": "General Knowledge",
+    "text": {
+      "en": "Which famous building did Gustave Eiffel help design?",
+      "sv": "Vilken berömd byggnad hjälpte Gustave Eiffel till att designa?"
+    },
+    "options": {
+      "en": ["Statue of Liberty", "Big Ben", "Sydney Opera House", "Colosseum"],
+      "sv": ["Frihetsgudinnan", "Big Ben", "Operahuset i Sydney", "Colosseum"]
+    },
+    "correctIndex": 0,
+    "explanation": {
+      "en": "Gustave Eiffel's company built the internal structure of the Statue of Liberty.",
+      "sv": "Gustave Eiffels företag byggde Frihetsgudinnans inre struktur."
+    }
+  },
+  {
+    "id": "q94",
+    "category": "General Knowledge",
+    "text": {
+      "en": "What is the chemical symbol for gold?",
+      "sv": "Vad är den kemiska beteckningen för guld?"
+    },
+    "options": {
+      "en": ["Ag", "Au", "Gd", "Go"],
+      "sv": ["Ag", "Au", "Gd", "Go"]
+    },
+    "correctIndex": 1,
+    "explanation": {
+      "en": "The symbol 'Au' comes from the Latin word 'Aurum'.",
+      "sv": "Beteckningen 'Au' kommer från det latinska ordet 'Aurum'."
+    }
+  },
+  {
+    "id": "q95",
+    "category": "General Knowledge",
+    "text": {
+      "en": "Which planet spins on its side?",
+      "sv": "Vilken planet snurrar på sidan?"
+    },
+    "options": {
+      "en": ["Mars", "Earth", "Uranus", "Neptune"],
+      "sv": ["Mars", "Jorden", "Uranus", "Neptunus"]
+    },
+    "correctIndex": 2,
+    "explanation": {
+      "en": "Uranus rotates on its side compared to other planets.",
+      "sv": "Uranus roterar liggande jämfört med andra planeter."
+    }
+  },
+  {
+    "id": "q96",
+    "category": "General Knowledge",
+    "text": {
+      "en": "Which Italian dish is made with flattened dough, sauce, and toppings?",
+      "sv": "Vilken italiensk rätt görs med utplattad deg, sås och pålägg?"
+    },
+    "options": {
+      "en": ["Lasagna", "Pizza", "Risotto", "Gnocchi"],
+      "sv": ["Lasagne", "Pizza", "Risotto", "Gnocchi"]
+    },
+    "correctIndex": 1,
+    "explanation": {
+      "en": "Pizza is made with a dough base, sauce, and various toppings.",
+      "sv": "Pizza görs med en degbotten, sås och olika pålägg."
+    }
+  },
+  {
+    "id": "q97",
+    "category": "General Knowledge",
+    "text": {
+      "en": "Who was the first man in space?",
+      "sv": "Vem var den första mannen i rymden?"
+    },
+    "options": {
+      "en": ["Neil Armstrong", "Yuri Gagarin", "John Glenn", "Buzz Aldrin"],
+      "sv": ["Neil Armstrong", "Jurij Gagarin", "John Glenn", "Buzz Aldrin"]
+    },
+    "correctIndex": 1,
+    "explanation": {
+      "en": "Yuri Gagarin orbited Earth in 1961.",
+      "sv": "Jurij Gagarin kretsade runt jorden 1961."
+    }
+  },
+  {
+    "id": "q98",
+    "category": "General Knowledge",
+    "text": {
+      "en": "How many sides does a hexagon have?",
+      "sv": "Hur många sidor har en hexagon?"
+    },
+    "options": {
+      "en": ["5", "6", "7", "8"],
+      "sv": ["5", "6", "7", "8"]
+    },
+    "correctIndex": 1,
+    "explanation": {
+      "en": "A hexagon has 6 sides.",
+      "sv": "En hexagon har 6 sidor."
+    }
+  },
+  {
+    "id": "q99",
+    "category": "General Knowledge",
+    "text": {
+      "en": "Which fruit is dried to make raisins?",
+      "sv": "Vilken frukt torkas för att bli russin?"
+    },
+    "options": {
+      "en": ["Plum", "Grape", "Cherry", "Fig"],
+      "sv": ["Plommon", "Druva", "Körsbär", "Fikon"]
+    },
+    "correctIndex": 1,
+    "explanation": {
+      "en": "Raisins are dried grapes.",
+      "sv": "Russin är torkade druvor."
+    }
+  }
+]

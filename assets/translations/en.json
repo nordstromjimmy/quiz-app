@@ -30,5 +30,10 @@
   "cancel": "Cancel",
   "confirm": "Confirm",
   "xp_progress": "{percent}% XP to next level",
-  "question_progress": "Question {current}/{total}"
+  "question_progress": "Question {current}/{total}",
+  "choose_quiz": "Choose Quiz",
+  "select_category": "Select category",
+  "number_questions": "Number of questions",
+  "loading_questions": "Loading questions...",
+  "no_questions_category": "No questions available in this category."
 }

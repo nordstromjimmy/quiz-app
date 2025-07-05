@@ -30,5 +30,10 @@
   "cancel": "Avbryt",
   "confirm": "Bekräfta",
   "xp_progress": "{percent}% XP till nästa nivå",
-  "question_progress": "Fråga {current}/{total}"
+  "question_progress": "Fråga {current}/{total}",
+  "choose_quiz": "Välj quiz",
+  "select_category": "Välj kategori",
+  "number_questions": "Antal frågor",
+  "loading_questions": "Laddar frågor...",
+  "no_questions_category": "Inga frågor tillgängliga i denna kategori."
 }
