@@ -1,7 +1,7 @@
 [
   {
     "id": "q1",
-    "category": "General Knowledge",
+    "category": "General",
     "text": {
       "en": "What is the capital of Sweden?",
       "sv": "Vad är Sveriges huvudstad?"
@@ -18,7 +18,7 @@
   },
   {
     "id": "q2",
-    "category": "General Knowledge",
+    "category": "General",
     "text": {
       "en": "What is the largest ocean on Earth?",
       "sv": "Vilken är den största oceanen på jorden?"
@@ -35,7 +35,7 @@
   },
   {
     "id": "q3",
-    "category": "General Knowledge",
+    "category": "General",
     "text": {
       "en": "Who painted the Mona Lisa?",
       "sv": "Vem målade Mona Lisa?"
@@ -52,7 +52,7 @@
   },
   {
     "id": "q4",
-    "category": "General Knowledge",
+    "category": "General",
     "text": {
       "en": "What currency is used in Japan?",
       "sv": "Vilken valuta används i Japan?"
@@ -69,7 +69,7 @@
   },
   {
     "id": "q5",
-    "category": "General Knowledge",
+    "category": "General",
     "text": {
       "en": "What is the tallest mountain in the world?",
       "sv": "Vilket är världens högsta berg?"
@@ -86,7 +86,7 @@
   },
   {
     "id": "q6",
-    "category": "General Knowledge",
+    "category": "General",
     "text": {
       "en": "In what year did the Titanic sink?",
       "sv": "Vilket år sjönk Titanic?"
@@ -103,7 +103,7 @@
   },
   {
     "id": "q7",
-    "category": "General Knowledge",
+    "category": "General",
     "text": {
       "en": "What is the smallest prime number?",
       "sv": "Vilket är det minsta primtalet?"
@@ -120,7 +120,7 @@
   },
   {
     "id": "q8",
-    "category": "General Knowledge",
+    "category": "General",
     "text": {
       "en": "How many continents are there on Earth?",
       "sv": "Hur många kontinenter finns det på jorden?"
@@ -137,7 +137,7 @@
   },
   {
     "id": "q9",
-    "category": "General Knowledge",
+    "category": "General",
     "text": {
       "en": "Which gas do plants absorb from the atmosphere?",
       "sv": "Vilken gas absorberar växter från atmosfären?"
@@ -154,7 +154,7 @@
   },
   {
     "id": "q10",
-    "category": "General Knowledge",
+    "category": "General",
     "text": {
       "en": "Which animal is known as the King of the Jungle?",
       "sv": "Vilket djur kallas djungelns konung?"
@@ -171,7 +171,7 @@
   },
   {
     "id": "q11",
-    "category": "General Knowledge",
+    "category": "General",
     "text": {
       "en": "Which element has the chemical symbol 'O'?",
       "sv": "Vilket grundämne har den kemiska beteckningen 'O'?"
@@ -188,7 +188,7 @@
   },
   {
     "id": "q12",
-    "category": "General Knowledge",
+    "category": "General",
     "text": {
       "en": "Who is the author of 'Harry Potter'?",
       "sv": "Vem är författaren till 'Harry Potter'?"
@@ -205,7 +205,7 @@
   },
   {
     "id": "q13",
-    "category": "General Knowledge",
+    "category": "General",
     "text": {
       "en": "How many players are there in a soccer team on the field?",
       "sv": "Hur många spelare finns på planen i ett fotbollslag?"
@@ -222,7 +222,7 @@
   },
   {
     "id": "q14",
-    "category": "General Knowledge",
+    "category": "General",
     "text": {
       "en": "What is H2O commonly known as?",
       "sv": "Vad är H2O vanligtvis känt som?"
@@ -239,7 +239,7 @@
   },
   {
     "id": "q15",
-    "category": "General Knowledge",
+    "category": "General",
     "text": {
       "en": "In which continent is the Sahara Desert located?",
       "sv": "På vilken kontinent ligger Saharaöknen?"
@@ -256,7 +256,7 @@
   },
   {
     "id": "q16",
-    "category": "General Knowledge",
+    "category": "General",
     "text": {
       "en": "Who was the first person to walk on the Moon?",
       "sv": "Vem var den första personen som gick på månen?"
@@ -283,7 +283,7 @@
   },
   {
     "id": "q17",
-    "category": "General Knowledge",
+    "category": "General",
     "text": {
       "en": "Which country gifted the Statue of Liberty to the USA?",
       "sv": "Vilket land skänkte Frihetsgudinnan till USA?"
@@ -300,7 +300,7 @@
   },
   {
     "id": "q18",
-    "category": "General Knowledge",
+    "category": "General",
     "text": {
       "en": "What is the hardest natural substance on Earth?",
       "sv": "Vad är det hårdaste naturliga ämnet på jorden?"
@@ -317,7 +317,7 @@
   },
   {
     "id": "q19",
-    "category": "General Knowledge",
+    "category": "General",
     "text": {
       "en": "Who painted the ceiling of the Sistine Chapel?",
       "sv": "Vem målade taket i Sixtinska kapellet?"
@@ -334,7 +334,7 @@
   },
   {
     "id": "q20",
-    "category": "General Knowledge",
+    "category": "General",
     "text": {
       "en": "Which instrument has keys, pedals, and strings?",
       "sv": "Vilket instrument har tangenter, pedaler och strängar?"
@@ -351,7 +351,7 @@
   },
   {
     "id": "q21",
-    "category": "General Knowledge",
+    "category": "General",
     "text": {
       "en": "What is the largest mammal?",
       "sv": "Vad är det största däggdjuret?"
@@ -368,7 +368,7 @@
   },
   {
     "id": "q22",
-    "category": "General Knowledge",
+    "category": "General",
     "text": {
       "en": "In which country is the Great Barrier Reef located?",
       "sv": "I vilket land ligger Stora barriärrevet?"
@@ -385,7 +385,7 @@
   },
   {
     "id": "q23",
-    "category": "General Knowledge",
+    "category": "General",
     "text": {
       "en": "Which planet is known as the Red Planet?",
       "sv": "Vilken planet kallas för den röda planeten?"
@@ -402,7 +402,7 @@
   },
   {
     "id": "q24",
-    "category": "General Knowledge",
+    "category": "General",
     "text": {
       "en": "Which vitamin do we get from sunlight?",
       "sv": "Vilket vitamin får vi från solljus?"
@@ -419,7 +419,7 @@
   },
   {
     "id": "q25",
-    "category": "General Knowledge",
+    "category": "General",
     "text": {
       "en": "Which famous scientist developed the theory of relativity?",
       "sv": "Vilken känd vetenskapsman utvecklade relativitetsteorin?"
@@ -441,7 +441,7 @@
   },
   {
     "id": "q26",
-    "category": "General Knowledge",
+    "category": "General",
     "text": {
       "en": "Which country is known for inventing pizza?",
       "sv": "Vilket land är känt för att ha uppfunnit pizzan?"
@@ -458,7 +458,7 @@
   },
   {
     "id": "q27",
-    "category": "General Knowledge",
+    "category": "General",
     "text": {
       "en": "Which city is known as the 'Big Apple'?",
       "sv": "Vilken stad kallas för 'Big Apple'?"
@@ -475,7 +475,7 @@
   },
   {
     "id": "q28",
-    "category": "General Knowledge",
+    "category": "General",
     "text": {
       "en": "How many degrees are in a right angle?",
       "sv": "Hur många grader är en rät vinkel?"
@@ -492,7 +492,7 @@
   },
   {
     "id": "q29",
-    "category": "General Knowledge",
+    "category": "General",
     "text": {
       "en": "What is the capital of Canada?",
       "sv": "Vad är Kanadas huvudstad?"
@@ -509,7 +509,7 @@
   },
   {
     "id": "q30",
-    "category": "General Knowledge",
+    "category": "General",
     "text": {
       "en": "Which is the smallest continent by land area?",
       "sv": "Vilken är den minsta kontinenten till ytan?"
@@ -526,7 +526,7 @@
   },
   {
     "id": "q31",
-    "category": "General Knowledge",
+    "category": "General",
     "text": {
       "en": "What is the freezing point of water in Celsius?",
       "sv": "Vad är vattnets fryspunkt i Celsius?"
@@ -543,7 +543,7 @@
   },
   {
     "id": "q32",
-    "category": "General Knowledge",
+    "category": "General",
     "text": {
       "en": "What is the largest internal organ in the human body?",
       "sv": "Vilket är det största inre organet i människokroppen?"
@@ -560,7 +560,7 @@
   },
   {
     "id": "q33",
-    "category": "General Knowledge",
+    "category": "General",
     "text": {
       "en": "What is the name of the fairy in Peter Pan?",
       "sv": "Vad heter fen i Peter Pan?"
@@ -577,7 +577,7 @@
   },
   {
     "id": "q34",
-    "category": "General Knowledge",
+    "category": "General",
     "text": {
       "en": "What is the capital of Egypt?",
       "sv": "Vad är Egyptens huvudstad?"
@@ -594,7 +594,7 @@
   },
   {
     "id": "q35",
-    "category": "General Knowledge",
+    "category": "General",
     "text": {
       "en": "Who discovered penicillin?",
       "sv": "Vem upptäckte penicillinet?"
@@ -621,7 +621,7 @@
   },
   {
     "id": "q36",
-    "category": "General Knowledge",
+    "category": "General",
     "text": {
       "en": "What is the largest ocean animal?",
       "sv": "Vad är det största havsdjuret?"
@@ -638,7 +638,7 @@
   },
   {
     "id": "q37",
-    "category": "General Knowledge",
+    "category": "General",
     "text": {
       "en": "Which planet is closest to Earth?",
       "sv": "Vilken planet ligger närmast jorden?"
@@ -655,7 +655,7 @@
   },
   {
     "id": "q38",
-    "category": "General Knowledge",
+    "category": "General",
     "text": {
       "en": "Which country is famous for tulips and windmills?",
       "sv": "Vilket land är känt för tulpaner och väderkvarnar?"
@@ -672,7 +672,7 @@
   },
   {
     "id": "q39",
-    "category": "General Knowledge",
+    "category": "General",
     "text": {
       "en": "What does a thermometer measure?",
       "sv": "Vad mäter en termometer?"
@@ -689,7 +689,7 @@
   },
   {
     "id": "q40",
-    "category": "General Knowledge",
+    "category": "General",
     "text": {
       "en": "What is the main ingredient in guacamole?",
       "sv": "Vad är huvudingrediensen i guacamole?"
@@ -706,7 +706,7 @@
   },
   {
     "id": "q41",
-    "category": "General Knowledge",
+    "category": "General",
     "text": {
       "en": "Which month has an extra day in a leap year?",
       "sv": "Vilken månad har en extra dag under ett skottår?"
@@ -723,7 +723,7 @@
   },
   {
     "id": "q42",
-    "category": "General Knowledge",
+    "category": "General",
     "text": {
       "en": "Which animal is known for having a long neck?",
       "sv": "Vilket djur är känt för sin långa hals?"
@@ -740,7 +740,7 @@
   },
   {
     "id": "q43",
-    "category": "General Knowledge",
+    "category": "General",
     "text": {
       "en": "What type of animal is a Komodo dragon?",
       "sv": "Vilken typ av djur är en komodovaran?"
@@ -757,7 +757,7 @@
   },
   {
     "id": "q44",
-    "category": "General Knowledge",
+    "category": "General",
     "text": {
       "en": "Who painted 'Starry Night'?",
       "sv": "Vem målade 'Stjärnenatt'?"
@@ -784,7 +784,7 @@
   },
   {
     "id": "q45",
-    "category": "General Knowledge",
+    "category": "General",
     "text": {
       "en": "What is the fastest land animal?",
       "sv": "Vilket är det snabbaste landdjuret?"
@@ -801,7 +801,7 @@
   },
   {
     "id": "q46",
-    "category": "General Knowledge",
+    "category": "General",
     "text": {
       "en": "Which is the longest river in the world?",
       "sv": "Vilken är världens längsta flod?"
@@ -818,7 +818,7 @@
   },
   {
     "id": "q47",
-    "category": "General Knowledge",
+    "category": "General",
     "text": {
       "en": "What instrument measures atmospheric pressure?",
       "sv": "Vilket instrument mäter lufttryck?"
@@ -835,7 +835,7 @@
   },
   {
     "id": "q48",
-    "category": "General Knowledge",
+    "category": "General",
     "text": {
       "en": "Which planet is known for its rings?",
       "sv": "Vilken planet är känd för sina ringar?"
@@ -852,7 +852,7 @@
   },
   {
     "id": "q49",
-    "category": "General Knowledge",
+    "category": "General",
     "text": {
       "en": "Who was the first President of the United States?",
       "sv": "Vem var USA:s första president?"
@@ -879,7 +879,7 @@
   },
   {
     "id": "q50",
-    "category": "General Knowledge",
+    "category": "General",
     "text": {
       "en": "Which country is home to the kangaroo?",
       "sv": "Vilket land är hemvist för kängurun?"
@@ -896,7 +896,7 @@
   },
   {
     "id": "q51",
-    "category": "General Knowledge",
+    "category": "General",
     "text": {
       "en": "What is the capital of Spain?",
       "sv": "Vad är Spaniens huvudstad?"
@@ -913,7 +913,7 @@
   },
   {
     "id": "q52",
-    "category": "General Knowledge",
+    "category": "General",
     "text": {
       "en": "What is sushi traditionally wrapped in?",
       "sv": "Vad är sushi traditionellt inlindad i?"
@@ -930,7 +930,7 @@
   },
   {
     "id": "q53",
-    "category": "General Knowledge",
+    "category": "General",
     "text": {
       "en": "What does 'www' stand for in a web address?",
       "sv": "Vad står 'www' för i en webbadress?"
@@ -957,7 +957,7 @@
   },
   {
     "id": "q54",
-    "category": "General Knowledge",
+    "category": "General",
     "text": {
       "en": "Which Italian city is famous for its canals?",
       "sv": "Vilken italiensk stad är känd för sina kanaler?"
@@ -974,7 +974,7 @@
   },
   {
     "id": "q55",
-    "category": "General Knowledge",
+    "category": "General",
     "text": {
       "en": "How many colors are there in a rainbow?",
       "sv": "Hur många färger finns det i en regnbåge?"
@@ -991,7 +991,7 @@
   },
   {
     "id": "q56",
-    "category": "General Knowledge",
+    "category": "General",
     "text": {
       "en": "Who is known for the theory of evolution by natural selection?",
       "sv": "Vem är känd för teorin om evolution genom naturligt urval?"
@@ -1018,7 +1018,7 @@
   },
   {
     "id": "q57",
-    "category": "General Knowledge",
+    "category": "General",
     "text": {
       "en": "What does 'CPU' stand for in computers?",
       "sv": "Vad står 'CPU' för i datorer?"
@@ -1045,7 +1045,7 @@
   },
   {
     "id": "q58",
-    "category": "General Knowledge",
+    "category": "General",
     "text": {
       "en": "Which fruit is known as the 'king of fruits'?",
       "sv": "Vilken frukt kallas för 'frukternas kung'?"
@@ -1062,7 +1062,7 @@
   },
   {
     "id": "q59",
-    "category": "General Knowledge",
+    "category": "General",
     "text": {
       "en": "Which country has the maple leaf on its flag?",
       "sv": "Vilket land har ett lönnblad på sin flagga?"
@@ -1079,7 +1079,7 @@
   },
   {
     "id": "q60",
-    "category": "General Knowledge",
+    "category": "General",
     "text": {
       "en": "Who is known as the 'Father of Computers'?",
       "sv": "Vem kallas för 'datorernas fader'?"
@@ -1096,7 +1096,7 @@
   },
   {
     "id": "q61",
-    "category": "General Knowledge",
+    "category": "General",
     "text": {
       "en": "Which country hosted the 2016 Summer Olympics?",
       "sv": "Vilket land var värd för sommar-OS 2016?"
@@ -1113,7 +1113,7 @@
   },
   {
     "id": "q62",
-    "category": "General Knowledge",
+    "category": "General",
     "text": {
       "en": "What is the smallest country in the world by area?",
       "sv": "Vilket är världens minsta land till ytan?"
@@ -1130,7 +1130,7 @@
   },
   {
     "id": "q63",
-    "category": "General Knowledge",
+    "category": "General",
     "text": {
       "en": "Who invented the light bulb?",
       "sv": "Vem uppfann glödlampan?"
@@ -1157,7 +1157,7 @@
   },
   {
     "id": "q64",
-    "category": "General Knowledge",
+    "category": "General",
     "text": {
       "en": "Which sea creature has three hearts?",
       "sv": "Vilket havsdjur har tre hjärtan?"
@@ -1174,7 +1174,7 @@
   },
   {
     "id": "q65",
-    "category": "General Knowledge",
+    "category": "General",
     "text": {
       "en": "What is the national flower of Japan?",
       "sv": "Vad är Japans nationalblomma?"
@@ -1191,7 +1191,7 @@
   },
   {
     "id": "q66",
-    "category": "General Knowledge",
+    "category": "General",
     "text": {
       "en": "What does the 'E' stand for in 'E-mail'?",
       "sv": "Vad står 'E' för i 'E-mail'?"
@@ -1208,7 +1208,7 @@
   },
   {
     "id": "q67",
-    "category": "General Knowledge",
+    "category": "General",
     "text": {
       "en": "Which city hosted the 2008 Summer Olympics?",
       "sv": "Vilken stad var värd för sommar-OS 2008?"
@@ -1225,7 +1225,7 @@
   },
   {
     "id": "q68",
-    "category": "General Knowledge",
+    "category": "General",
     "text": {
       "en": "What is the main language spoken in Brazil?",
       "sv": "Vilket är det huvudsakliga språket i Brasilien?"
@@ -1242,7 +1242,7 @@
   },
   {
     "id": "q69",
-    "category": "General Knowledge",
+    "category": "General",
     "text": {
       "en": "Which planet has the most moons?",
       "sv": "Vilken planet har flest månar?"
@@ -1259,7 +1259,7 @@
   },
   {
     "id": "q70",
-    "category": "General Knowledge",
+    "category": "General",
     "text": {
       "en": "Who was the first woman to fly solo across the Atlantic?",
       "sv": "Vem var den första kvinnan som flög ensam över Atlanten?"
@@ -1286,7 +1286,7 @@
   },
   {
     "id": "q71",
-    "category": "General Knowledge",
+    "category": "General",
     "text": {
       "en": "What is the capital of Thailand?",
       "sv": "Vad är Thailands huvudstad?"
@@ -1303,7 +1303,7 @@
   },
   {
     "id": "q72",
-    "category": "General Knowledge",
+    "category": "General",
     "text": {
       "en": "What color are emeralds?",
       "sv": "Vilken färg har smaragder?"
@@ -1320,7 +1320,7 @@
   },
   {
     "id": "q73",
-    "category": "General Knowledge",
+    "category": "General",
     "text": {
       "en": "What is the largest bone in the human body?",
       "sv": "Vilket är det största benet i människokroppen?"
@@ -1342,7 +1342,7 @@
   },
   {
     "id": "q74",
-    "category": "General Knowledge",
+    "category": "General",
     "text": {
       "en": "What is the chemical formula for table salt?",
       "sv": "Vad är den kemiska formeln för bordssalt?"
@@ -1359,7 +1359,7 @@
   },
   {
     "id": "q75",
-    "category": "General Knowledge",
+    "category": "General",
     "text": {
       "en": "In which sport would you perform a slam dunk?",
       "sv": "I vilken sport gör man en slam dunk?"
@@ -1376,7 +1376,7 @@
   },
   {
     "id": "q76",
-    "category": "General Knowledge",
+    "category": "General",
     "text": {
       "en": "Which European city has the Eiffel Tower?",
       "sv": "Vilken europeisk stad har Eiffeltornet?"
@@ -1393,7 +1393,7 @@
   },
   {
     "id": "q77",
-    "category": "General Knowledge",
+    "category": "General",
     "text": {
       "en": "Who was the ancient Greek god of the sea?",
       "sv": "Vem var havets gud i antikens Grekland?"
@@ -1410,7 +1410,7 @@
   },
   {
     "id": "q78",
-    "category": "General Knowledge",
+    "category": "General",
     "text": {
       "en": "What is the hottest planet in our solar system?",
       "sv": "Vilken är den hetaste planeten i vårt solsystem?"
@@ -1427,7 +1427,7 @@
   },
   {
     "id": "q79",
-    "category": "General Knowledge",
+    "category": "General",
     "text": {
       "en": "What is the square root of 64?",
       "sv": "Vad är kvadratroten av 64?"
@@ -1444,7 +1444,7 @@
   },
   {
     "id": "q80",
-    "category": "General Knowledge",
+    "category": "General",
     "text": {
       "en": "What is the main ingredient in traditional hummus?",
       "sv": "Vad är huvudingrediensen i traditionell hummus?"
@@ -1461,7 +1461,7 @@
   },
   {
     "id": "q81",
-    "category": "General Knowledge",
+    "category": "General",
     "text": {
       "en": "Which famous scientist formulated the laws of motion and gravity?",
       "sv": "Vilken känd vetenskapsman formulerade rörelselagarna och gravitationen?"
@@ -1488,7 +1488,7 @@
   },
   {
     "id": "q82",
-    "category": "General Knowledge",
+    "category": "General",
     "text": {
       "en": "What is the largest desert in the world?",
       "sv": "Vilken är världens största öken?"
@@ -1505,7 +1505,7 @@
   },
   {
     "id": "q83",
-    "category": "General Knowledge",
+    "category": "General",
     "text": {
       "en": "How many teeth does a normal adult human have?",
       "sv": "Hur många tänder har en normal vuxen människa?"
@@ -1522,7 +1522,7 @@
   },
   {
     "id": "q84",
-    "category": "General Knowledge",
+    "category": "General",
     "text": {
       "en": "What is the hardest substance in the human body?",
       "sv": "Vad är det hårdaste ämnet i människokroppen?"
@@ -1539,7 +1539,7 @@
   },
   {
     "id": "q85",
-    "category": "General Knowledge",
+    "category": "General",
     "text": {
       "en": "Which continent has the most countries?",
       "sv": "Vilken kontinent har flest länder?"
@@ -1556,7 +1556,7 @@
   },
   {
     "id": "q86",
-    "category": "General Knowledge",
+    "category": "General",
     "text": {
       "en": "Which instrument did Ludwig van Beethoven play?",
       "sv": "Vilket instrument spelade Ludwig van Beethoven?"
@@ -1573,7 +1573,7 @@
   },
   {
     "id": "q87",
-    "category": "General Knowledge",
+    "category": "General",
     "text": {
       "en": "Which country is famous for the Taj Mahal?",
       "sv": "Vilket land är känt för Taj Mahal?"
@@ -1590,7 +1590,7 @@
   },
   {
     "id": "q88",
-    "category": "General Knowledge",
+    "category": "General",
     "text": {
       "en": "What is the longest bone in the human body?",
       "sv": "Vilket är det längsta benet i människokroppen?"
@@ -1607,7 +1607,7 @@
   },
   {
     "id": "q89",
-    "category": "General Knowledge",
+    "category": "General",
     "text": {
       "en": "Which country is known as the Land of the Rising Sun?",
       "sv": "Vilket land kallas Soluppgångens land?"
@@ -1624,7 +1624,7 @@
   },
   {
     "id": "q90",
-    "category": "General Knowledge",
+    "category": "General",
     "text": {
       "en": "What is the main ingredient in traditional miso soup?",
       "sv": "Vad är huvudingrediensen i traditionell misosoppa?"
@@ -1641,7 +1641,7 @@
   },
   {
     "id": "q91",
-    "category": "General Knowledge",
+    "category": "General",
     "text": {
       "en": "What is the main gas found in the air we breathe?",
       "sv": "Vilken är den vanligaste gasen i luften vi andas?"
@@ -1658,7 +1658,7 @@
   },
   {
     "id": "q92",
-    "category": "General Knowledge",
+    "category": "General",
     "text": {
       "en": "What is the capital of Norway?",
       "sv": "Vad är Norges huvudstad?"
@@ -1675,7 +1675,7 @@
   },
   {
     "id": "q93",
-    "category": "General Knowledge",
+    "category": "General",
     "text": {
       "en": "Which famous building did Gustave Eiffel help design?",
       "sv": "Vilken berömd byggnad hjälpte Gustave Eiffel till att designa?"
@@ -1692,7 +1692,7 @@
   },
   {
     "id": "q94",
-    "category": "General Knowledge",
+    "category": "General",
     "text": {
       "en": "What is the chemical symbol for gold?",
       "sv": "Vad är den kemiska beteckningen för guld?"
@@ -1709,7 +1709,7 @@
   },
   {
     "id": "q95",
-    "category": "General Knowledge",
+    "category": "General",
     "text": {
       "en": "Which planet spins on its side?",
       "sv": "Vilken planet snurrar på sidan?"
@@ -1726,7 +1726,7 @@
   },
   {
     "id": "q96",
-    "category": "General Knowledge",
+    "category": "General",
     "text": {
       "en": "Which Italian dish is made with flattened dough, sauce, and toppings?",
       "sv": "Vilken italiensk rätt görs med utplattad deg, sås och pålägg?"
@@ -1743,7 +1743,7 @@
   },
   {
     "id": "q97",
-    "category": "General Knowledge",
+    "category": "General",
     "text": {
       "en": "Who was the first man in space?",
       "sv": "Vem var den första mannen i rymden?"
@@ -1760,7 +1760,7 @@
   },
   {
     "id": "q98",
-    "category": "General Knowledge",
+    "category": "General",
     "text": {
       "en": "How many sides does a hexagon have?",
       "sv": "Hur många sidor har en hexagon?"
@@ -1777,7 +1777,7 @@
   },
   {
     "id": "q99",
-    "category": "General Knowledge",
+    "category": "General",
     "text": {
       "en": "Which fruit is dried to make raisins?",
       "sv": "Vilken frukt torkas för att bli russin?"

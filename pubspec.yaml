@@ -70,7 +70,7 @@ flutter:
   assets:
     - assets/questions/general-questions.json
     - assets/questions/history-questions.json
-    - assets/questions/general-questions.json
+    - assets/questions/science-questions.json
     - assets/translations/
   #   - images/a_dot_burr.jpeg
   #   - images/a_dot_ham.jpeg

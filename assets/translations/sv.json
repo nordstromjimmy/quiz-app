@@ -35,5 +35,8 @@
   "select_category": "Välj kategori",
   "number_questions": "Antal frågor",
   "loading_questions": "Laddar frågor...",
-  "no_questions_category": "Inga frågor tillgängliga i denna kategori."
+  "no_questions_category": "Inga frågor tillgängliga i denna kategori.",
+  "category_general": "Allmän kunskap",
+  "category_science": "Vetenskap",
+  "category_history": "Historia"
 }

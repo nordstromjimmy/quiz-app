@@ -15,10 +15,10 @@ class StartQuizScreen extends ConsumerStatefulWidget {
 }
 
 class _StartQuizScreenState extends ConsumerState<StartQuizScreen> {
-  String selectedCategory = "General Knowledge";
   int questionCount = 5;
 
-  final categories = ["General Knowledge", "Science", "History"];
+  final categoryKeys = ["general", "science", "history"];
+  String selectedCategory = "general";
 
   @override
   Widget build(BuildContext context) {
@@ -52,11 +52,17 @@ class _StartQuizScreenState extends ConsumerState<StartQuizScreen> {
               child: DropdownButtonHideUnderline(
                 child: DropdownButton<String>(
                   dropdownColor: Color(0xFF1A2A52),
-                  iconEnabledColor: Colors.white,
                   value: selectedCategory,
-                  style: TextStyle(color: Colors.white),
-                  items: categories
-                      .map((c) => DropdownMenuItem(value: c, child: Text(c)))
+                  items: categoryKeys
+                      .map(
+                        (key) => DropdownMenuItem<String>(
+                          value: key,
+                          child: Text(
+                            tr("category_$key"),
+                            style: TextStyle(color: Colors.white),
+                          ),
+                        ),
+                      )
                       .toList(),
                   onChanged: (value) {
                     setState(() => selectedCategory = value!);
@@ -82,7 +88,7 @@ class _StartQuizScreenState extends ConsumerState<StartQuizScreen> {
                     (n) => ElevatedButton(
                       style: ElevatedButton.styleFrom(
                         backgroundColor: questionCount == n
-                            ? Colors.greenAccent
+                            ? Color(0xFFFFC107)
                             : Colors.white24,
                         foregroundColor: Colors.black,
                         padding: EdgeInsets.symmetric(
@@ -134,7 +140,9 @@ class _StartQuizScreenState extends ConsumerState<StartQuizScreen> {
                   // now filter (safety if you ever have mixed categories in JSON)
                   final filtered =
                       qBox.values
-                          .where((q) => q.category == selectedCategory)
+                          .where(
+                            (q) => q.category.toLowerCase() == selectedCategory,
+                          )
                           .toList()
                         ..shuffle();
 

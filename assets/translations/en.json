@@ -35,5 +35,8 @@
   "select_category": "Select category",
   "number_questions": "Number of questions",
   "loading_questions": "Loading questions...",
-  "no_questions_category": "No questions available in this category."
+  "no_questions_category": "No questions available in this category.",
+  "category_general": "General Knowledge",
+  "category_science": "Science",
+  "category_history": "History"
 }

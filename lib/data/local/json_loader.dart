@@ -6,15 +6,15 @@ import '../models/question.dart';
 class QuestionLoader {
   static Future<void> loadQuestionsFromJson(
     String locale, [
-    String category = "General Knowledge",
+    String category = "general",
   ]) async {
     // Decide which JSON file to load based on category
     String assetPath;
     switch (category) {
-      case "Science":
+      case "science":
         assetPath = 'assets/questions/science-questions.json';
         break;
-      case "History":
+      case "history":
         assetPath = 'assets/questions/history-questions.json';
         break;
       default:
