@@ -1,0 +1,1782 @@
+[
+  {
+    "id": "q201",
+    "category": "Science",
+    "text": {
+      "en": "What is the chemical symbol for sodium?",
+      "sv": "Vad är den kemiska beteckningen för natrium?"
+    },
+    "options": {
+      "en": ["Na", "S", "So", "Sn"],
+      "sv": ["Na", "S", "So", "Sn"]
+    },
+    "correctIndex": 0,
+    "explanation": {
+      "en": "Na comes from the Latin word 'natrium'.",
+      "sv": "Na kommer från det latinska ordet 'natrium'."
+    }
+  },
+  {
+    "id": "q202",
+    "category": "Science",
+    "text": {
+      "en": "What is the powerhouse of the cell?",
+      "sv": "Vad kallas cellens kraftverk?"
+    },
+    "options": {
+      "en": ["Nucleus", "Ribosome", "Mitochondrion", "Chloroplast"],
+      "sv": ["Cellkärna", "Ribosom", "Mitokondrie", "Kloroplast"]
+    },
+    "correctIndex": 2,
+    "explanation": {
+      "en": "Mitochondria produce energy for the cell.",
+      "sv": "Mitokondrier producerar energi till cellen."
+    }
+  },
+  {
+    "id": "q203",
+    "category": "Science",
+    "text": {
+      "en": "What is the largest planet in our solar system?",
+      "sv": "Vilken är den största planeten i vårt solsystem?"
+    },
+    "options": {
+      "en": ["Earth", "Saturn", "Jupiter", "Mars"],
+      "sv": ["Jorden", "Saturnus", "Jupiter", "Mars"]
+    },
+    "correctIndex": 2,
+    "explanation": {
+      "en": "Jupiter is the largest planet in the solar system.",
+      "sv": "Jupiter är den största planeten i solsystemet."
+    }
+  },
+  {
+    "id": "q204",
+    "category": "Science",
+    "text": {
+      "en": "What gas do plants primarily absorb from the air?",
+      "sv": "Vilken gas tar växter främst upp från luften?"
+    },
+    "options": {
+      "en": ["Oxygen", "Nitrogen", "Carbon dioxide", "Hydrogen"],
+      "sv": ["Syre", "Kväve", "Koldioxid", "Väte"]
+    },
+    "correctIndex": 2,
+    "explanation": {
+      "en": "Plants absorb carbon dioxide for photosynthesis.",
+      "sv": "Växter tar upp koldioxid för fotosyntesen."
+    }
+  },
+  {
+    "id": "q205",
+    "category": "Science",
+    "text": {
+      "en": "How many bones does an adult human body have?",
+      "sv": "Hur många ben har en vuxen människokropp?"
+    },
+    "options": {
+      "en": ["206", "210", "198", "250"],
+      "sv": ["206", "210", "198", "250"]
+    },
+    "correctIndex": 0,
+    "explanation": {
+      "en": "An adult human skeleton typically has 206 bones.",
+      "sv": "En vuxen människas skelett har normalt 206 ben."
+    }
+  },
+  {
+    "id": "q206",
+    "category": "Science",
+    "text": {
+      "en": "What planet is known as the Red Planet?",
+      "sv": "Vilken planet kallas för den röda planeten?"
+    },
+    "options": {
+      "en": ["Mars", "Venus", "Mercury", "Neptune"],
+      "sv": ["Mars", "Venus", "Merkurius", "Neptunus"]
+    },
+    "correctIndex": 0,
+    "explanation": {
+      "en": "Mars appears red due to iron oxide on its surface.",
+      "sv": "Mars ser röd ut på grund av järnoxid på dess yta."
+    }
+  },
+  {
+    "id": "q207",
+    "category": "Science",
+    "text": {
+      "en": "What is H2O more commonly known as?",
+      "sv": "Vad är H2O mer känt som?"
+    },
+    "options": {
+      "en": ["Salt", "Hydrogen", "Water", "Oxygen"],
+      "sv": ["Salt", "Väte", "Vatten", "Syre"]
+    },
+    "correctIndex": 2,
+    "explanation": {
+      "en": "H2O is the chemical formula for water.",
+      "sv": "H2O är den kemiska formeln för vatten."
+    }
+  },
+  {
+    "id": "q208",
+    "category": "Science",
+    "text": {
+      "en": "Which organ in the human body produces insulin?",
+      "sv": "Vilket organ i människokroppen producerar insulin?"
+    },
+    "options": {
+      "en": ["Liver", "Pancreas", "Kidney", "Stomach"],
+      "sv": ["Lever", "Bukspottkörtel", "Njure", "Mage"]
+    },
+    "correctIndex": 1,
+    "explanation": {
+      "en": "The pancreas produces insulin to regulate blood sugar.",
+      "sv": "Bukspottkörteln producerar insulin för att reglera blodsockret."
+    }
+  },
+  {
+    "id": "q209",
+    "category": "Science",
+    "text": {
+      "en": "What is the center of an atom called?",
+      "sv": "Vad kallas mitten av en atom?"
+    },
+    "options": {
+      "en": ["Electron", "Nucleus", "Proton", "Shell"],
+      "sv": ["Elektron", "Kärna", "Proton", "Skal"]
+    },
+    "correctIndex": 1,
+    "explanation": {
+      "en": "The nucleus contains protons and neutrons.",
+      "sv": "Kärnan innehåller protoner och neutroner."
+    }
+  },
+  {
+    "id": "q210",
+    "category": "Science",
+    "text": {
+      "en": "What kind of energy does a moving object have?",
+      "sv": "Vilken sorts energi har ett rörligt föremål?"
+    },
+    "options": {
+      "en": [
+        "Potential energy",
+        "Kinetic energy",
+        "Thermal energy",
+        "Sound energy"
+      ],
+      "sv": ["Potentiell energi", "Rörelseenergi", "Värmeenergi", "Ljudenergi"]
+    },
+    "correctIndex": 1,
+    "explanation": {
+      "en": "Moving objects have kinetic energy.",
+      "sv": "Rörliga föremål har rörelseenergi."
+    }
+  },
+  {
+    "id": "q211",
+    "category": "Science",
+    "text": {
+      "en": "Which planet has the most moons?",
+      "sv": "Vilken planet har flest månar?"
+    },
+    "options": {
+      "en": ["Earth", "Mars", "Jupiter", "Mercury"],
+      "sv": ["Jorden", "Mars", "Jupiter", "Merkurius"]
+    },
+    "correctIndex": 2,
+    "explanation": {
+      "en": "Jupiter has over 70 known moons.",
+      "sv": "Jupiter har över 70 kända månar."
+    }
+  },
+  {
+    "id": "q212",
+    "category": "Science",
+    "text": {
+      "en": "What is the most common gas in Earth's atmosphere?",
+      "sv": "Vilken är den vanligaste gasen i jordens atmosfär?"
+    },
+    "options": {
+      "en": ["Oxygen", "Carbon dioxide", "Nitrogen", "Hydrogen"],
+      "sv": ["Syre", "Koldioxid", "Kväve", "Väte"]
+    },
+    "correctIndex": 2,
+    "explanation": {
+      "en": "About 78% of Earth's atmosphere is nitrogen.",
+      "sv": "Cirka 78% av jordens atmosfär består av kväve."
+    }
+  },
+  {
+    "id": "q213",
+    "category": "Science",
+    "text": {
+      "en": "What does DNA stand for?",
+      "sv": "Vad står DNA för?"
+    },
+    "options": {
+      "en": [
+        "Deoxyribonucleic Acid",
+        "Dynamic Neural Array",
+        "Double Nitrogen Acid",
+        "Dense Network Atom"
+      ],
+      "sv": [
+        "Deoxiribonukleinsyra",
+        "Dynamisk neural array",
+        "Dubbel kvävesyra",
+        "Dens nätverksatom"
+      ]
+    },
+    "correctIndex": 0,
+    "explanation": {
+      "en": "DNA stands for deoxyribonucleic acid.",
+      "sv": "DNA står för deoxiribonukleinsyra."
+    }
+  },
+  {
+    "id": "q214",
+    "category": "Science",
+    "text": {
+      "en": "Which scientist developed the theory of general relativity?",
+      "sv": "Vilken vetenskapsman utvecklade teorin om allmän relativitet?"
+    },
+    "options": {
+      "en": [
+        "Isaac Newton",
+        "Niels Bohr",
+        "Albert Einstein",
+        "Galileo Galilei"
+      ],
+      "sv": ["Isaac Newton", "Niels Bohr", "Albert Einstein", "Galileo Galilei"]
+    },
+    "correctIndex": 2,
+    "explanation": {
+      "en": "Einstein published his theory in 1915.",
+      "sv": "Einstein publicerade sin teori 1915."
+    }
+  },
+  {
+    "id": "q215",
+    "category": "Science",
+    "text": {
+      "en": "What part of the plant conducts photosynthesis?",
+      "sv": "Vilken del av växten utför fotosyntes?"
+    },
+    "options": {
+      "en": ["Roots", "Stem", "Leaves", "Flowers"],
+      "sv": ["Rötter", "Stjälk", "Blad", "Blommor"]
+    },
+    "correctIndex": 2,
+    "explanation": {
+      "en": "Leaves contain chlorophyll for photosynthesis.",
+      "sv": "Blad innehåller klorofyll för fotosyntesen."
+    }
+  },
+  {
+    "id": "q216",
+    "category": "Science",
+    "text": {
+      "en": "What type of celestial body is the Sun?",
+      "sv": "Vilken typ av himlakropp är solen?"
+    },
+    "options": {
+      "en": ["Planet", "Asteroid", "Star", "Comet"],
+      "sv": ["Planet", "Asteroid", "Stjärna", "Komet"]
+    },
+    "correctIndex": 2,
+    "explanation": {
+      "en": "The Sun is a star at the center of our solar system.",
+      "sv": "Solen är en stjärna i centrum av vårt solsystem."
+    }
+  },
+  {
+    "id": "q217",
+    "category": "Science",
+    "text": {
+      "en": "Which human organ is responsible for filtering blood?",
+      "sv": "Vilket mänskligt organ ansvarar för att filtrera blod?"
+    },
+    "options": {
+      "en": ["Heart", "Lungs", "Kidneys", "Liver"],
+      "sv": ["Hjärta", "Lungor", "Njurar", "Lever"]
+    },
+    "correctIndex": 2,
+    "explanation": {
+      "en": "Kidneys filter waste from the blood.",
+      "sv": "Njurar filtrerar avfall från blodet."
+    }
+  },
+  {
+    "id": "q218",
+    "category": "Science",
+    "text": {
+      "en": "What force keeps planets in orbit around the Sun?",
+      "sv": "Vilken kraft håller planeterna i bana runt solen?"
+    },
+    "options": {
+      "en": ["Magnetism", "Gravity", "Friction", "Electricity"],
+      "sv": ["Magnetism", "Gravitation", "Friktion", "Elektricitet"]
+    },
+    "correctIndex": 1,
+    "explanation": {
+      "en": "Gravity pulls planets toward the Sun and keeps them in orbit.",
+      "sv": "Gravitation drar planeterna mot solen och håller dem i bana."
+    }
+  },
+  {
+    "id": "q219",
+    "category": "Science",
+    "text": {
+      "en": "What do we call an animal that eats only plants?",
+      "sv": "Vad kallas ett djur som endast äter växter?"
+    },
+    "options": {
+      "en": ["Carnivore", "Herbivore", "Omnivore", "Detritivore"],
+      "sv": ["Köttätare", "Växtätare", "Allätare", "Nedbrytare"]
+    },
+    "correctIndex": 1,
+    "explanation": {
+      "en": "Herbivores eat only plant material.",
+      "sv": "Växtätare äter endast växtmaterial."
+    }
+  },
+  {
+    "id": "q220",
+    "category": "Science",
+    "text": {
+      "en": "What is the boiling point of water at sea level in Celsius?",
+      "sv": "Vad är vattnets kokpunkt vid havsytan i Celsius?"
+    },
+    "options": {
+      "en": ["90°C", "95°C", "100°C", "105°C"],
+      "sv": ["90°C", "95°C", "100°C", "105°C"]
+    },
+    "correctIndex": 2,
+    "explanation": {
+      "en": "Water boils at 100 degrees Celsius at standard pressure.",
+      "sv": "Vatten kokar vid 100 grader Celsius vid normalt tryck."
+    }
+  },
+  {
+    "id": "q221",
+    "category": "Science",
+    "text": {
+      "en": "What is the basic unit of life?",
+      "sv": "Vad är den grundläggande enheten för liv?"
+    },
+    "options": {
+      "en": ["Atom", "Molecule", "Cell", "Organ"],
+      "sv": ["Atom", "Molekyl", "Cell", "Organ"]
+    },
+    "correctIndex": 2,
+    "explanation": {
+      "en": "The cell is the smallest unit of life.",
+      "sv": "Cellen är den minsta enheten för liv."
+    }
+  },
+  {
+    "id": "q222",
+    "category": "Science",
+    "text": {
+      "en": "Which planet is closest to the Sun?",
+      "sv": "Vilken planet är närmast solen?"
+    },
+    "options": {
+      "en": ["Venus", "Mercury", "Mars", "Earth"],
+      "sv": ["Venus", "Merkurius", "Mars", "Jorden"]
+    },
+    "correctIndex": 1,
+    "explanation": {
+      "en": "Mercury is the closest planet to the Sun.",
+      "sv": "Merkurius är den planet som ligger närmast solen."
+    }
+  },
+  {
+    "id": "q223",
+    "category": "Science",
+    "text": {
+      "en": "Which part of the human body controls balance?",
+      "sv": "Vilken del av människokroppen styr balansen?"
+    },
+    "options": {
+      "en": ["Heart", "Inner ear", "Lungs", "Liver"],
+      "sv": ["Hjärta", "Inneröra", "Lungor", "Lever"]
+    },
+    "correctIndex": 1,
+    "explanation": {
+      "en": "The vestibular system in the inner ear controls balance.",
+      "sv": "Balanssinnet sitter i innerörats vestibulära system."
+    }
+  },
+  {
+    "id": "q224",
+    "category": "Science",
+    "text": {
+      "en": "What is the most abundant element in the universe?",
+      "sv": "Vilket är det vanligaste grundämnet i universum?"
+    },
+    "options": {
+      "en": ["Oxygen", "Hydrogen", "Carbon", "Helium"],
+      "sv": ["Syre", "Väte", "Kol", "Helium"]
+    },
+    "correctIndex": 1,
+    "explanation": {
+      "en": "Hydrogen makes up roughly 75% of the universe’s elemental mass.",
+      "sv": "Väte utgör ungefär 75% av universums massa."
+    }
+  },
+  {
+    "id": "q225",
+    "category": "Science",
+    "text": {
+      "en": "Which vitamin is produced when skin is exposed to sunlight?",
+      "sv": "Vilket vitamin produceras när huden utsätts för solljus?"
+    },
+    "options": {
+      "en": ["Vitamin A", "Vitamin B12", "Vitamin D", "Vitamin K"],
+      "sv": ["Vitamin A", "Vitamin B12", "Vitamin D", "Vitamin K"]
+    },
+    "correctIndex": 2,
+    "explanation": {
+      "en": "Sunlight helps the skin produce vitamin D.",
+      "sv": "Solljus hjälper huden att producera vitamin D."
+    }
+  },
+  {
+    "id": "q226",
+    "category": "Science",
+    "text": {
+      "en": "What device is used to measure temperature?",
+      "sv": "Vilket instrument används för att mäta temperatur?"
+    },
+    "options": {
+      "en": ["Barometer", "Thermometer", "Hygrometer", "Altimeter"],
+      "sv": ["Barometer", "Termometer", "Hygrometer", "Altimeter"]
+    },
+    "correctIndex": 1,
+    "explanation": {
+      "en": "A thermometer measures temperature.",
+      "sv": "En termometer mäter temperatur."
+    }
+  },
+  {
+    "id": "q227",
+    "category": "Science",
+    "text": {
+      "en": "Which blood type is known as the universal donor?",
+      "sv": "Vilken blodgrupp kallas universell givare?"
+    },
+    "options": {
+      "en": ["A", "B", "AB", "O"],
+      "sv": ["A", "B", "AB", "O"]
+    },
+    "correctIndex": 3,
+    "explanation": {
+      "en": "Type O negative is considered the universal donor.",
+      "sv": "Typ O negativ anses vara universell givare."
+    }
+  },
+  {
+    "id": "q228",
+    "category": "Science",
+    "text": {
+      "en": "What is the speed of light in a vacuum in km/s?",
+      "sv": "Vilken är ljusets hastighet i vakuum i km/s?"
+    },
+    "options": {
+      "en": ["150,000", "300,000", "450,000", "600,000"],
+      "sv": ["150 000", "300 000", "450 000", "600 000"]
+    },
+    "correctIndex": 1,
+    "explanation": {
+      "en": "The speed of light is approximately 300,000 km/s.",
+      "sv": "Ljusets hastighet är cirka 300 000 km/s."
+    }
+  },
+  {
+    "id": "q229",
+    "category": "Science",
+    "text": {
+      "en": "What is the main gas found in the air we breathe?",
+      "sv": "Vilken är den främsta gasen i luften vi andas?"
+    },
+    "options": {
+      "en": ["Oxygen", "Carbon dioxide", "Nitrogen", "Argon"],
+      "sv": ["Syre", "Koldioxid", "Kväve", "Argon"]
+    },
+    "correctIndex": 2,
+    "explanation": {
+      "en": "Nitrogen makes up about 78% of Earth’s atmosphere.",
+      "sv": "Kväve utgör cirka 78% av jordens atmosfär."
+    }
+  },
+  {
+    "id": "q230",
+    "category": "Science",
+    "text": {
+      "en": "Which planet is famous for its beautiful rings?",
+      "sv": "Vilken planet är känd för sina vackra ringar?"
+    },
+    "options": {
+      "en": ["Mars", "Jupiter", "Saturn", "Uranus"],
+      "sv": ["Mars", "Jupiter", "Saturnus", "Uranus"]
+    },
+    "correctIndex": 2,
+    "explanation": {
+      "en": "Saturn is renowned for its spectacular ring system.",
+      "sv": "Saturnus är känd för sitt spektakulära ringsystem."
+    }
+  },
+  {
+    "id": "q231",
+    "category": "Science",
+    "text": {
+      "en": "What type of animal is a Komodo dragon?",
+      "sv": "Vilken typ av djur är en Komodovaran?"
+    },
+    "options": {
+      "en": ["Mammal", "Bird", "Reptile", "Amphibian"],
+      "sv": ["Däggdjur", "Fågel", "Reptil", "Amfibie"]
+    },
+    "correctIndex": 2,
+    "explanation": {
+      "en": "The Komodo dragon is the largest living species of lizard.",
+      "sv": "Komodovaranen är den största nu levande ödlan."
+    }
+  },
+  {
+    "id": "q232",
+    "category": "Science",
+    "text": {
+      "en": "What is Newton's Third Law of Motion about?",
+      "sv": "Vad handlar Newtons tredje rörelselag om?"
+    },
+    "options": {
+      "en": [
+        "Force equals mass times acceleration",
+        "Objects at rest stay at rest",
+        "Action equals reaction",
+        "Energy conservation"
+      ],
+      "sv": [
+        "Kraft = massa × acceleration",
+        "Föremål i vila förblir i vila",
+        "Aktion ger reaktion",
+        "Energins bevarande"
+      ]
+    },
+    "correctIndex": 2,
+    "explanation": {
+      "en": "Newton's third law states for every action, there's an equal and opposite reaction.",
+      "sv": "Newtons tredje lag säger att varje aktion har en lika stor och motsatt reaktion."
+    }
+  },
+  {
+    "id": "q233",
+    "category": "Science",
+    "text": {
+      "en": "Which scientist is famous for the laws of planetary motion?",
+      "sv": "Vilken vetenskapsman är känd för lagarna om planeternas rörelser?"
+    },
+    "options": {
+      "en": [
+        "Galileo Galilei",
+        "Johannes Kepler",
+        "Isaac Newton",
+        "Nicolaus Copernicus"
+      ],
+      "sv": [
+        "Galileo Galilei",
+        "Johannes Kepler",
+        "Isaac Newton",
+        "Nicolaus Copernicus"
+      ]
+    },
+    "correctIndex": 1,
+    "explanation": {
+      "en": "Kepler formulated three laws describing planetary orbits.",
+      "sv": "Kepler formulerade tre lagar som beskrev planeternas banor."
+    }
+  },
+  {
+    "id": "q234",
+    "category": "Science",
+    "text": {
+      "en": "What is the hardest natural substance on Earth?",
+      "sv": "Vad är det hårdaste naturliga ämnet på jorden?"
+    },
+    "options": {
+      "en": ["Gold", "Iron", "Diamond", "Quartz"],
+      "sv": ["Guld", "Järn", "Diamant", "Kvarts"]
+    },
+    "correctIndex": 2,
+    "explanation": {
+      "en": "Diamond scores a 10 on the Mohs hardness scale.",
+      "sv": "Diamant är 10 på Mohs hårdhetsskala."
+    }
+  },
+  {
+    "id": "q235",
+    "category": "Science",
+    "text": {
+      "en": "What device helps people with hearing loss?",
+      "sv": "Vilken apparat hjälper personer med hörselnedsättning?"
+    },
+    "options": {
+      "en": ["Pacemaker", "Hearing aid", "Defibrillator", "Insulin pump"],
+      "sv": ["Pacemaker", "Hörapparat", "Defibrillator", "Insulinpump"]
+    },
+    "correctIndex": 1,
+    "explanation": {
+      "en": "A hearing aid amplifies sound for the user.",
+      "sv": "En hörapparat förstärker ljud för användaren."
+    }
+  },
+  {
+    "id": "q236",
+    "category": "Science",
+    "text": {
+      "en": "Which scientist is known for discovering penicillin?",
+      "sv": "Vilken vetenskapsman är känd för att ha upptäckt penicillin?"
+    },
+    "options": {
+      "en": [
+        "Louis Pasteur",
+        "Alexander Fleming",
+        "Robert Koch",
+        "Marie Curie"
+      ],
+      "sv": ["Louis Pasteur", "Alexander Fleming", "Robert Koch", "Marie Curie"]
+    },
+    "correctIndex": 1,
+    "explanation": {
+      "en": "Alexander Fleming discovered penicillin in 1928.",
+      "sv": "Alexander Fleming upptäckte penicillin 1928."
+    }
+  },
+  {
+    "id": "q237",
+    "category": "Science",
+    "text": {
+      "en": "What branch of science studies matter and energy?",
+      "sv": "Vilken vetenskapsgren studerar materia och energi?"
+    },
+    "options": {
+      "en": ["Biology", "Physics", "Chemistry", "Geology"],
+      "sv": ["Biologi", "Fysik", "Kemi", "Geologi"]
+    },
+    "correctIndex": 1,
+    "explanation": {
+      "en": "Physics studies the properties of matter and energy.",
+      "sv": "Fysik studerar materiens och energins egenskaper."
+    }
+  },
+  {
+    "id": "q238",
+    "category": "Science",
+    "text": {
+      "en": "What scale measures earthquakes?",
+      "sv": "Vilken skala mäter jordbävningar?"
+    },
+    "options": {
+      "en": ["Richter scale", "Beaufort scale", "Decibel scale", "Mohs scale"],
+      "sv": ["Richterskalan", "Beaufortskalan", "Decibelskalan", "Mohsskalan"]
+    },
+    "correctIndex": 0,
+    "explanation": {
+      "en": "The Richter scale measures earthquake magnitude.",
+      "sv": "Richterskalan mäter jordbävningars styrka."
+    }
+  },
+  {
+    "id": "q239",
+    "category": "Science",
+    "text": {
+      "en": "What do paleontologists study?",
+      "sv": "Vad studerar paleontologer?"
+    },
+    "options": {
+      "en": ["Rocks", "Plants", "Fossils", "Stars"],
+      "sv": ["Stenar", "Växter", "Fossiler", "Stjärnor"]
+    },
+    "correctIndex": 2,
+    "explanation": {
+      "en": "Paleontologists study fossils to learn about past life.",
+      "sv": "Paleontologer studerar fossiler för att förstå forntida liv."
+    }
+  },
+  {
+    "id": "q240",
+    "category": "Science",
+    "text": {
+      "en": "What is the main function of red blood cells?",
+      "sv": "Vad är de röda blodkropparnas huvudsakliga funktion?"
+    },
+    "options": {
+      "en": [
+        "Fight infections",
+        "Carry oxygen",
+        "Clot blood",
+        "Regulate temperature"
+      ],
+      "sv": [
+        "Bekämpa infektioner",
+        "Transportera syre",
+        "Koagulera blod",
+        "Reglera temperatur"
+      ]
+    },
+    "correctIndex": 1,
+    "explanation": {
+      "en": "Red blood cells carry oxygen from the lungs to tissues.",
+      "sv": "Röda blodkroppar transporterar syre från lungorna till vävnaderna."
+    }
+  },
+  {
+    "id": "q241",
+    "category": "Science",
+    "text": {
+      "en": "Which scientist formulated the laws of motion and universal gravitation?",
+      "sv": "Vilken vetenskapsman formulerade rörelselagarna och den universella gravitationen?"
+    },
+    "options": {
+      "en": [
+        "Albert Einstein",
+        "Galileo Galilei",
+        "Isaac Newton",
+        "Niels Bohr"
+      ],
+      "sv": ["Albert Einstein", "Galileo Galilei", "Isaac Newton", "Niels Bohr"]
+    },
+    "correctIndex": 2,
+    "explanation": {
+      "en": "Isaac Newton's laws describe motion and gravity.",
+      "sv": "Isaac Newtons lagar beskriver rörelse och gravitation."
+    }
+  },
+  {
+    "id": "q242",
+    "category": "Science",
+    "text": {
+      "en": "What is the smallest particle of an element that retains its properties?",
+      "sv": "Vad är den minsta partikeln av ett grundämne som behåller dess egenskaper?"
+    },
+    "options": {
+      "en": ["Electron", "Molecule", "Atom", "Proton"],
+      "sv": ["Elektron", "Molekyl", "Atom", "Proton"]
+    },
+    "correctIndex": 2,
+    "explanation": {
+      "en": "An atom is the smallest unit of an element.",
+      "sv": "En atom är den minsta enheten av ett grundämne."
+    }
+  },
+  {
+    "id": "q243",
+    "category": "Science",
+    "text": {
+      "en": "What part of the eye controls the amount of light entering?",
+      "sv": "Vilken del av ögat kontrollerar mängden ljus som släpps in?"
+    },
+    "options": {
+      "en": ["Lens", "Retina", "Cornea", "Iris"],
+      "sv": ["Lins", "Näthinna", "Hornhinna", "Iris"]
+    },
+    "correctIndex": 3,
+    "explanation": {
+      "en": "The iris expands or contracts to regulate light.",
+      "sv": "Iris expanderar eller drar ihop sig för att reglera ljuset."
+    }
+  },
+  {
+    "id": "q244",
+    "category": "Science",
+    "text": {
+      "en": "What process do plants use to make their own food?",
+      "sv": "Vilken process använder växter för att tillverka sin egen mat?"
+    },
+    "options": {
+      "en": ["Respiration", "Fermentation", "Photosynthesis", "Digestion"],
+      "sv": ["Andning", "Jäsning", "Fotosyntes", "Matsmältning"]
+    },
+    "correctIndex": 2,
+    "explanation": {
+      "en": "Photosynthesis converts sunlight into energy.",
+      "sv": "Fotosyntes omvandlar solljus till energi."
+    }
+  },
+  {
+    "id": "q245",
+    "category": "Science",
+    "text": {
+      "en": "What do you call an animal that feeds on both plants and meat?",
+      "sv": "Vad kallas ett djur som äter både växter och kött?"
+    },
+    "options": {
+      "en": ["Carnivore", "Herbivore", "Omnivore", "Frugivore"],
+      "sv": ["Köttätare", "Växtätare", "Allätare", "Fruktätare"]
+    },
+    "correctIndex": 2,
+    "explanation": {
+      "en": "Omnivores eat both plant and animal material.",
+      "sv": "Allätare äter både växter och kött."
+    }
+  },
+  {
+    "id": "q246",
+    "category": "Science",
+    "text": {
+      "en": "What does a barometer measure?",
+      "sv": "Vad mäter en barometer?"
+    },
+    "options": {
+      "en": ["Temperature", "Wind speed", "Air pressure", "Humidity"],
+      "sv": ["Temperatur", "Vindhastighet", "Lufttryck", "Luftfuktighet"]
+    },
+    "correctIndex": 2,
+    "explanation": {
+      "en": "A barometer measures atmospheric pressure.",
+      "sv": "En barometer mäter atmosfäriskt tryck."
+    }
+  },
+  {
+    "id": "q247",
+    "category": "Science",
+    "text": {
+      "en": "What is the boiling point of water on the Fahrenheit scale?",
+      "sv": "Vad är vattnets kokpunkt på Fahrenheit-skalan?"
+    },
+    "options": {
+      "en": ["100°F", "180°F", "212°F", "300°F"],
+      "sv": ["100°F", "180°F", "212°F", "300°F"]
+    },
+    "correctIndex": 2,
+    "explanation": {
+      "en": "Water boils at 212°F at sea level.",
+      "sv": "Vatten kokar vid 212°F vid havsnivå."
+    }
+  },
+  {
+    "id": "q248",
+    "category": "Science",
+    "text": {
+      "en": "Which gas do humans need to breathe in to survive?",
+      "sv": "Vilken gas måste människor andas in för att överleva?"
+    },
+    "options": {
+      "en": ["Carbon dioxide", "Nitrogen", "Oxygen", "Helium"],
+      "sv": ["Koldioxid", "Kväve", "Syre", "Helium"]
+    },
+    "correctIndex": 2,
+    "explanation": {
+      "en": "Humans need oxygen for respiration.",
+      "sv": "Människor behöver syre för andningen."
+    }
+  },
+  {
+    "id": "q249",
+    "category": "Science",
+    "text": {
+      "en": "What part of the brain controls voluntary movements?",
+      "sv": "Vilken del av hjärnan styr frivilliga rörelser?"
+    },
+    "options": {
+      "en": ["Cerebellum", "Cerebrum", "Brainstem", "Hypothalamus"],
+      "sv": ["Lillhjärna", "Storhjärna", "Hjärnstam", "Hypotalamus"]
+    },
+    "correctIndex": 1,
+    "explanation": {
+      "en": "The cerebrum controls thought and voluntary action.",
+      "sv": "Storhjärnan styr tanke och frivillig rörelse."
+    }
+  },
+  {
+    "id": "q250",
+    "category": "Science",
+    "text": {
+      "en": "What is the largest organ in the human body?",
+      "sv": "Vilket är det största organet i människokroppen?"
+    },
+    "options": {
+      "en": ["Liver", "Brain", "Skin", "Lungs"],
+      "sv": ["Lever", "Hjärna", "Hud", "Lungor"]
+    },
+    "correctIndex": 2,
+    "explanation": {
+      "en": "The skin is the body's largest organ.",
+      "sv": "Huden är kroppens största organ."
+    }
+  },
+  {
+    "id": "q251",
+    "category": "Science",
+    "text": {
+      "en": "What unit is electrical resistance measured in?",
+      "sv": "Vilken enhet mäts elektriskt motstånd i?"
+    },
+    "options": {
+      "en": ["Ohms", "Amperes", "Volts", "Watts"],
+      "sv": ["Ohm", "Ampere", "Volt", "Watt"]
+    },
+    "correctIndex": 0,
+    "explanation": {
+      "en": "Resistance is measured in ohms (Ω).",
+      "sv": "Motstånd mäts i ohm (Ω)."
+    }
+  },
+  {
+    "id": "q252",
+    "category": "Science",
+    "text": {
+      "en": "What is the process of a solid changing directly to a gas called?",
+      "sv": "Vad kallas processen när ett fast ämne övergår direkt till gas?"
+    },
+    "options": {
+      "en": ["Condensation", "Evaporation", "Sublimation", "Fusion"],
+      "sv": ["Kondensation", "Avdunstning", "Sublimation", "Smältning"]
+    },
+    "correctIndex": 2,
+    "explanation": {
+      "en": "Sublimation is when solids turn directly into gases.",
+      "sv": "Sublimation är när fasta ämnen övergår direkt till gas."
+    }
+  },
+  {
+    "id": "q253",
+    "category": "Science",
+    "text": {
+      "en": "Which planet is tilted on its side, rotating almost horizontally?",
+      "sv": "Vilken planet lutar på sidan och roterar nästan horisontellt?"
+    },
+    "options": {
+      "en": ["Saturn", "Neptune", "Uranus", "Mars"],
+      "sv": ["Saturnus", "Neptunus", "Uranus", "Mars"]
+    },
+    "correctIndex": 2,
+    "explanation": {
+      "en": "Uranus has an axial tilt of about 98 degrees.",
+      "sv": "Uranus har en axellutning på cirka 98 grader."
+    }
+  },
+  {
+    "id": "q254",
+    "category": "Science",
+    "text": {
+      "en": "What type of scientist studies earthquakes?",
+      "sv": "Vilken typ av vetenskapsman studerar jordbävningar?"
+    },
+    "options": {
+      "en": ["Seismologist", "Meteorologist", "Volcanologist", "Oceanographer"],
+      "sv": ["Seismolog", "Meteorolog", "Vulkanolog", "Oceanograf"]
+    },
+    "correctIndex": 0,
+    "explanation": {
+      "en": "Seismologists study seismic activity and earthquakes.",
+      "sv": "Seismologer studerar seismisk aktivitet och jordbävningar."
+    }
+  },
+  {
+    "id": "q255",
+    "category": "Science",
+    "text": {
+      "en": "Which blood cells help fight infection?",
+      "sv": "Vilka blodkroppar hjälper till att bekämpa infektioner?"
+    },
+    "options": {
+      "en": ["Red blood cells", "White blood cells", "Platelets", "Neurons"],
+      "sv": ["Röda blodkroppar", "Vita blodkroppar", "Blodplättar", "Neuroner"]
+    },
+    "correctIndex": 1,
+    "explanation": {
+      "en": "White blood cells are part of the immune system.",
+      "sv": "Vita blodkroppar är en del av immunförsvaret."
+    }
+  },
+  {
+    "id": "q256",
+    "category": "Science",
+    "text": {
+      "en": "What does a botanist study?",
+      "sv": "Vad studerar en botaniker?"
+    },
+    "options": {
+      "en": ["Animals", "Plants", "Rocks", "Stars"],
+      "sv": ["Djur", "Växter", "Stenar", "Stjärnor"]
+    },
+    "correctIndex": 1,
+    "explanation": {
+      "en": "Botanists specialize in the study of plants.",
+      "sv": "Botaniker är specialiserade på studier av växter."
+    }
+  },
+  {
+    "id": "q257",
+    "category": "Science",
+    "text": {
+      "en": "What is the scientific term for the windpipe?",
+      "sv": "Vad är den vetenskapliga termen för luftstrupen?"
+    },
+    "options": {
+      "en": ["Esophagus", "Trachea", "Bronchus", "Larynx"],
+      "sv": ["Matstrupe", "Trakea", "Bronk", "Struphuvud"]
+    },
+    "correctIndex": 1,
+    "explanation": {
+      "en": "The trachea carries air to the lungs.",
+      "sv": "Trakea transporterar luft till lungorna."
+    }
+  },
+  {
+    "id": "q258",
+    "category": "Science",
+    "text": {
+      "en": "What gas is essential for photosynthesis?",
+      "sv": "Vilken gas är nödvändig för fotosyntesen?"
+    },
+    "options": {
+      "en": ["Oxygen", "Nitrogen", "Carbon dioxide", "Hydrogen"],
+      "sv": ["Syre", "Kväve", "Koldioxid", "Väte"]
+    },
+    "correctIndex": 2,
+    "explanation": {
+      "en": "Plants use carbon dioxide to produce glucose.",
+      "sv": "Växter använder koldioxid för att bilda glukos."
+    }
+  },
+  {
+    "id": "q259",
+    "category": "Science",
+    "text": {
+      "en": "What is the pH level of pure water at 25°C?",
+      "sv": "Vad är pH-värdet för rent vatten vid 25°C?"
+    },
+    "options": {
+      "en": ["5", "7", "9", "11"],
+      "sv": ["5", "7", "9", "11"]
+    },
+    "correctIndex": 1,
+    "explanation": {
+      "en": "Pure water has a neutral pH of 7.",
+      "sv": "Rent vatten har ett neutralt pH på 7."
+    }
+  },
+  {
+    "id": "q260",
+    "category": "Science",
+    "text": {
+      "en": "What is the main source of energy for Earth’s climate system?",
+      "sv": "Vad är den främsta energikällan för jordens klimatsystem?"
+    },
+    "options": {
+      "en": ["Moon", "Earth's core", "Sun", "Atmosphere"],
+      "sv": ["Månen", "Jordens kärna", "Solen", "Atmosfären"]
+    },
+    "correctIndex": 2,
+    "explanation": {
+      "en": "The Sun drives Earth’s weather and climate.",
+      "sv": "Solen driver jordens väder och klimat."
+    }
+  },
+  {
+    "id": "q261",
+    "category": "Science",
+    "text": {
+      "en": "Which metal is liquid at room temperature?",
+      "sv": "Vilket metall är flytande vid rumstemperatur?"
+    },
+    "options": {
+      "en": ["Iron", "Mercury", "Copper", "Aluminum"],
+      "sv": ["Järn", "Kvicksilver", "Koppar", "Aluminium"]
+    },
+    "correctIndex": 1,
+    "explanation": {
+      "en": "Mercury is the only common metal liquid at room temperature.",
+      "sv": "Kvicksilver är den enda vanliga metallen som är flytande vid rumstemperatur."
+    }
+  },
+  {
+    "id": "q262",
+    "category": "Science",
+    "text": {
+      "en": "What is the main gas plants release during photosynthesis?",
+      "sv": "Vilken gas frigör växter främst under fotosyntesen?"
+    },
+    "options": {
+      "en": ["Oxygen", "Carbon dioxide", "Nitrogen", "Methane"],
+      "sv": ["Syre", "Koldioxid", "Kväve", "Metan"]
+    },
+    "correctIndex": 0,
+    "explanation": {
+      "en": "Plants release oxygen as a byproduct of photosynthesis.",
+      "sv": "Växter frigör syre som en biprodukt vid fotosyntesen."
+    }
+  },
+  {
+    "id": "q263",
+    "category": "Science",
+    "text": {
+      "en": "Which vitamin helps improve vision?",
+      "sv": "Vilket vitamin hjälper till att förbättra synen?"
+    },
+    "options": {
+      "en": ["Vitamin C", "Vitamin D", "Vitamin A", "Vitamin K"],
+      "sv": ["Vitamin C", "Vitamin D", "Vitamin A", "Vitamin K"]
+    },
+    "correctIndex": 2,
+    "explanation": {
+      "en": "Vitamin A is important for eye health and vision.",
+      "sv": "Vitamin A är viktigt för ögonhälsa och syn."
+    }
+  },
+  {
+    "id": "q264",
+    "category": "Science",
+    "text": {
+      "en": "Which branch of science studies heredity and genes?",
+      "sv": "Vilken vetenskapsgren studerar ärftlighet och gener?"
+    },
+    "options": {
+      "en": ["Genetics", "Ecology", "Geology", "Astronomy"],
+      "sv": ["Genetik", "Ekologi", "Geologi", "Astronomi"]
+    },
+    "correctIndex": 0,
+    "explanation": {
+      "en": "Genetics focuses on genes, heredity, and variation in living organisms.",
+      "sv": "Genetik fokuserar på gener, ärftlighet och variation hos levande organismer."
+    }
+  },
+  {
+    "id": "q265",
+    "category": "Science",
+    "text": {
+      "en": "What planet is known for its giant storm called the Great Red Spot?",
+      "sv": "Vilken planet är känd för sin jättestorm kallad Stora röda fläcken?"
+    },
+    "options": {
+      "en": ["Saturn", "Jupiter", "Mars", "Neptune"],
+      "sv": ["Saturnus", "Jupiter", "Mars", "Neptunus"]
+    },
+    "correctIndex": 1,
+    "explanation": {
+      "en": "Jupiter's Great Red Spot is a massive storm lasting centuries.",
+      "sv": "Jupiters Stora röda fläck är en enorm storm som varat i århundraden."
+    }
+  },
+  {
+    "id": "q266",
+    "category": "Science",
+    "text": {
+      "en": "What natural satellite orbits Earth?",
+      "sv": "Vilken naturlig satellit kretsar runt jorden?"
+    },
+    "options": {
+      "en": ["Mars", "The Moon", "Venus", "Titan"],
+      "sv": ["Mars", "Månen", "Venus", "Titan"]
+    },
+    "correctIndex": 1,
+    "explanation": {
+      "en": "The Moon is Earth's only natural satellite.",
+      "sv": "Månen är jordens enda naturliga satellit."
+    }
+  },
+  {
+    "id": "q267",
+    "category": "Science",
+    "text": {
+      "en": "What is the main function of the human lungs?",
+      "sv": "Vad är människans lungors huvudfunktion?"
+    },
+    "options": {
+      "en": ["Pump blood", "Filter waste", "Exchange gases", "Produce insulin"],
+      "sv": ["Pumpa blod", "Filtrera avfall", "Gasutbyte", "Producera insulin"]
+    },
+    "correctIndex": 2,
+    "explanation": {
+      "en": "Lungs exchange oxygen and carbon dioxide with the blood.",
+      "sv": "Lungorna utför gasutbyte mellan blodet och luften."
+    }
+  },
+  {
+    "id": "q268",
+    "category": "Science",
+    "text": {
+      "en": "What type of rock is formed from cooled lava?",
+      "sv": "Vilken typ av bergart bildas från avsvalnad lava?"
+    },
+    "options": {
+      "en": ["Sedimentary", "Metamorphic", "Igneous", "Organic"],
+      "sv": ["Sedimentär", "Metamorf", "Magmatisk", "Organisk"]
+    },
+    "correctIndex": 2,
+    "explanation": {
+      "en": "Igneous rocks form from solidified magma or lava.",
+      "sv": "Magmatiska bergarter bildas från stelnad magma eller lava."
+    }
+  },
+  {
+    "id": "q269",
+    "category": "Science",
+    "text": {
+      "en": "What does an astronomer study?",
+      "sv": "Vad studerar en astronom?"
+    },
+    "options": {
+      "en": ["Plants", "Stars and planets", "Cells", "Minerals"],
+      "sv": ["Växter", "Stjärnor och planeter", "Celler", "Mineraler"]
+    },
+    "correctIndex": 1,
+    "explanation": {
+      "en": "Astronomers study celestial objects and the universe.",
+      "sv": "Astronomer studerar himlakroppar och universum."
+    }
+  },
+  {
+    "id": "q270",
+    "category": "Science",
+    "text": {
+      "en": "What organ in the human body is primarily responsible for detoxification?",
+      "sv": "Vilket organ i människokroppen ansvarar främst för avgiftning?"
+    },
+    "options": {
+      "en": ["Kidneys", "Heart", "Liver", "Spleen"],
+      "sv": ["Njurar", "Hjärta", "Lever", "Mjälte"]
+    },
+    "correctIndex": 2,
+    "explanation": {
+      "en": "The liver filters toxins from the blood.",
+      "sv": "Levern filtrerar bort gifter från blodet."
+    }
+  },
+  {
+    "id": "q271",
+    "category": "Science",
+    "text": {
+      "en": "What is the most common blood type in the world?",
+      "sv": "Vilken är den vanligaste blodgruppen i världen?"
+    },
+    "options": {
+      "en": ["A", "B", "AB", "O"],
+      "sv": ["A", "B", "AB", "O"]
+    },
+    "correctIndex": 3,
+    "explanation": {
+      "en": "Type O is the most common blood type globally.",
+      "sv": "Blodgrupp O är den vanligaste i världen."
+    }
+  },
+  {
+    "id": "q272",
+    "category": "Science",
+    "text": {
+      "en": "What process describes water vapor turning into liquid water?",
+      "sv": "Vilken process beskriver när vattenånga blir till flytande vatten?"
+    },
+    "options": {
+      "en": ["Evaporation", "Condensation", "Sublimation", "Freezing"],
+      "sv": ["Avdunstning", "Kondensation", "Sublimation", "Frysning"]
+    },
+    "correctIndex": 1,
+    "explanation": {
+      "en": "Condensation occurs when vapor cools into liquid.",
+      "sv": "Kondensation sker när ånga kyls ner till vätska."
+    }
+  },
+  {
+    "id": "q273",
+    "category": "Science",
+    "text": {
+      "en": "Which unit measures electrical current?",
+      "sv": "Vilken enhet mäter elektrisk ström?"
+    },
+    "options": {
+      "en": ["Ohm", "Volt", "Ampere", "Watt"],
+      "sv": ["Ohm", "Volt", "Ampere", "Watt"]
+    },
+    "correctIndex": 2,
+    "explanation": {
+      "en": "Electric current is measured in amperes (A).",
+      "sv": "Elektrisk ström mäts i ampere (A)."
+    }
+  },
+  {
+    "id": "q274",
+    "category": "Science",
+    "text": {
+      "en": "What is the green pigment in plants that absorbs sunlight?",
+      "sv": "Vad heter det gröna pigmentet i växter som absorberar solljus?"
+    },
+    "options": {
+      "en": ["Chlorophyll", "Carotene", "Xanthophyll", "Anthocyanin"],
+      "sv": ["Klorofyll", "Karoten", "Xantofyll", "Antocyanin"]
+    },
+    "correctIndex": 0,
+    "explanation": {
+      "en": "Chlorophyll allows plants to capture light energy.",
+      "sv": "Klorofyll gör att växter kan fånga ljusenergi."
+    }
+  },
+  {
+    "id": "q275",
+    "category": "Science",
+    "text": {
+      "en": "Which planet is known as Earth’s twin because of its size and composition?",
+      "sv": "Vilken planet kallas jordens tvilling på grund av sin storlek och sammansättning?"
+    },
+    "options": {
+      "en": ["Mars", "Venus", "Mercury", "Neptune"],
+      "sv": ["Mars", "Venus", "Merkurius", "Neptunus"]
+    },
+    "correctIndex": 1,
+    "explanation": {
+      "en": "Venus is similar in size and structure to Earth.",
+      "sv": "Venus är lik jorden i storlek och struktur."
+    }
+  },
+  {
+    "id": "q276",
+    "category": "Science",
+    "text": {
+      "en": "What gas makes up most of the Sun?",
+      "sv": "Vilken gas utgör största delen av solen?"
+    },
+    "options": {
+      "en": ["Oxygen", "Hydrogen", "Carbon", "Nitrogen"],
+      "sv": ["Syre", "Väte", "Kol", "Kväve"]
+    },
+    "correctIndex": 1,
+    "explanation": {
+      "en": "The Sun is mostly composed of hydrogen.",
+      "sv": "Solen består till största delen av väte."
+    }
+  },
+  {
+    "id": "q277",
+    "category": "Science",
+    "text": {
+      "en": "What is the freezing point of water on the Celsius scale?",
+      "sv": "Vilken är vattnets fryspunkt på Celsius-skalan?"
+    },
+    "options": {
+      "en": ["0°C", "10°C", "32°C", "100°C"],
+      "sv": ["0°C", "10°C", "32°C", "100°C"]
+    },
+    "correctIndex": 0,
+    "explanation": {
+      "en": "Water freezes at 0 degrees Celsius.",
+      "sv": "Vatten fryser vid 0 grader Celsius."
+    }
+  },
+  {
+    "id": "q278",
+    "category": "Science",
+    "text": {
+      "en": "What is the chemical formula for table salt?",
+      "sv": "Vad är den kemiska formeln för bordssalt?"
+    },
+    "options": {
+      "en": ["NaCl", "KCl", "H2O", "CO2"],
+      "sv": ["NaCl", "KCl", "H2O", "CO2"]
+    },
+    "correctIndex": 0,
+    "explanation": {
+      "en": "Table salt is sodium chloride, NaCl.",
+      "sv": "Bordssalt är natriumklorid, NaCl."
+    }
+  },
+  {
+    "id": "q279",
+    "category": "Science",
+    "text": {
+      "en": "Which part of the cell contains genetic material?",
+      "sv": "Vilken del av cellen innehåller genetiskt material?"
+    },
+    "options": {
+      "en": ["Mitochondria", "Nucleus", "Ribosomes", "Golgi apparatus"],
+      "sv": ["Mitokondrier", "Cellkärna", "Ribosomer", "Golgiapparaten"]
+    },
+    "correctIndex": 1,
+    "explanation": {
+      "en": "The nucleus stores DNA in eukaryotic cells.",
+      "sv": "Cellkärnan lagrar DNA i eukaryota celler."
+    }
+  },
+  {
+    "id": "q280",
+    "category": "Science",
+    "text": {
+      "en": "What is the layer of gases surrounding Earth called?",
+      "sv": "Vad kallas lagret av gaser som omger jorden?"
+    },
+    "options": {
+      "en": ["Lithosphere", "Hydrosphere", "Biosphere", "Atmosphere"],
+      "sv": ["Litosfären", "Hydrosfären", "Biosfären", "Atmosfären"]
+    },
+    "correctIndex": 3,
+    "explanation": {
+      "en": "The atmosphere contains air and protects life on Earth.",
+      "sv": "Atmosfären innehåller luft och skyddar livet på jorden."
+    }
+  },
+  {
+    "id": "q281",
+    "category": "Science",
+    "text": {
+      "en": "What is the largest planet in our solar system?",
+      "sv": "Vilken är den största planeten i vårt solsystem?"
+    },
+    "options": {
+      "en": ["Earth", "Saturn", "Jupiter", "Neptune"],
+      "sv": ["Jorden", "Saturnus", "Jupiter", "Neptunus"]
+    },
+    "correctIndex": 2,
+    "explanation": {
+      "en": "Jupiter is the largest planet in the solar system.",
+      "sv": "Jupiter är den största planeten i solsystemet."
+    }
+  },
+  {
+    "id": "q282",
+    "category": "Science",
+    "text": {
+      "en": "Which organ system includes the brain and spinal cord?",
+      "sv": "Vilket organsystem omfattar hjärnan och ryggmärgen?"
+    },
+    "options": {
+      "en": [
+        "Digestive system",
+        "Nervous system",
+        "Respiratory system",
+        "Circulatory system"
+      ],
+      "sv": [
+        "Matsmältningssystemet",
+        "Nervsystemet",
+        "Andningssystemet",
+        "Cirkulationssystemet"
+      ]
+    },
+    "correctIndex": 1,
+    "explanation": {
+      "en": "The nervous system controls and coordinates body activities.",
+      "sv": "Nervsystemet styr och samordnar kroppens funktioner."
+    }
+  },
+  {
+    "id": "q283",
+    "category": "Science",
+    "text": {
+      "en": "Which scientist is famous for discovering gravity after seeing an apple fall?",
+      "sv": "Vilken vetenskapsman är känd för att ha upptäckt gravitationen efter att ha sett ett äpple falla?"
+    },
+    "options": {
+      "en": [
+        "Albert Einstein",
+        "Isaac Newton",
+        "Galileo Galilei",
+        "Michael Faraday"
+      ],
+      "sv": [
+        "Albert Einstein",
+        "Isaac Newton",
+        "Galileo Galilei",
+        "Michael Faraday"
+      ]
+    },
+    "correctIndex": 1,
+    "explanation": {
+      "en": "Newton formulated the laws of gravity and motion.",
+      "sv": "Newton formulerade gravitations- och rörelselagarna."
+    }
+  },
+  {
+    "id": "q284",
+    "category": "Science",
+    "text": {
+      "en": "What is the basic structural unit of the nervous system?",
+      "sv": "Vad är den grundläggande strukturella enheten i nervsystemet?"
+    },
+    "options": {
+      "en": ["Neuron", "Capillary", "Alveolus", "Gland"],
+      "sv": ["Neuron", "Kapillär", "Alveol", "Körtel"]
+    },
+    "correctIndex": 0,
+    "explanation": {
+      "en": "Neurons are nerve cells that transmit impulses.",
+      "sv": "Neuroner är nervceller som överför impulser."
+    }
+  },
+  {
+    "id": "q285",
+    "category": "Science",
+    "text": {
+      "en": "What organ pumps blood throughout the body?",
+      "sv": "Vilket organ pumpar blod genom kroppen?"
+    },
+    "options": {
+      "en": ["Liver", "Kidney", "Heart", "Stomach"],
+      "sv": ["Lever", "Njure", "Hjärta", "Mage"]
+    },
+    "correctIndex": 2,
+    "explanation": {
+      "en": "The heart circulates blood, delivering oxygen and nutrients.",
+      "sv": "Hjärtat cirkulerar blod och levererar syre och näring."
+    }
+  },
+  {
+    "id": "q286",
+    "category": "Science",
+    "text": {
+      "en": "What is the chemical symbol for iron?",
+      "sv": "Vad är den kemiska beteckningen för järn?"
+    },
+    "options": {
+      "en": ["Ir", "Fe", "In", "I"],
+      "sv": ["Ir", "Fe", "In", "I"]
+    },
+    "correctIndex": 1,
+    "explanation": {
+      "en": "Fe comes from the Latin word 'ferrum' for iron.",
+      "sv": "Fe kommer från det latinska ordet 'ferrum' för järn."
+    }
+  },
+  {
+    "id": "q287",
+    "category": "Science",
+    "text": {
+      "en": "Which process breaks down food into nutrients the body can absorb?",
+      "sv": "Vilken process bryter ner mat till näringsämnen som kroppen kan ta upp?"
+    },
+    "options": {
+      "en": ["Respiration", "Digestion", "Circulation", "Excretion"],
+      "sv": ["Andning", "Matsmältning", "Cirkulation", "Utsöndring"]
+    },
+    "correctIndex": 1,
+    "explanation": {
+      "en": "Digestion breaks food into absorbable substances.",
+      "sv": "Matsmältning bryter ner mat till ämnen som kroppen kan ta upp."
+    }
+  },
+  {
+    "id": "q288",
+    "category": "Science",
+    "text": {
+      "en": "What gas do animals exhale that plants need for photosynthesis?",
+      "sv": "Vilken gas andas djur ut som växter behöver för fotosyntesen?"
+    },
+    "options": {
+      "en": ["Oxygen", "Nitrogen", "Carbon dioxide", "Helium"],
+      "sv": ["Syre", "Kväve", "Koldioxid", "Helium"]
+    },
+    "correctIndex": 2,
+    "explanation": {
+      "en": "Animals exhale carbon dioxide, which plants use.",
+      "sv": "Djur andas ut koldioxid som växter använder."
+    }
+  },
+  {
+    "id": "q289",
+    "category": "Science",
+    "text": {
+      "en": "What is the main component of Earth's core?",
+      "sv": "Vad är den huvudsakliga beståndsdelen i jordens kärna?"
+    },
+    "options": {
+      "en": ["Iron", "Nickel", "Silicon", "Aluminum"],
+      "sv": ["Järn", "Nickel", "Kisel", "Aluminium"]
+    },
+    "correctIndex": 0,
+    "explanation": {
+      "en": "Earth's core is mostly iron, with some nickel.",
+      "sv": "Jordens kärna består mest av järn och lite nickel."
+    }
+  },
+  {
+    "id": "q290",
+    "category": "Science",
+    "text": {
+      "en": "Which human organ filters blood to produce urine?",
+      "sv": "Vilket organ i människan filtrerar blod för att bilda urin?"
+    },
+    "options": {
+      "en": ["Lungs", "Kidneys", "Heart", "Stomach"],
+      "sv": ["Lungor", "Njurar", "Hjärta", "Mage"]
+    },
+    "correctIndex": 1,
+    "explanation": {
+      "en": "The kidneys filter waste from the blood to create urine.",
+      "sv": "Njurar filtrerar avfall från blodet och bildar urin."
+    }
+  },
+  {
+    "id": "q291",
+    "category": "Science",
+    "text": {
+      "en": "What organelle is known as the control center of the cell?",
+      "sv": "Vilken organell kallas cellens kontrollcenter?"
+    },
+    "options": {
+      "en": ["Nucleus", "Mitochondria", "Ribosome", "Chloroplast"],
+      "sv": ["Cellkärna", "Mitokondrie", "Ribosom", "Kloroplast"]
+    },
+    "correctIndex": 0,
+    "explanation": {
+      "en": "The nucleus stores DNA and controls cell activities.",
+      "sv": "Cellkärnan lagrar DNA och styr cellens aktiviteter."
+    }
+  },
+  {
+    "id": "q292",
+    "category": "Science",
+    "text": {
+      "en": "What is the name for animals that maintain a constant body temperature?",
+      "sv": "Vad kallas djur som håller en konstant kroppstemperatur?"
+    },
+    "options": {
+      "en": ["Ectotherms", "Endotherms", "Invertebrates", "Carnivores"],
+      "sv": ["Ektotermer", "Endotermer", "Ryggradslösa", "Köttätare"]
+    },
+    "correctIndex": 1,
+    "explanation": {
+      "en": "Endotherms regulate their own body temperature internally.",
+      "sv": "Endotermer reglerar sin kroppstemperatur internt."
+    }
+  },
+  {
+    "id": "q293",
+    "category": "Science",
+    "text": {
+      "en": "Which scientist proposed the theory of evolution by natural selection?",
+      "sv": "Vilken vetenskapsman föreslog teorin om evolution genom naturligt urval?"
+    },
+    "options": {
+      "en": ["Gregor Mendel", "Louis Pasteur", "Charles Darwin", "Marie Curie"],
+      "sv": ["Gregor Mendel", "Louis Pasteur", "Charles Darwin", "Marie Curie"]
+    },
+    "correctIndex": 2,
+    "explanation": {
+      "en": "Charles Darwin published 'On the Origin of Species' in 1859.",
+      "sv": "Charles Darwin publicerade 'Om arternas uppkomst' 1859."
+    }
+  },
+  {
+    "id": "q294",
+    "category": "Science",
+    "text": {
+      "en": "Which part of the human body has the smallest bones?",
+      "sv": "Vilken del av människokroppen har de minsta benen?"
+    },
+    "options": {
+      "en": ["Ear", "Hand", "Foot", "Nose"],
+      "sv": ["Öra", "Hand", "Fot", "Näsa"]
+    },
+    "correctIndex": 0,
+    "explanation": {
+      "en": "The three tiny bones of the middle ear are the smallest.",
+      "sv": "De tre små benen i mellanörat är kroppens minsta."
+    }
+  },
+  {
+    "id": "q295",
+    "category": "Science",
+    "text": {
+      "en": "What type of simple machine is a seesaw?",
+      "sv": "Vilken typ av enkel maskin är en gungbräda?"
+    },
+    "options": {
+      "en": ["Lever", "Pulley", "Wheel and axle", "Inclined plane"],
+      "sv": ["Hävstång", "Block", "Hjul och axel", "Lutande plan"]
+    },
+    "correctIndex": 0,
+    "explanation": {
+      "en": "A seesaw acts as a lever pivoting on a fulcrum.",
+      "sv": "En gungbräda fungerar som en hävstång som vilar på en vridpunkt."
+    }
+  },
+  {
+    "id": "q296",
+    "category": "Science",
+    "text": {
+      "en": "What is the most common element in Earth's crust?",
+      "sv": "Vilket är det vanligaste grundämnet i jordskorpan?"
+    },
+    "options": {
+      "en": ["Silicon", "Iron", "Oxygen", "Calcium"],
+      "sv": ["Kisel", "Järn", "Syre", "Kalcium"]
+    },
+    "correctIndex": 2,
+    "explanation": {
+      "en": "Oxygen makes up about 46% of Earth's crust by weight.",
+      "sv": "Syre utgör cirka 46% av jordskorpan i vikt."
+    }
+  },
+  {
+    "id": "q297",
+    "category": "Science",
+    "text": {
+      "en": "What instrument measures atmospheric pressure?",
+      "sv": "Vilket instrument mäter atmosfäriskt tryck?"
+    },
+    "options": {
+      "en": ["Thermometer", "Barometer", "Hygrometer", "Anemometer"],
+      "sv": ["Termometer", "Barometer", "Hygrometer", "Anemometer"]
+    },
+    "correctIndex": 1,
+    "explanation": {
+      "en": "A barometer measures the pressure of the atmosphere.",
+      "sv": "En barometer mäter lufttrycket i atmosfären."
+    }
+  },
+  {
+    "id": "q298",
+    "category": "Science",
+    "text": {
+      "en": "What is the largest internal organ in the human body?",
+      "sv": "Vilket är människokroppens största inre organ?"
+    },
+    "options": {
+      "en": ["Heart", "Liver", "Lung", "Kidney"],
+      "sv": ["Hjärta", "Lever", "Lunga", "Njure"]
+    },
+    "correctIndex": 1,
+    "explanation": {
+      "en": "The liver is the largest internal organ by mass.",
+      "sv": "Levern är kroppens största inre organ sett till massa."
+    }
+  },
+  {
+    "id": "q299",
+    "category": "Science",
+    "text": {
+      "en": "Which blood vessels carry blood away from the heart?",
+      "sv": "Vilka blodkärl transporterar blod bort från hjärtat?"
+    },
+    "options": {
+      "en": ["Veins", "Arteries", "Capillaries", "Lymphatics"],
+      "sv": ["Vener", "Artärer", "Kapillärer", "Lymfkärl"]
+    },
+    "correctIndex": 1,
+    "explanation": {
+      "en": "Arteries carry oxygenated blood away from the heart.",
+      "sv": "Artärer transporterar syrerikt blod bort från hjärtat."
+    }
+  },
+  {
+    "id": "q300",
+    "category": "Science",
+    "text": {
+      "en": "What is the primary source of energy for almost all life on Earth?",
+      "sv": "Vad är den främsta energikällan för nästan allt liv på jorden?"
+    },
+    "options": {
+      "en": ["Volcanoes", "The Moon", "The Sun", "Earth’s core"],
+      "sv": ["Vulkaner", "Månen", "Solen", "Jordens kärna"]
+    },
+    "correctIndex": 2,
+    "explanation": {
+      "en": "The Sun provides light and heat essential for life.",
+      "sv": "Solen ger ljus och värme som är avgörande för livet."
+    }
+  }
+]

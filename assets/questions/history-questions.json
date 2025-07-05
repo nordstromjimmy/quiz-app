@@ -438,5 +438,1760 @@
       "en": "Genghis Khan united Mongol tribes and established the empire.",
       "sv": "Djingis Khan enade mongolstammarna och grundade riket."
     }
+  },
+  {
+    "id": "q121",
+    "category": "History",
+    "text": {
+      "en": "Who was the first Chancellor of Germany?",
+      "sv": "Vem var Tysklands första rikskansler?"
+    },
+    "options": {
+      "en": [
+        "Otto von Bismarck",
+        "Adolf Hitler",
+        "Angela Merkel",
+        "Wilhelm II"
+      ],
+      "sv": ["Otto von Bismarck", "Adolf Hitler", "Angela Merkel", "Wilhelm II"]
+    },
+    "correctIndex": 0,
+    "explanation": {
+      "en": "Otto von Bismarck became the first Chancellor in 1871.",
+      "sv": "Otto von Bismarck blev Tysklands första rikskansler 1871."
+    }
+  },
+  {
+    "id": "q122",
+    "category": "History",
+    "text": {
+      "en": "Which war was fought between the North and South regions of the United States?",
+      "sv": "Vilket krig utkämpades mellan norra och södra delarna av USA?"
+    },
+    "options": {
+      "en": [
+        "World War I",
+        "American Civil War",
+        "Revolutionary War",
+        "Vietnam War"
+      ],
+      "sv": [
+        "Första världskriget",
+        "Amerikanska inbördeskriget",
+        "Revolutionskriget",
+        "Vietnamkriget"
+      ]
+    },
+    "correctIndex": 1,
+    "explanation": {
+      "en": "The American Civil War was fought from 1861 to 1865.",
+      "sv": "Amerikanska inbördeskriget utkämpades 1861-1865."
+    }
+  },
+  {
+    "id": "q123",
+    "category": "History",
+    "text": {
+      "en": "Who was the famous Carthaginian general who crossed the Alps?",
+      "sv": "Vem var den berömde kartagiske generalen som korsade Alperna?"
+    },
+    "options": {
+      "en": ["Scipio", "Alexander the Great", "Hannibal", "Julius Caesar"],
+      "sv": ["Scipio", "Alexander den store", "Hannibal", "Julius Caesar"]
+    },
+    "correctIndex": 2,
+    "explanation": {
+      "en": "Hannibal led elephants over the Alps during the Second Punic War.",
+      "sv": "Hannibal ledde elefanter över Alperna under andra puniska kriget."
+    }
+  },
+  {
+    "id": "q124",
+    "category": "History",
+    "text": {
+      "en": "Which ancient wonder was located in Babylon?",
+      "sv": "Vilket antikt underverk låg i Babylon?"
+    },
+    "options": {
+      "en": [
+        "Great Pyramid",
+        "Hanging Gardens",
+        "Colossus of Rhodes",
+        "Temple of Artemis"
+      ],
+      "sv": [
+        "Stora pyramiden",
+        "De hängande trädgårdarna",
+        "Kolossen på Rhodos",
+        "Artemistemplet"
+      ]
+    },
+    "correctIndex": 1,
+    "explanation": {
+      "en": "The Hanging Gardens were said to be in Babylon.",
+      "sv": "De hängande trädgårdarna ska ha legat i Babylon."
+    }
+  },
+  {
+    "id": "q125",
+    "category": "History",
+    "text": {
+      "en": "Who led the Soviet Union during the Cuban Missile Crisis?",
+      "sv": "Vem ledde Sovjetunionen under Kubakrisen?"
+    },
+    "options": {
+      "en": ["Stalin", "Khrushchev", "Brezhnev", "Gorbachev"],
+      "sv": ["Stalin", "Chrusjtjov", "Brezjnev", "Gorbatjov"]
+    },
+    "correctIndex": 1,
+    "explanation": {
+      "en": "Nikita Khrushchev was the Soviet leader during the crisis in 1962.",
+      "sv": "Nikita Chrusjtjov var Sovjets ledare under krisen 1962."
+    }
+  },
+  {
+    "id": "q126",
+    "category": "History",
+    "text": {
+      "en": "Which year did the Berlin Wall fall?",
+      "sv": "Vilket år föll Berlinmuren?"
+    },
+    "options": {
+      "en": ["1987", "1988", "1989", "1990"],
+      "sv": ["1987", "1988", "1989", "1990"]
+    },
+    "correctIndex": 2,
+    "explanation": {
+      "en": "The Berlin Wall fell in November 1989.",
+      "sv": "Berlinmuren föll i november 1989."
+    }
+  },
+  {
+    "id": "q127",
+    "category": "History",
+    "text": {
+      "en": "Who was the first emperor of China?",
+      "sv": "Vem var Kinas första kejsare?"
+    },
+    "options": {
+      "en": ["Qin Shi Huang", "Kublai Khan", "Sun Yat-sen", "Mao Zedong"],
+      "sv": ["Qin Shi Huang", "Kublai Khan", "Sun Yat-sen", "Mao Zedong"]
+    },
+    "correctIndex": 0,
+    "explanation": {
+      "en": "Qin Shi Huang unified China and became its first emperor.",
+      "sv": "Qin Shi Huang enade Kina och blev dess första kejsare."
+    }
+  },
+  {
+    "id": "q128",
+    "category": "History",
+    "text": {
+      "en": "Which ship's voyage marked the start of the Pilgrims settling in America?",
+      "sv": "Vilken båts resa markerade starten för pilgrimerna i Amerika?"
+    },
+    "options": {
+      "en": ["Santa Maria", "Endeavour", "Mayflower", "Beagle"],
+      "sv": ["Santa Maria", "Endeavour", "Mayflower", "Beagle"]
+    },
+    "correctIndex": 2,
+    "explanation": {
+      "en": "The Mayflower carried the Pilgrims to America in 1620.",
+      "sv": "Mayflower tog pilgrimerna till Amerika 1620."
+    }
+  },
+  {
+    "id": "q129",
+    "category": "History",
+    "text": {
+      "en": "Who discovered penicillin?",
+      "sv": "Vem upptäckte penicillinet?"
+    },
+    "options": {
+      "en": [
+        "Louis Pasteur",
+        "Alexander Fleming",
+        "Marie Curie",
+        "Gregor Mendel"
+      ],
+      "sv": [
+        "Louis Pasteur",
+        "Alexander Fleming",
+        "Marie Curie",
+        "Gregor Mendel"
+      ]
+    },
+    "correctIndex": 1,
+    "explanation": {
+      "en": "Alexander Fleming discovered penicillin in 1928.",
+      "sv": "Alexander Fleming upptäckte penicillinet 1928."
+    }
+  },
+  {
+    "id": "q130",
+    "category": "History",
+    "text": {
+      "en": "Who was assassinated in Dallas in 1963?",
+      "sv": "Vem mördades i Dallas 1963?"
+    },
+    "options": {
+      "en": [
+        "Martin Luther King Jr.",
+        "John F. Kennedy",
+        "Robert Kennedy",
+        "Richard Nixon"
+      ],
+      "sv": [
+        "Martin Luther King Jr.",
+        "John F. Kennedy",
+        "Robert Kennedy",
+        "Richard Nixon"
+      ]
+    },
+    "correctIndex": 1,
+    "explanation": {
+      "en": "President John F. Kennedy was assassinated on November 22, 1963.",
+      "sv": "President John F. Kennedy mördades den 22 november 1963."
+    }
+  },
+  {
+    "id": "q131",
+    "category": "History",
+    "text": {
+      "en": "What event started on October 29, 1929, causing global economic hardship?",
+      "sv": "Vilken händelse började den 29 oktober 1929 och orsakade global ekonomisk kris?"
+    },
+    "options": {
+      "en": [
+        "The Great Depression",
+        "World War II",
+        "The Dust Bowl",
+        "Marshall Plan"
+      ],
+      "sv": [
+        "Den stora depressionen",
+        "Andra världskriget",
+        "Dust Bowl",
+        "Marshallplanen"
+      ]
+    },
+    "correctIndex": 0,
+    "explanation": {
+      "en": "The stock market crash led to the Great Depression.",
+      "sv": "Börskraschen ledde till den stora depressionen."
+    }
+  },
+  {
+    "id": "q132",
+    "category": "History",
+    "text": {
+      "en": "Which Viking explorer is believed to have reached North America around 1000 AD?",
+      "sv": "Vilken vikingaexplorör tros ha nått Nordamerika omkring år 1000?"
+    },
+    "options": {
+      "en": [
+        "Erik the Red",
+        "Leif Erikson",
+        "Ragnar Lodbrok",
+        "Harald Hardrada"
+      ],
+      "sv": ["Erik Röde", "Leif Eriksson", "Ragnar Lodbrok", "Harald Hårdråde"]
+    },
+    "correctIndex": 1,
+    "explanation": {
+      "en": "Leif Erikson is credited with exploring Vinland, likely part of North America.",
+      "sv": "Leif Eriksson tros ha utforskat Vinland, troligen en del av Nordamerika."
+    }
+  },
+  {
+    "id": "q133",
+    "category": "History",
+    "text": {
+      "en": "What empire was ruled by Cyrus the Great?",
+      "sv": "Vilket imperium styrdes av Kyros den store?"
+    },
+    "options": {
+      "en": [
+        "Roman Empire",
+        "Persian Empire",
+        "Ottoman Empire",
+        "Mongol Empire"
+      ],
+      "sv": [
+        "Romerska riket",
+        "Persiska riket",
+        "Osmanska riket",
+        "Mongoliska riket"
+      ]
+    },
+    "correctIndex": 1,
+    "explanation": {
+      "en": "Cyrus the Great founded the Achaemenid Persian Empire.",
+      "sv": "Kyros den store grundade det persiska akemeniderriket."
+    }
+  },
+  {
+    "id": "q134",
+    "category": "History",
+    "text": {
+      "en": "Who was the British monarch during World War I?",
+      "sv": "Vem var Storbritanniens monark under första världskriget?"
+    },
+    "options": {
+      "en": ["Edward VII", "George V", "George VI", "Victoria"],
+      "sv": ["Edward VII", "George V", "George VI", "Victoria"]
+    },
+    "correctIndex": 1,
+    "explanation": {
+      "en": "King George V reigned during World War I.",
+      "sv": "Kung George V regerade under första världskriget."
+    }
+  },
+  {
+    "id": "q135",
+    "category": "History",
+    "text": {
+      "en": "Who was the first woman to fly solo across the Atlantic Ocean?",
+      "sv": "Vem var den första kvinnan som flög ensam över Atlanten?"
+    },
+    "options": {
+      "en": [
+        "Amelia Earhart",
+        "Valentina Tereshkova",
+        "Bessie Coleman",
+        "Jacqueline Cochran"
+      ],
+      "sv": [
+        "Amelia Earhart",
+        "Valentina Tereshkova",
+        "Bessie Coleman",
+        "Jacqueline Cochran"
+      ]
+    },
+    "correctIndex": 0,
+    "explanation": {
+      "en": "Amelia Earhart made her solo transatlantic flight in 1932.",
+      "sv": "Amelia Earhart flög ensam över Atlanten 1932."
+    }
+  },
+  {
+    "id": "q136",
+    "category": "History",
+    "text": {
+      "en": "Which ancient civilization built Machu Picchu?",
+      "sv": "Vilken antik civilisation byggde Machu Picchu?"
+    },
+    "options": {
+      "en": ["Aztec", "Inca", "Maya", "Olmec"],
+      "sv": ["Aztekerna", "Inka", "Maya", "Olmekerna"]
+    },
+    "correctIndex": 1,
+    "explanation": {
+      "en": "Machu Picchu was built by the Inca in the 15th century.",
+      "sv": "Machu Picchu byggdes av inka på 1400-talet."
+    }
+  },
+  {
+    "id": "q137",
+    "category": "History",
+    "text": {
+      "en": "What was the name of the ship on which the Pilgrims traveled to North America in 1620?",
+      "sv": "Vad hette skeppet som pilgrimerna reste till Nordamerika med 1620?"
+    },
+    "options": {
+      "en": ["Endeavour", "Mayflower", "Beagle", "Santa Maria"],
+      "sv": ["Endeavour", "Mayflower", "Beagle", "Santa Maria"]
+    },
+    "correctIndex": 1,
+    "explanation": {
+      "en": "The Mayflower carried the Pilgrims to Plymouth Colony.",
+      "sv": "Mayflower tog pilgrimerna till Plymouth-kolonin."
+    }
+  },
+  {
+    "id": "q138",
+    "category": "History",
+    "text": {
+      "en": "Who became the first President of South Africa after the end of apartheid?",
+      "sv": "Vem blev Sydafrikas första president efter apartheid?"
+    },
+    "options": {
+      "en": ["Nelson Mandela", "Thabo Mbeki", "F.W. de Klerk", "Jacob Zuma"],
+      "sv": ["Nelson Mandela", "Thabo Mbeki", "F.W. de Klerk", "Jacob Zuma"]
+    },
+    "correctIndex": 0,
+    "explanation": {
+      "en": "Nelson Mandela was elected in 1994.",
+      "sv": "Nelson Mandela valdes 1994."
+    }
+  },
+  {
+    "id": "q139",
+    "category": "History",
+    "text": {
+      "en": "Which city was divided by a wall from 1961 to 1989?",
+      "sv": "Vilken stad delades av en mur mellan 1961 och 1989?"
+    },
+    "options": {
+      "en": ["Vienna", "Prague", "Warsaw", "Berlin"],
+      "sv": ["Wien", "Prag", "Warszawa", "Berlin"]
+    },
+    "correctIndex": 3,
+    "explanation": {
+      "en": "The Berlin Wall separated East and West Berlin.",
+      "sv": "Berlinmuren delade Öst- och Västberlin."
+    }
+  },
+  {
+    "id": "q140",
+    "category": "History",
+    "text": {
+      "en": "Who was the Greek god of war?",
+      "sv": "Vem var den grekiska krigsguden?"
+    },
+    "options": {
+      "en": ["Zeus", "Apollo", "Hermes", "Ares"],
+      "sv": ["Zeus", "Apollon", "Hermes", "Ares"]
+    },
+    "correctIndex": 3,
+    "explanation": {
+      "en": "Ares was the Greek god of war.",
+      "sv": "Ares var den grekiska krigsguden."
+    }
+  },
+  {
+    "id": "q141",
+    "category": "History",
+    "text": {
+      "en": "Which English queen had the nickname 'The Virgin Queen'?",
+      "sv": "Vilken engelsk drottning kallades 'Den orörda drottningen'?"
+    },
+    "options": {
+      "en": ["Elizabeth I", "Victoria", "Mary I", "Anne"],
+      "sv": ["Elizabeth I", "Victoria", "Mary I", "Anne"]
+    },
+    "correctIndex": 0,
+    "explanation": {
+      "en": "Elizabeth I never married, earning her that nickname.",
+      "sv": "Elizabeth I gifte sig aldrig och kallades därför så."
+    }
+  },
+  {
+    "id": "q142",
+    "category": "History",
+    "text": {
+      "en": "Which Roman emperor famously fiddled while Rome burned?",
+      "sv": "Vilken romersk kejsare spelade enligt legenden fiol när Rom brann?"
+    },
+    "options": {
+      "en": ["Augustus", "Nero", "Caligula", "Hadrian"],
+      "sv": ["Augustus", "Nero", "Caligula", "Hadrianus"]
+    },
+    "correctIndex": 1,
+    "explanation": {
+      "en": "Nero is said to have played music as Rome burned in AD 64.",
+      "sv": "Nero sägs ha spelat musik när Rom brann år 64."
+    }
+  },
+  {
+    "id": "q143",
+    "category": "History",
+    "text": {
+      "en": "In which country did the Renaissance begin?",
+      "sv": "I vilket land började renässansen?"
+    },
+    "options": {
+      "en": ["France", "Italy", "Spain", "Germany"],
+      "sv": ["Frankrike", "Italien", "Spanien", "Tyskland"]
+    },
+    "correctIndex": 1,
+    "explanation": {
+      "en": "The Renaissance began in Italy during the 14th century.",
+      "sv": "Renässansen började i Italien på 1300-talet."
+    }
+  },
+  {
+    "id": "q144",
+    "category": "History",
+    "text": {
+      "en": "Who led the Mongol Empire to become the largest contiguous empire in history?",
+      "sv": "Vem ledde Mongolriket till att bli det största sammanhängande imperiet i historien?"
+    },
+    "options": {
+      "en": ["Kublai Khan", "Attila the Hun", "Genghis Khan", "Tamerlane"],
+      "sv": ["Kublai Khan", "Attila hunnen", "Djingis Khan", "Timur Lenk"]
+    },
+    "correctIndex": 2,
+    "explanation": {
+      "en": "Genghis Khan founded and expanded the Mongol Empire.",
+      "sv": "Djingis Khan grundade och expanderade Mongolriket."
+    }
+  },
+  {
+    "id": "q145",
+    "category": "History",
+    "text": {
+      "en": "Who was assassinated on June 28, 1914, sparking World War I?",
+      "sv": "Vem mördades den 28 juni 1914 och utlöste första världskriget?"
+    },
+    "options": {
+      "en": [
+        "Franz Ferdinand",
+        "Nicholas II",
+        "Kaiser Wilhelm II",
+        "Woodrow Wilson"
+      ],
+      "sv": [
+        "Franz Ferdinand",
+        "Nikolaj II",
+        "Kejsar Wilhelm II",
+        "Woodrow Wilson"
+      ]
+    },
+    "correctIndex": 0,
+    "explanation": {
+      "en": "The assassination of Archduke Franz Ferdinand triggered the war.",
+      "sv": "Mordet på ärkehertig Franz Ferdinand utlöste kriget."
+    }
+  },
+  {
+    "id": "q146",
+    "category": "History",
+    "text": {
+      "en": "Who was the Egyptian queen known for her relationships with Julius Caesar and Mark Antony?",
+      "sv": "Vilken egyptisk drottning är känd för sina relationer med Julius Caesar och Marcus Antonius?"
+    },
+    "options": {
+      "en": ["Nefertiti", "Cleopatra", "Hatshepsut", "Sobekneferu"],
+      "sv": ["Nefertiti", "Kleopatra", "Hatshepsut", "Sobekneferu"]
+    },
+    "correctIndex": 1,
+    "explanation": {
+      "en": "Cleopatra VII was involved with both Caesar and Mark Antony.",
+      "sv": "Kleopatra VII hade relationer med både Caesar och Marcus Antonius."
+    }
+  },
+  {
+    "id": "q147",
+    "category": "History",
+    "text": {
+      "en": "Who was the leader of Nazi Germany during World War II?",
+      "sv": "Vem var ledare för Nazityskland under andra världskriget?"
+    },
+    "options": {
+      "en": [
+        "Joseph Goebbels",
+        "Heinrich Himmler",
+        "Adolf Hitler",
+        "Hermann Göring"
+      ],
+      "sv": [
+        "Joseph Goebbels",
+        "Heinrich Himmler",
+        "Adolf Hitler",
+        "Hermann Göring"
+      ]
+    },
+    "correctIndex": 2,
+    "explanation": {
+      "en": "Adolf Hitler led Nazi Germany from 1933 to 1945.",
+      "sv": "Adolf Hitler ledde Nazityskland från 1933 till 1945."
+    }
+  },
+  {
+    "id": "q148",
+    "category": "History",
+    "text": {
+      "en": "What was the primary language of the Roman Empire?",
+      "sv": "Vilket var det främsta språket i Romarriket?"
+    },
+    "options": {
+      "en": ["Greek", "Latin", "Hebrew", "Aramaic"],
+      "sv": ["Grekiska", "Latin", "Hebreiska", "Arameiska"]
+    },
+    "correctIndex": 1,
+    "explanation": {
+      "en": "Latin was the administrative and common language of Rome.",
+      "sv": "Latin var det administrativa och allmänna språket i Rom."
+    }
+  },
+  {
+    "id": "q149",
+    "category": "History",
+    "text": {
+      "en": "Who was the first President of the United States?",
+      "sv": "Vem var USA:s första president?"
+    },
+    "options": {
+      "en": [
+        "Thomas Jefferson",
+        "Benjamin Franklin",
+        "George Washington",
+        "John Adams"
+      ],
+      "sv": [
+        "Thomas Jefferson",
+        "Benjamin Franklin",
+        "George Washington",
+        "John Adams"
+      ]
+    },
+    "correctIndex": 2,
+    "explanation": {
+      "en": "George Washington became president in 1789.",
+      "sv": "George Washington blev president 1789."
+    }
+  },
+  {
+    "id": "q150",
+    "category": "History",
+    "text": {
+      "en": "Which city hosted the first modern Olympic Games in 1896?",
+      "sv": "Vilken stad stod värd för de första moderna olympiska spelen 1896?"
+    },
+    "options": {
+      "en": ["Paris", "Athens", "London", "Rome"],
+      "sv": ["Paris", "Aten", "London", "Rom"]
+    },
+    "correctIndex": 1,
+    "explanation": {
+      "en": "The first modern Olympics were held in Athens, Greece.",
+      "sv": "De första moderna OS hölls i Aten, Grekland."
+    }
+  },
+  {
+    "id": "q151",
+    "category": "History",
+    "text": {
+      "en": "Who was the first emperor of Rome?",
+      "sv": "Vem var Roms första kejsare?"
+    },
+    "options": {
+      "en": ["Julius Caesar", "Augustus", "Nero", "Caligula"],
+      "sv": ["Julius Caesar", "Augustus", "Nero", "Caligula"]
+    },
+    "correctIndex": 1,
+    "explanation": {
+      "en": "Augustus became Rome’s first emperor in 27 BC.",
+      "sv": "Augustus blev Roms första kejsare år 27 f.Kr."
+    }
+  },
+  {
+    "id": "q152",
+    "category": "History",
+    "text": {
+      "en": "What was the medieval plague that killed millions in Europe called?",
+      "sv": "Vad kallades den medeltida pest som dödade miljoner i Europa?"
+    },
+    "options": {
+      "en": ["Spanish Flu", "Great Mortality", "Black Death", "Smallpox"],
+      "sv": ["Spanska sjukan", "Den stora döden", "Digerdöden", "Smittkoppor"]
+    },
+    "correctIndex": 2,
+    "explanation": {
+      "en": "The Black Death killed roughly a third of Europe’s population in the 14th century.",
+      "sv": "Digerdöden dödade ungefär en tredjedel av Europas befolkning på 1300-talet."
+    }
+  },
+  {
+    "id": "q153",
+    "category": "History",
+    "text": {
+      "en": "Which U.S. president issued the Emancipation Proclamation?",
+      "sv": "Vilken amerikansk president utfärdade Emancipation Proclamation?"
+    },
+    "options": {
+      "en": [
+        "Ulysses S. Grant",
+        "Abraham Lincoln",
+        "Andrew Jackson",
+        "Thomas Jefferson"
+      ],
+      "sv": [
+        "Ulysses S. Grant",
+        "Abraham Lincoln",
+        "Andrew Jackson",
+        "Thomas Jefferson"
+      ]
+    },
+    "correctIndex": 1,
+    "explanation": {
+      "en": "Abraham Lincoln issued it in 1863 to free slaves in Confederate states.",
+      "sv": "Abraham Lincoln utfärdade den 1863 för att frige slavar i konfedererade stater."
+    }
+  },
+  {
+    "id": "q154",
+    "category": "History",
+    "text": {
+      "en": "What was the name of the ship that Charles Darwin sailed on to the Galápagos Islands?",
+      "sv": "Vad hette skeppet som Charles Darwin seglade med till Galápagosöarna?"
+    },
+    "options": {
+      "en": ["HMS Beagle", "HMS Endeavour", "Mayflower", "Santa Maria"],
+      "sv": ["HMS Beagle", "HMS Endeavour", "Mayflower", "Santa Maria"]
+    },
+    "correctIndex": 0,
+    "explanation": {
+      "en": "Darwin traveled on the HMS Beagle, shaping his theory of evolution.",
+      "sv": "Darwin reste med HMS Beagle och formade sin evolutionsteori."
+    }
+  },
+  {
+    "id": "q155",
+    "category": "History",
+    "text": {
+      "en": "Who was the British Prime Minister at the start of World War II?",
+      "sv": "Vem var Storbritanniens premiärminister i början av andra världskriget?"
+    },
+    "options": {
+      "en": [
+        "Winston Churchill",
+        "Neville Chamberlain",
+        "Clement Attlee",
+        "Stanley Baldwin"
+      ],
+      "sv": [
+        "Winston Churchill",
+        "Neville Chamberlain",
+        "Clement Attlee",
+        "Stanley Baldwin"
+      ]
+    },
+    "correctIndex": 1,
+    "explanation": {
+      "en": "Neville Chamberlain was PM until 1940, succeeded by Churchill.",
+      "sv": "Neville Chamberlain var premiärminister fram till 1940, då Churchill tog över."
+    }
+  },
+  {
+    "id": "q156",
+    "category": "History",
+    "text": {
+      "en": "Who wrote the Communist Manifesto?",
+      "sv": "Vem skrev Kommunistiska manifestet?"
+    },
+    "options": {
+      "en": ["Karl Marx and Friedrich Engels", "Lenin", "Stalin", "Trotsky"],
+      "sv": ["Karl Marx och Friedrich Engels", "Lenin", "Stalin", "Trotskij"]
+    },
+    "correctIndex": 0,
+    "explanation": {
+      "en": "Marx and Engels published it in 1848.",
+      "sv": "Marx och Engels publicerade det 1848."
+    }
+  },
+  {
+    "id": "q157",
+    "category": "History",
+    "text": {
+      "en": "Which empire was ruled by Suleiman the Magnificent?",
+      "sv": "Vilket imperium styrdes av Suleiman den store?"
+    },
+    "options": {
+      "en": [
+        "Persian Empire",
+        "Ottoman Empire",
+        "Roman Empire",
+        "Byzantine Empire"
+      ],
+      "sv": [
+        "Persiska riket",
+        "Osmanska riket",
+        "Romerska riket",
+        "Bysantinska riket"
+      ]
+    },
+    "correctIndex": 1,
+    "explanation": {
+      "en": "Suleiman ruled the Ottoman Empire at its height in the 16th century.",
+      "sv": "Suleiman styrde Osmanska riket på dess höjdpunkt på 1500-talet."
+    }
+  },
+  {
+    "id": "q158",
+    "category": "History",
+    "text": {
+      "en": "Which war ended with the Treaty of Versailles?",
+      "sv": "Vilket krig avslutades med Versaillesfördraget?"
+    },
+    "options": {
+      "en": [
+        "World War I",
+        "World War II",
+        "Franco-Prussian War",
+        "Napoleonic Wars"
+      ],
+      "sv": [
+        "Första världskriget",
+        "Andra världskriget",
+        "Fransk-tyska kriget",
+        "Napoleonkrigen"
+      ]
+    },
+    "correctIndex": 0,
+    "explanation": {
+      "en": "The Treaty of Versailles was signed in 1919 after WWI.",
+      "sv": "Versaillesfördraget undertecknades 1919 efter första världskriget."
+    }
+  },
+  {
+    "id": "q159",
+    "category": "History",
+    "text": {
+      "en": "Who was the first cosmonaut to orbit Earth?",
+      "sv": "Vem var den första kosmonauten att kretsa runt jorden?"
+    },
+    "options": {
+      "en": ["Neil Armstrong", "Yuri Gagarin", "Alan Shepard", "Buzz Aldrin"],
+      "sv": ["Neil Armstrong", "Jurij Gagarin", "Alan Shepard", "Buzz Aldrin"]
+    },
+    "correctIndex": 1,
+    "explanation": {
+      "en": "Yuri Gagarin orbited Earth in 1961.",
+      "sv": "Jurij Gagarin kretsade runt jorden 1961."
+    }
+  },
+  {
+    "id": "q160",
+    "category": "History",
+    "text": {
+      "en": "Where did the American Revolution begin?",
+      "sv": "Var började den amerikanska revolutionen?"
+    },
+    "options": {
+      "en": ["New York", "Philadelphia", "Boston", "Richmond"],
+      "sv": ["New York", "Philadelphia", "Boston", "Richmond"]
+    },
+    "correctIndex": 2,
+    "explanation": {
+      "en": "It began with events like the Boston Tea Party and battles in Massachusetts.",
+      "sv": "Den började med händelser som Boston Tea Party och strider i Massachusetts."
+    }
+  },
+  {
+    "id": "q161",
+    "category": "History",
+    "text": {
+      "en": "Who was the leader of the Soviet Union during World War II?",
+      "sv": "Vem ledde Sovjetunionen under andra världskriget?"
+    },
+    "options": {
+      "en": ["Lenin", "Stalin", "Khrushchev", "Brezhnev"],
+      "sv": ["Lenin", "Stalin", "Chrusjtjov", "Brezjnev"]
+    },
+    "correctIndex": 1,
+    "explanation": {
+      "en": "Joseph Stalin was in power during WWII.",
+      "sv": "Josef Stalin var ledare under andra världskriget."
+    }
+  },
+  {
+    "id": "q162",
+    "category": "History",
+    "text": {
+      "en": "Who was the first female Prime Minister of the UK?",
+      "sv": "Vem var Storbritanniens första kvinnliga premiärminister?"
+    },
+    "options": {
+      "en": [
+        "Margaret Thatcher",
+        "Theresa May",
+        "Angela Merkel",
+        "Indira Gandhi"
+      ],
+      "sv": [
+        "Margaret Thatcher",
+        "Theresa May",
+        "Angela Merkel",
+        "Indira Gandhi"
+      ]
+    },
+    "correctIndex": 0,
+    "explanation": {
+      "en": "Margaret Thatcher served from 1979 to 1990.",
+      "sv": "Margaret Thatcher var premiärminister 1979–1990."
+    }
+  },
+  {
+    "id": "q163",
+    "category": "History",
+    "text": {
+      "en": "Who conquered the Aztec Empire?",
+      "sv": "Vem erövrade Aztekerriket?"
+    },
+    "options": {
+      "en": [
+        "Francisco Pizarro",
+        "Hernán Cortés",
+        "Ferdinand Magellan",
+        "Christopher Columbus"
+      ],
+      "sv": [
+        "Francisco Pizarro",
+        "Hernán Cortés",
+        "Ferdinand Magellan",
+        "Kristoffer Kolumbus"
+      ]
+    },
+    "correctIndex": 1,
+    "explanation": {
+      "en": "Hernán Cortés led the conquest of the Aztecs in the early 1500s.",
+      "sv": "Hernán Cortés ledde erövringen av aztekerna i början av 1500-talet."
+    }
+  },
+  {
+    "id": "q164",
+    "category": "History",
+    "text": {
+      "en": "Who painted the ceiling of the Sistine Chapel?",
+      "sv": "Vem målade taket i Sixtinska kapellet?"
+    },
+    "options": {
+      "en": ["Leonardo da Vinci", "Raphael", "Michelangelo", "Donatello"],
+      "sv": ["Leonardo da Vinci", "Rafael", "Michelangelo", "Donatello"]
+    },
+    "correctIndex": 2,
+    "explanation": {
+      "en": "Michelangelo painted the famous ceiling between 1508 and 1512.",
+      "sv": "Michelangelo målade det berömda taket mellan 1508 och 1512."
+    }
+  },
+  {
+    "id": "q165",
+    "category": "History",
+    "text": {
+      "en": "Which empire built the famous city of Persepolis?",
+      "sv": "Vilket imperium byggde den berömda staden Persepolis?"
+    },
+    "options": {
+      "en": [
+        "Roman Empire",
+        "Ottoman Empire",
+        "Persian Empire",
+        "Mongol Empire"
+      ],
+      "sv": [
+        "Romerska riket",
+        "Osmanska riket",
+        "Persiska riket",
+        "Mongoliska riket"
+      ]
+    },
+    "correctIndex": 2,
+    "explanation": {
+      "en": "Persepolis was a ceremonial capital of the Achaemenid Persian Empire.",
+      "sv": "Persepolis var en ceremoniell huvudstad i det persiska akemeniderriket."
+    }
+  },
+  {
+    "id": "q166",
+    "category": "History",
+    "text": {
+      "en": "What was the Cold War mainly between?",
+      "sv": "Mellan vilka var kalla kriget huvudsakligen?"
+    },
+    "options": {
+      "en": [
+        "USA and Japan",
+        "USA and Soviet Union",
+        "Germany and France",
+        "UK and China"
+      ],
+      "sv": [
+        "USA och Japan",
+        "USA och Sovjetunionen",
+        "Tyskland och Frankrike",
+        "Storbritannien och Kina"
+      ]
+    },
+    "correctIndex": 1,
+    "explanation": {
+      "en": "The Cold War was a period of tension between the USA and USSR.",
+      "sv": "Kalla kriget var en period av spänning mellan USA och Sovjetunionen."
+    }
+  },
+  {
+    "id": "q167",
+    "category": "History",
+    "text": {
+      "en": "What massive wall did the Chinese build to protect against invasions?",
+      "sv": "Vilken massiv mur byggde kineserna för att skydda sig mot invasioner?"
+    },
+    "options": {
+      "en": [
+        "Berlin Wall",
+        "Hadrian's Wall",
+        "Great Wall of China",
+        "Western Wall"
+      ],
+      "sv": ["Berlinmuren", "Hadrianus mur", "Kinesiska muren", "Västra muren"]
+    },
+    "correctIndex": 2,
+    "explanation": {
+      "en": "The Great Wall of China stretches over 21,000 kilometers.",
+      "sv": "Kinesiska muren sträcker sig över 21 000 kilometer."
+    }
+  },
+  {
+    "id": "q168",
+    "category": "History",
+    "text": {
+      "en": "Which civilization built the Parthenon?",
+      "sv": "Vilken civilisation byggde Parthenon?"
+    },
+    "options": {
+      "en": ["Romans", "Greeks", "Egyptians", "Persians"],
+      "sv": ["Romarna", "Grekernas", "Egyptierna", "Perserna"]
+    },
+    "correctIndex": 1,
+    "explanation": {
+      "en": "The Parthenon was built by the ancient Greeks in Athens.",
+      "sv": "Parthenon byggdes av de antika grekerna i Aten."
+    }
+  },
+  {
+    "id": "q169",
+    "category": "History",
+    "text": {
+      "en": "Who was the first person to step on the Moon?",
+      "sv": "Vem var den första personen på månen?"
+    },
+    "options": {
+      "en": [
+        "Buzz Aldrin",
+        "Yuri Gagarin",
+        "Michael Collins",
+        "Neil Armstrong"
+      ],
+      "sv": [
+        "Buzz Aldrin",
+        "Jurij Gagarin",
+        "Michael Collins",
+        "Neil Armstrong"
+      ]
+    },
+    "correctIndex": 3,
+    "explanation": {
+      "en": "Neil Armstrong stepped on the Moon in 1969.",
+      "sv": "Neil Armstrong steg på månen 1969."
+    }
+  },
+  {
+    "id": "q170",
+    "category": "History",
+    "text": {
+      "en": "Who was the leader of France during the Napoleonic Wars?",
+      "sv": "Vem var Frankrikes ledare under Napoleonkrigen?"
+    },
+    "options": {
+      "en": [
+        "Louis XIV",
+        "Robespierre",
+        "Napoleon Bonaparte",
+        "Charles de Gaulle"
+      ],
+      "sv": [
+        "Ludvig XIV",
+        "Robespierre",
+        "Napoleon Bonaparte",
+        "Charles de Gaulle"
+      ]
+    },
+    "correctIndex": 2,
+    "explanation": {
+      "en": "Napoleon Bonaparte led France and expanded its empire across Europe.",
+      "sv": "Napoleon Bonaparte ledde Frankrike och expanderade sitt imperium över Europa."
+    }
+  },
+  {
+    "id": "q171",
+    "category": "History",
+    "text": {
+      "en": "Which explorer is credited with discovering the sea route to India around Africa?",
+      "sv": "Vilken upptäcktsresande är känd för att ha upptäckt sjövägen till Indien runt Afrika?"
+    },
+    "options": {
+      "en": [
+        "Christopher Columbus",
+        "Vasco da Gama",
+        "Ferdinand Magellan",
+        "James Cook"
+      ],
+      "sv": [
+        "Kristoffer Kolumbus",
+        "Vasco da Gama",
+        "Ferdinand Magellan",
+        "James Cook"
+      ]
+    },
+    "correctIndex": 1,
+    "explanation": {
+      "en": "Vasco da Gama reached India by sea in 1498.",
+      "sv": "Vasco da Gama nådde Indien sjövägen 1498."
+    }
+  },
+  {
+    "id": "q172",
+    "category": "History",
+    "text": {
+      "en": "Who was the longest-reigning British monarch before Queen Elizabeth II?",
+      "sv": "Vem var Storbritanniens längst regerande monark före drottning Elizabeth II?"
+    },
+    "options": {
+      "en": ["Henry VIII", "Victoria", "George III", "Edward VII"],
+      "sv": ["Henrik VIII", "Victoria", "George III", "Edward VII"]
+    },
+    "correctIndex": 1,
+    "explanation": {
+      "en": "Queen Victoria reigned from 1837 to 1901.",
+      "sv": "Drottning Victoria regerade från 1837 till 1901."
+    }
+  },
+  {
+    "id": "q173",
+    "category": "History",
+    "text": {
+      "en": "Who was the American civil rights leader famous for his 'I Have a Dream' speech?",
+      "sv": "Vem var den amerikanska medborgarrättsledaren känd för sitt tal 'I Have a Dream'?"
+    },
+    "options": {
+      "en": [
+        "Malcolm X",
+        "Martin Luther King Jr.",
+        "Rosa Parks",
+        "Frederick Douglass"
+      ],
+      "sv": [
+        "Malcolm X",
+        "Martin Luther King Jr.",
+        "Rosa Parks",
+        "Frederick Douglass"
+      ]
+    },
+    "correctIndex": 1,
+    "explanation": {
+      "en": "Martin Luther King Jr. delivered his speech in 1963.",
+      "sv": "Martin Luther King Jr. höll sitt tal 1963."
+    }
+  },
+  {
+    "id": "q174",
+    "category": "History",
+    "text": {
+      "en": "In which modern country was the ancient city of Troy located?",
+      "sv": "I vilket modernt land låg den antika staden Troja?"
+    },
+    "options": {
+      "en": ["Greece", "Italy", "Turkey", "Egypt"],
+      "sv": ["Grekland", "Italien", "Turkiet", "Egypten"]
+    },
+    "correctIndex": 2,
+    "explanation": {
+      "en": "The ruins of Troy are found in present-day Turkey.",
+      "sv": "Ruinerna av Troja finns i dagens Turkiet."
+    }
+  },
+  {
+    "id": "q175",
+    "category": "History",
+    "text": {
+      "en": "Who was the leader of the Soviet Union during the Cuban Missile Crisis?",
+      "sv": "Vem var ledare för Sovjetunionen under Kubakrisen?"
+    },
+    "options": {
+      "en": [
+        "Joseph Stalin",
+        "Nikita Khrushchev",
+        "Leonid Brezhnev",
+        "Mikhail Gorbachev"
+      ],
+      "sv": [
+        "Josef Stalin",
+        "Nikita Chrusjtjov",
+        "Leonid Brezjnev",
+        "Michail Gorbatjov"
+      ]
+    },
+    "correctIndex": 1,
+    "explanation": {
+      "en": "Khrushchev faced off with Kennedy during the 1962 crisis.",
+      "sv": "Chrusjtjov stod emot Kennedy under krisen 1962."
+    }
+  },
+  {
+    "id": "q176",
+    "category": "History",
+    "text": {
+      "en": "Which dynasty built most of the Great Wall of China?",
+      "sv": "Vilken dynasti byggde större delen av kinesiska muren?"
+    },
+    "options": {
+      "en": ["Han", "Ming", "Qin", "Tang"],
+      "sv": ["Han", "Ming", "Qin", "Tang"]
+    },
+    "correctIndex": 1,
+    "explanation": {
+      "en": "The Ming Dynasty strengthened and extended the wall in the 15th century.",
+      "sv": "Mingdynastin förstärkte och utökade muren på 1400-talet."
+    }
+  },
+  {
+    "id": "q177",
+    "category": "History",
+    "text": {
+      "en": "Who was the famous nurse during the Crimean War known as 'The Lady with the Lamp'?",
+      "sv": "Vem var den berömda sjuksköterskan under Krimkriget känd som 'Damen med lampan'?"
+    },
+    "options": {
+      "en": [
+        "Florence Nightingale",
+        "Clara Barton",
+        "Mary Seacole",
+        "Elizabeth Blackwell"
+      ],
+      "sv": [
+        "Florence Nightingale",
+        "Clara Barton",
+        "Mary Seacole",
+        "Elizabeth Blackwell"
+      ]
+    },
+    "correctIndex": 0,
+    "explanation": {
+      "en": "Florence Nightingale reformed nursing during the war.",
+      "sv": "Florence Nightingale reformerade sjukvården under kriget."
+    }
+  },
+  {
+    "id": "q178",
+    "category": "History",
+    "text": {
+      "en": "Which document was signed in 1215 limiting the powers of the English king?",
+      "sv": "Vilket dokument undertecknades 1215 och begränsade den engelske kungens makt?"
+    },
+    "options": {
+      "en": [
+        "Bill of Rights",
+        "Magna Carta",
+        "Petition of Right",
+        "Act of Settlement"
+      ],
+      "sv": [
+        "Bill of Rights",
+        "Magna Carta",
+        "Petition of Right",
+        "Act of Settlement"
+      ]
+    },
+    "correctIndex": 1,
+    "explanation": {
+      "en": "The Magna Carta was signed by King John in 1215.",
+      "sv": "Magna Carta undertecknades av kung John 1215."
+    }
+  },
+  {
+    "id": "q179",
+    "category": "History",
+    "text": {
+      "en": "Who led India's independence movement with a philosophy of nonviolence?",
+      "sv": "Vem ledde Indiens självständighetsrörelse med en filosofi om icke-våld?"
+    },
+    "options": {
+      "en": [
+        "Jawaharlal Nehru",
+        "Subhas Chandra Bose",
+        "Indira Gandhi",
+        "Mahatma Gandhi"
+      ],
+      "sv": [
+        "Jawaharlal Nehru",
+        "Subhas Chandra Bose",
+        "Indira Gandhi",
+        "Mahatma Gandhi"
+      ]
+    },
+    "correctIndex": 3,
+    "explanation": {
+      "en": "Mahatma Gandhi championed peaceful resistance.",
+      "sv": "Mahatma Gandhi förespråkade fredligt motstånd."
+    }
+  },
+  {
+    "id": "q180",
+    "category": "History",
+    "text": {
+      "en": "Who was the Roman goddess of love?",
+      "sv": "Vem var den romerska kärleksgudinnan?"
+    },
+    "options": {
+      "en": ["Diana", "Venus", "Minerva", "Juno"],
+      "sv": ["Diana", "Venus", "Minerva", "Juno"]
+    },
+    "correctIndex": 1,
+    "explanation": {
+      "en": "Venus was equivalent to the Greek goddess Aphrodite.",
+      "sv": "Venus motsvarade den grekiska gudinnan Afrodite."
+    }
+  },
+  {
+    "id": "q181",
+    "category": "History",
+    "text": {
+      "en": "Who wrote 'The Prince', a political treatise on power?",
+      "sv": "Vem skrev 'Fursten', en politisk skrift om makt?"
+    },
+    "options": {
+      "en": ["Thomas More", "Niccolò Machiavelli", "Plato", "Aristotle"],
+      "sv": ["Thomas More", "Niccolò Machiavelli", "Platon", "Aristoteles"]
+    },
+    "correctIndex": 1,
+    "explanation": {
+      "en": "Machiavelli wrote it in 1513 as advice to rulers.",
+      "sv": "Machiavelli skrev den 1513 som råd till härskare."
+    }
+  },
+  {
+    "id": "q182",
+    "category": "History",
+    "text": {
+      "en": "What city was the capital of the Eastern Roman (Byzantine) Empire?",
+      "sv": "Vilken stad var huvudstad i Östromerska (Bysantinska) riket?"
+    },
+    "options": {
+      "en": ["Rome", "Athens", "Constantinople", "Alexandria"],
+      "sv": ["Rom", "Aten", "Konstantinopel", "Alexandria"]
+    },
+    "correctIndex": 2,
+    "explanation": {
+      "en": "Constantinople (now Istanbul) was the Byzantine capital.",
+      "sv": "Konstantinopel (nu Istanbul) var Bysans huvudstad."
+    }
+  },
+  {
+    "id": "q183",
+    "category": "History",
+    "text": {
+      "en": "Which American president is on the one-dollar bill?",
+      "sv": "Vilken amerikansk president finns på en-dollarsedeln?"
+    },
+    "options": {
+      "en": [
+        "Abraham Lincoln",
+        "Thomas Jefferson",
+        "George Washington",
+        "Theodore Roosevelt"
+      ],
+      "sv": [
+        "Abraham Lincoln",
+        "Thomas Jefferson",
+        "George Washington",
+        "Theodore Roosevelt"
+      ]
+    },
+    "correctIndex": 2,
+    "explanation": {
+      "en": "George Washington, the first president, appears on the $1 bill.",
+      "sv": "George Washington, den första presidenten, finns på en-dollarsedeln."
+    }
+  },
+  {
+    "id": "q184",
+    "category": "History",
+    "text": {
+      "en": "What treaty ended World War I?",
+      "sv": "Vilket fördrag avslutade första världskriget?"
+    },
+    "options": {
+      "en": [
+        "Treaty of Tordesillas",
+        "Treaty of Paris",
+        "Treaty of Versailles",
+        "Treaty of Utrecht"
+      ],
+      "sv": [
+        "Fördraget i Tordesillas",
+        "Fördraget i Paris",
+        "Versaillesfördraget",
+        "Fördraget i Utrecht"
+      ]
+    },
+    "correctIndex": 2,
+    "explanation": {
+      "en": "The Treaty of Versailles was signed in 1919.",
+      "sv": "Versaillesfördraget undertecknades 1919."
+    }
+  },
+  {
+    "id": "q185",
+    "category": "History",
+    "text": {
+      "en": "Who was the last Queen of France before the French Revolution?",
+      "sv": "Vem var Frankrikes sista drottning före franska revolutionen?"
+    },
+    "options": {
+      "en": [
+        "Marie Antoinette",
+        "Catherine de' Medici",
+        "Eleanor of Aquitaine",
+        "Anne of Brittany"
+      ],
+      "sv": [
+        "Marie Antoinette",
+        "Catherine de' Medici",
+        "Eleonora av Akvitanien",
+        "Anne av Bretagne"
+      ]
+    },
+    "correctIndex": 0,
+    "explanation": {
+      "en": "Marie Antoinette was executed during the revolution.",
+      "sv": "Marie Antoinette avrättades under revolutionen."
+    }
+  },
+  {
+    "id": "q186",
+    "category": "History",
+    "text": {
+      "en": "What ancient wonder was located in Alexandria, Egypt?",
+      "sv": "Vilket antikt underverk låg i Alexandria, Egypten?"
+    },
+    "options": {
+      "en": [
+        "Colossus of Rhodes",
+        "Great Pyramid",
+        "Lighthouse of Alexandria",
+        "Statue of Zeus"
+      ],
+      "sv": [
+        "Kolossen på Rhodos",
+        "Stora pyramiden",
+        "Fyrtornet på Faros",
+        "Zeusstatyn"
+      ]
+    },
+    "correctIndex": 2,
+    "explanation": {
+      "en": "The Lighthouse of Alexandria was one of the Seven Wonders.",
+      "sv": "Fyrtornet på Faros i Alexandria var ett av antikens sju underverk."
+    }
+  },
+  {
+    "id": "q187",
+    "category": "History",
+    "text": {
+      "en": "Which empire was ruled by Julius Caesar before his assassination?",
+      "sv": "Vilket imperium styrdes av Julius Caesar före hans mord?"
+    },
+    "options": {
+      "en": [
+        "Greek Empire",
+        "Roman Republic",
+        "Ottoman Empire",
+        "Holy Roman Empire"
+      ],
+      "sv": [
+        "Grekiska riket",
+        "Romerska republiken",
+        "Osmanska riket",
+        "Tysk-romerska riket"
+      ]
+    },
+    "correctIndex": 1,
+    "explanation": {
+      "en": "Julius Caesar was dictator of the Roman Republic.",
+      "sv": "Julius Caesar var diktator i Romerska republiken."
+    }
+  },
+  {
+    "id": "q188",
+    "category": "History",
+    "text": {
+      "en": "Which battle in 1066 changed English history?",
+      "sv": "Vilken strid 1066 förändrade Englands historia?"
+    },
+    "options": {
+      "en": [
+        "Battle of Hastings",
+        "Battle of Agincourt",
+        "Battle of Waterloo",
+        "Battle of Bosworth"
+      ],
+      "sv": [
+        "Slaget vid Hastings",
+        "Slaget vid Agincourt",
+        "Slaget vid Waterloo",
+        "Slaget vid Bosworth"
+      ]
+    },
+    "correctIndex": 0,
+    "explanation": {
+      "en": "The Battle of Hastings led to Norman control of England.",
+      "sv": "Slaget vid Hastings ledde till normandernas kontroll över England."
+    }
+  },
+  {
+    "id": "q189",
+    "category": "History",
+    "text": {
+      "en": "Who was known as the 'Iron Lady'?",
+      "sv": "Vem kallades 'Järnladyn'?"
+    },
+    "options": {
+      "en": [
+        "Angela Merkel",
+        "Indira Gandhi",
+        "Margaret Thatcher",
+        "Golda Meir"
+      ],
+      "sv": [
+        "Angela Merkel",
+        "Indira Gandhi",
+        "Margaret Thatcher",
+        "Golda Meir"
+      ]
+    },
+    "correctIndex": 2,
+    "explanation": {
+      "en": "Margaret Thatcher, the UK Prime Minister, was called the Iron Lady.",
+      "sv": "Margaret Thatcher, Storbritanniens premiärminister, kallades Järnladyn."
+    }
+  },
+  {
+    "id": "q190",
+    "category": "History",
+    "text": {
+      "en": "Who was the founder of Microsoft?",
+      "sv": "Vem grundade Microsoft?"
+    },
+    "options": {
+      "en": ["Steve Jobs", "Bill Gates", "Larry Page", "Mark Zuckerberg"],
+      "sv": ["Steve Jobs", "Bill Gates", "Larry Page", "Mark Zuckerberg"]
+    },
+    "correctIndex": 1,
+    "explanation": {
+      "en": "Bill Gates co-founded Microsoft with Paul Allen in 1975.",
+      "sv": "Bill Gates grundade Microsoft med Paul Allen 1975."
+    }
+  },
+  {
+    "id": "q191",
+    "category": "History",
+    "text": {
+      "en": "Who was the first man to reach the South Pole?",
+      "sv": "Vem var den första mannen som nådde Sydpolen?"
+    },
+    "options": {
+      "en": [
+        "Robert Falcon Scott",
+        "Roald Amundsen",
+        "Ernest Shackleton",
+        "Edmund Hillary"
+      ],
+      "sv": [
+        "Robert Falcon Scott",
+        "Roald Amundsen",
+        "Ernest Shackleton",
+        "Edmund Hillary"
+      ]
+    },
+    "correctIndex": 1,
+    "explanation": {
+      "en": "Roald Amundsen reached the South Pole in December 1911.",
+      "sv": "Roald Amundsen nådde Sydpolen i december 1911."
+    }
+  },
+  {
+    "id": "q192",
+    "category": "History",
+    "text": {
+      "en": "Which civilization built the pyramids at Giza?",
+      "sv": "Vilken civilisation byggde pyramiderna i Giza?"
+    },
+    "options": {
+      "en": ["Romans", "Greeks", "Egyptians", "Persians"],
+      "sv": ["Romarna", "Grekernas", "Egyptierna", "Perserna"]
+    },
+    "correctIndex": 2,
+    "explanation": {
+      "en": "The ancient Egyptians built the pyramids as tombs for pharaohs.",
+      "sv": "De gamla egyptierna byggde pyramiderna som gravar för faraoner."
+    }
+  },
+  {
+    "id": "q193",
+    "category": "History",
+    "text": {
+      "en": "Who was the first President of the Russian Federation after the Soviet Union collapsed?",
+      "sv": "Vem var den första presidenten i Ryska federationen efter Sovjetunionens fall?"
+    },
+    "options": {
+      "en": [
+        "Vladimir Putin",
+        "Mikhail Gorbachev",
+        "Boris Yeltsin",
+        "Dmitry Medvedev"
+      ],
+      "sv": [
+        "Vladimir Putin",
+        "Michail Gorbatjov",
+        "Boris Jeltsin",
+        "Dmitrij Medvedev"
+      ]
+    },
+    "correctIndex": 2,
+    "explanation": {
+      "en": "Boris Yeltsin became the first president of the Russian Federation in 1991.",
+      "sv": "Boris Jeltsin blev Ryska federationens första president 1991."
+    }
+  },
+  {
+    "id": "q194",
+    "category": "History",
+    "text": {
+      "en": "Which Greek philosopher was sentenced to death by drinking poison?",
+      "sv": "Vilken grekisk filosof dömdes till döden genom att dricka gift?"
+    },
+    "options": {
+      "en": ["Plato", "Socrates", "Aristotle", "Pythagoras"],
+      "sv": ["Platon", "Sokrates", "Aristoteles", "Pythagoras"]
+    },
+    "correctIndex": 1,
+    "explanation": {
+      "en": "Socrates was sentenced to death for corrupting the youth of Athens.",
+      "sv": "Sokrates dömdes till döden för att ha fördärvat Atens ungdom."
+    }
+  },
+  {
+    "id": "q195",
+    "category": "History",
+    "text": {
+      "en": "What was the name of the first successful English colony in America?",
+      "sv": "Vad hette den första framgångsrika engelska kolonin i Amerika?"
+    },
+    "options": {
+      "en": ["Plymouth", "Roanoke", "Jamestown", "Salem"],
+      "sv": ["Plymouth", "Roanoke", "Jamestown", "Salem"]
+    },
+    "correctIndex": 2,
+    "explanation": {
+      "en": "Jamestown, founded in 1607 in Virginia, was the first permanent English settlement.",
+      "sv": "Jamestown, grundat 1607 i Virginia, var den första permanenta engelska bosättningen."
+    }
+  },
+  {
+    "id": "q196",
+    "category": "History",
+    "text": {
+      "en": "Who was the last Emperor of Russia?",
+      "sv": "Vem var den sista kejsaren av Ryssland?"
+    },
+    "options": {
+      "en": [
+        "Peter the Great",
+        "Ivan the Terrible",
+        "Nicholas II",
+        "Alexander III"
+      ],
+      "sv": [
+        "Peter den store",
+        "Ivan den förskräcklige",
+        "Nikolaj II",
+        "Alexander III"
+      ]
+    },
+    "correctIndex": 2,
+    "explanation": {
+      "en": "Nicholas II abdicated in 1917 during the Russian Revolution.",
+      "sv": "Nikolaj II abdikerade 1917 under ryska revolutionen."
+    }
+  },
+  {
+    "id": "q197",
+    "category": "History",
+    "text": {
+      "en": "What major historical period came immediately after the Middle Ages in Europe?",
+      "sv": "Vilken stor historisk period kom direkt efter medeltiden i Europa?"
+    },
+    "options": {
+      "en": [
+        "The Enlightenment",
+        "The Industrial Revolution",
+        "The Renaissance",
+        "The Reformation"
+      ],
+      "sv": [
+        "Upplysningen",
+        "Industriella revolutionen",
+        "Renässansen",
+        "Reformationen"
+      ]
+    },
+    "correctIndex": 2,
+    "explanation": {
+      "en": "The Renaissance began in Italy in the 14th century after the Middle Ages.",
+      "sv": "Renässansen började i Italien på 1300-talet efter medeltiden."
+    }
+  },
+  {
+    "id": "q198",
+    "category": "History",
+    "text": {
+      "en": "Who was assassinated on April 14, 1865 in Washington, D.C.?",
+      "sv": "Vem mördades den 14 april 1865 i Washington, D.C.?"
+    },
+    "options": {
+      "en": [
+        "Andrew Johnson",
+        "Abraham Lincoln",
+        "Ulysses S. Grant",
+        "James A. Garfield"
+      ],
+      "sv": [
+        "Andrew Johnson",
+        "Abraham Lincoln",
+        "Ulysses S. Grant",
+        "James A. Garfield"
+      ]
+    },
+    "correctIndex": 1,
+    "explanation": {
+      "en": "President Abraham Lincoln was shot by John Wilkes Booth.",
+      "sv": "President Abraham Lincoln sköts av John Wilkes Booth."
+    }
+  },
+  {
+    "id": "q199",
+    "category": "History",
+    "text": {
+      "en": "Who was the Carthaginian general famous for crossing the Alps with elephants?",
+      "sv": "Vem var den kartagiske generalen känd för att korsa Alperna med elefanter?"
+    },
+    "options": {
+      "en": ["Hamilcar Barca", "Scipio Africanus", "Hannibal", "Hasdrubal"],
+      "sv": ["Hamilkar Barkas", "Scipio Africanus", "Hannibal", "Hasdrubal"]
+    },
+    "correctIndex": 2,
+    "explanation": {
+      "en": "Hannibal led his forces across the Alps during the Second Punic War.",
+      "sv": "Hannibal ledde sina styrkor över Alperna under andra puniska kriget."
+    }
+  },
+  {
+    "id": "q200",
+    "category": "History",
+    "text": {
+      "en": "Who was the first female ruler of ancient Egypt to take the title of Pharaoh?",
+      "sv": "Vem var den första kvinnliga härskaren i det forna Egypten som tog titeln farao?"
+    },
+    "options": {
+      "en": ["Cleopatra", "Nefertiti", "Hatshepsut", "Sobekneferu"],
+      "sv": ["Kleopatra", "Nefertiti", "Hatshepsut", "Sobekneferu"]
+    },
+    "correctIndex": 2,
+    "explanation": {
+      "en": "Hatshepsut ruled Egypt as Pharaoh in the 15th century BC.",
+      "sv": "Hatshepsut regerade Egypten som farao på 1400-talet f.Kr."
+    }
   }
 ]

@@ -3,14 +3,11 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:hive/hive.dart';
 import 'package:lucide_icons_flutter/lucide_icons.dart';
-import 'package:quiz/data/local/json_loader.dart';
 import 'package:quiz/data/models/user_profile.dart';
 import 'package:quiz/features/home/edit_screen.dart';
 import 'package:quiz/features/quiz/start_quiz_screen.dart';
 import '../../data/models/user_progress.dart';
 import '../../data/models/question.dart';
-import '../quiz/quiz_controller.dart';
-import '../quiz/quiz_screen.dart';
 
 class HomeScreen extends ConsumerWidget {
   const HomeScreen({super.key});
@@ -198,7 +195,6 @@ class HomeScreen extends ConsumerWidget {
                   final qBox = Hive.box<Question>('questionsBox');
 
                   await qBox.clear(); // clear for now for fresh load
-                  final locale = context.locale.languageCode;
 
                   Navigator.push(
                     context,
